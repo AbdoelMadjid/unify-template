@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Title -->
     <title>Blank Page</title>
 
@@ -10,7 +11,7 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="shortcut icon" href="assets/img/favicon.ico">
 
     <!-- Google Fonts -->
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Open+Sans%3A400%2C300%2C500%2C600%2C700">
@@ -25,15 +26,16 @@
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
-  </head>
+</head>
 
-  <body>
+<body>
     <main>
-      <div class="container g-py-150 text-center">
-        <h1 class="g-font-size-60 mb-4">Blank Page</h1>
-        <p class="g-font-size-18 mb-5">This is a plain page to start building your website like a Lego!</p>
-        <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="index.html">Back to the Intro Page</a>
-      </div>
+        <div class="container g-py-150 text-center">
+            <h1 class="g-font-size-60 mb-4">Blank Page</h1>
+            <p class="g-font-size-18 mb-5">This is a plain page to start building your website like a Lego!</p>
+            <a class="btn u-btn-outline-primary g-font-size-13 text-uppercase g-py-10 g-px-15" href="index.html">Back to
+                the Intro Page</a>
+        </div>
     </main>
 
     <!-- JS Global Compulsory -->
@@ -48,5 +50,6 @@
 
     <!-- JS Custom -->
     <script src="assets/js/custom.js"></script>
-  </body>
+</body>
+
 </html>
