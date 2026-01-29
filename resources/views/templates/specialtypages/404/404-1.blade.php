@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>404 | Unify - Responsive Website Template</title>
 
@@ -36,7 +37,7 @@
 
                 <hr class="g-brd-gray-light-v3 g-my-15">
 
-                <p class="g-font-size-18 mb-0"><a href="#!"
+                <p class="g-font-size-18 mb-0"><a href="/"
                         class="g-color-black g-color-primary--hover g-text-no-underline--hover">← Home Page</a>
                 </p>
             </div>

@@ -3,6 +3,7 @@
 
 <head>
     <!-- Title -->
+    <base href="{{ url('/') }}/">
     <title>404 | Unify - Responsive Website Template</title>
 
     <!-- Required Meta Tags Always Come First -->
@@ -39,7 +40,7 @@
                 <p class="g-color-white-opacity-0_6 g-font-size-18">If you think this is a problem with us,
                     please&nbsp;<a href="#!"
                         class="g-color-white g-color-primary--hover g-text-no-underline--hover">tell us</a>.</p>
-                <p class="g-color-white-opacity-0_6 g-font-size-18 mb-0">Here is a link to the <a href="#!"
+                <p class="g-color-white-opacity-0_6 g-font-size-18 mb-0">Here is a link to the <a href="/"
                         class="g-color-white g-color-primary--hover g-text-no-underline--hover">home page</a>.</p>
             </div>
         </div>

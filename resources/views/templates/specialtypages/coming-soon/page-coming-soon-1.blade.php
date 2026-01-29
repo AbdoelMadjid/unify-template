@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Coming soon | Unify - Responsive Website Template</title>
 
