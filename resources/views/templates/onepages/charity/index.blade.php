@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Charity | Unify - Responsive Website Template</title>
 
@@ -30,7 +31,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-charity.css">
+    <link rel="stylesheet" href="onepages/charity/assets/css/styles.op-charity.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -49,11 +50,11 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main d-block g-width-160"
-                                src="assets/img/logo-light.png" alt="Image Description"
+                                src="onepages/charity/assets/img/logo-light.png" alt="Image Description"
                                 data-header-fix-moment-exclude="d-block" data-header-fix-moment-classes="d-none">
 
                             <img class="u-header__logo-img u-header__logo-img--main d-none g-width-160"
-                                src="assets/img/logo-dark.png" alt="Image Description"
+                                src="onepages/charity/assets/img/logo-dark.png" alt="Image Description"
                                 data-header-fix-moment-exclude="d-none" data-header-fix-moment-classes="d-block">
                         </a>
                         <!-- End Logo -->
@@ -114,7 +115,7 @@
             <div class="js-carousel" data-infinite="true" data-fade="true" data-speed="5000"
                 data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30">
                 <div class="js-slide u-bg-overlay g-color-white g-bg-black-opacity-0_5--after g-bg-img-hero"
-                    style="background-image: url(assets/img-temp/1920x1280/img2.jpg);">
+                    style="background-image: url(onepages/charity/assets/img-temp/1920x1280/img2.jpg);">
                     <div class="u-bg-overlay__inner g-flex-centered g-height-100vh g-min-height-600 g-py-40">
                         <div class="container">
                             <h2
@@ -158,7 +159,7 @@
                 </div>
 
                 <div class="js-slide u-bg-overlay g-color-white g-bg-black-opacity-0_5--after g-bg-img-hero"
-                    style="background-image: url(assets/img-temp/1920x1280/img1.jpg);">
+                    style="background-image: url(onepages/charity/assets/img-temp/1920x1280/img1.jpg);">
                     <div class="u-bg-overlay__inner g-flex-centered g-height-100vh g-min-height-600 g-py-40">
                         <div class="container">
                             <h2
@@ -237,7 +238,7 @@
 
                             <!-- Article Image -->
                             <div class="col-sm-6 px-0 u-bg-overlay g-bg-black-opacity-0_2--after g-bg-img-hero g-min-height-300"
-                                data-bg-img-src="assets/img-temp/800x842/img1.jpg"></div>
+                                data-bg-img-src="onepages/charity/assets/img-temp/800x842/img1.jpg"></div>
                             <!-- End Article Image -->
                         </article>
                         <!-- End Article -->
@@ -248,7 +249,7 @@
                         <article class="row align-items-stretch text-center g-color-gray-dark-v5 g-bg-black mx-0">
                             <!-- Article Image -->
                             <div class="col-sm-6 px-0 u-bg-overlay g-bg-black-opacity-0_2--after g-bg-img-hero g-min-height-300"
-                                data-bg-img-src="assets/img-temp/800x842/img2.jpg"></div>
+                                data-bg-img-src="onepages/charity/assets/img-temp/800x842/img2.jpg"></div>
                             <!-- End Article Image -->
 
                             <!--Article Content-->
@@ -304,7 +305,8 @@
                         <!-- Article -->
                         <article class="g-bg-white g-color-gray-light-v1">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/800x496/img1.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/charity/assets/img-temp/800x496/img1.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -354,7 +356,8 @@
                         <!-- Article -->
                         <article class="g-bg-white g-color-gray-light-v1">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/800x496/img2.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/charity/assets/img-temp/800x496/img2.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -404,7 +407,8 @@
                         <!-- Article -->
                         <article class="g-bg-white g-color-gray-light-v1">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/800x496/img3.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/charity/assets/img-temp/800x496/img3.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -454,7 +458,8 @@
                         <!-- Article -->
                         <article class="g-bg-white g-color-gray-light-v1">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/800x496/img4.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/charity/assets/img-temp/800x496/img4.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -504,7 +509,8 @@
                         <!-- Article -->
                         <article class="g-bg-white g-color-gray-light-v1">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/800x496/img5.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/charity/assets/img-temp/800x496/img5.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -556,7 +562,7 @@
 
         <!-- Section Content -->
         <section class="u-bg-overlay g-bg-black-opacity-0_7--after g-bg-img-hero g-py-100"
-            style="background-image: url(assets/img-temp/1400x773/img1.jpg);">
+            style="background-image: url(onepages/charity/assets/img-temp/1400x773/img1.jpg);">
             <div class="u-bg-overlay__inner">
                 <div class="container">
                     <!-- Products Block -->
@@ -565,7 +571,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-primary">
                                 <!-- Article Image -->
-                                <img class="w-100" src="assets/img-temp/1200x811/img1.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/charity/assets/img-temp/1200x811/img1.jpg"
+                                    alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -710,7 +717,7 @@
                     <div class="js-slide g-px-15">
                         <!-- Article -->
                         <article class="clearfix g-bg-size-cover g-pos-rel"
-                            data-bg-img-src="assets/img-temp/800x496/img7.jpg">
+                            data-bg-img-src="onepages/charity/assets/img-temp/800x496/img7.jpg">
                             <!-- Article Content -->
                             <div
                                 class="float-right g-color-gray-light-v1 g-bg-black-opacity-0_7 g-width-50x--sm g-pa-30">
@@ -752,7 +759,7 @@
                     <div class="js-slide g-px-15">
                         <!-- Article -->
                         <article class="clearfix g-bg-size-cover g-pos-rel"
-                            data-bg-img-src="assets/img-temp/800x496/img6.jpg">
+                            data-bg-img-src="onepages/charity/assets/img-temp/800x496/img6.jpg">
                             <!-- Article Content -->
                             <div
                                 class="float-right g-color-gray-light-v1 g-bg-black-opacity-0_7 g-width-50x--sm g-pa-30">
@@ -794,7 +801,7 @@
                     <div class="js-slide g-px-15">
                         <!-- Article -->
                         <article class="clearfix g-bg-size-cover g-pos-rel"
-                            data-bg-img-src="assets/img-temp/800x496/img7.jpg">
+                            data-bg-img-src="onepages/charity/assets/img-temp/800x496/img7.jpg">
                             <!-- Article Content -->
                             <div
                                 class="float-right g-color-gray-light-v1 g-bg-black-opacity-0_7 g-width-50x--sm g-pa-30">
@@ -836,7 +843,7 @@
                     <div class="js-slide g-px-15">
                         <!-- Article -->
                         <article class="clearfix g-bg-size-cover g-pos-rel"
-                            data-bg-img-src="assets/img-temp/800x496/img6.jpg">
+                            data-bg-img-src="onepages/charity/assets/img-temp/800x496/img6.jpg">
                             <!-- Article Content -->
                             <div
                                 class="float-right g-color-gray-light-v1 g-bg-black-opacity-0_7 g-width-50x--sm g-pa-30">
@@ -882,7 +889,7 @@
 
         <!-- Section Content -->
         <section id="successStories" class="u-bg-overlay g-bg-black-opacity-0_7--after g-bg-img-hero g-py-100"
-            style="background-image: url(assets/img-temp/1920x964/img1.jpg);">
+            style="background-image: url(onepages/charity/assets/img-temp/1920x964/img1.jpg);">
             <div class="u-bg-overlay__inner">
                 <div class="container g-max-width-780 text-center g-mb-60">
                     <div class="text-center u-heading-v8-1 g-mb-35">
@@ -981,7 +988,7 @@
                             <div
                                 class="mx-auto g-width-130 g-height-130 g-brd-around g-brd-5 g-brd-white rounded-circle g-mb-15">
                                 <img class="g-width-120 g-height-120 rounded-circle"
-                                    src="assets/img-temp/120x120/img1.jpg" alt="Image Description">
+                                    src="onepages/charity/assets/img-temp/120x120/img1.jpg" alt="Image Description">
                             </div>
                             <!-- End Figure Image -->
 
@@ -1012,7 +1019,7 @@
                             <div
                                 class="mx-auto g-width-130 g-height-130 g-brd-around g-brd-5 g-brd-white rounded-circle g-mb-15">
                                 <img class="g-width-120 g-height-120 rounded-circle"
-                                    src="assets/img-temp/120x120/img2.jpg" alt="Image Description">
+                                    src="onepages/charity/assets/img-temp/120x120/img2.jpg" alt="Image Description">
                             </div>
                             <!-- End Figure Image -->
 
@@ -1043,7 +1050,7 @@
                             <div
                                 class="mx-auto g-width-130 g-height-130 g-brd-around g-brd-5 g-brd-white rounded-circle g-mb-15">
                                 <img class="g-width-120 g-height-120 rounded-circle"
-                                    src="assets/img-temp/120x120/img3.jpg" alt="Image Description">
+                                    src="onepages/charity/assets/img-temp/120x120/img3.jpg" alt="Image Description">
                             </div>
                             <!-- End Figure Image -->
 
@@ -1074,7 +1081,7 @@
                             <div
                                 class="mx-auto g-width-130 g-height-130 g-brd-around g-brd-5 g-brd-white rounded-circle g-mb-15">
                                 <img class="g-width-120 g-height-120 rounded-circle"
-                                    src="assets/img-temp/120x120/img4.jpg" alt="Image Description">
+                                    src="onepages/charity/assets/img-temp/120x120/img4.jpg" alt="Image Description">
                             </div>
                             <!-- End Figure Image -->
 
@@ -1105,7 +1112,7 @@
                             <div
                                 class="mx-auto g-width-130 g-height-130 g-brd-around g-brd-5 g-brd-white rounded-circle g-mb-15">
                                 <img class="g-width-120 g-height-120 rounded-circle"
-                                    src="assets/img-temp/120x120/img5.jpg" alt="Image Description">
+                                    src="onepages/charity/assets/img-temp/120x120/img5.jpg" alt="Image Description">
                             </div>
                             <!-- End Figure Image -->
 
@@ -1136,7 +1143,7 @@
                             <div
                                 class="mx-auto g-width-130 g-height-130 g-brd-around g-brd-5 g-brd-white rounded-circle g-mb-15">
                                 <img class="g-width-120 g-height-120 rounded-circle"
-                                    src="assets/img-temp/120x120/img6.png" alt="Image Description">
+                                    src="onepages/charity/assets/img-temp/120x120/img6.png" alt="Image Description">
                             </div>
                             <!-- End Figure Image -->
 
@@ -1169,7 +1176,7 @@
             </div>
 
             <div class="container">
-                <img class="js-pin-map img-fluid" src="assets/img/map.png" easypin-id="map-pin">
+                <img class="js-pin-map img-fluid" src="onepages/charity/assets/img/map.png" easypin-id="map-pin">
 
                 <div style="display: none;" easypin-tpl>
                     <popover>
@@ -1226,7 +1233,8 @@
                 <div class="js-slide g-px-15">
                     <!-- Article -->
                     <article class="g-bg-white g-brd-around g-theme-brd-color-gray-light-v2">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x450/img1.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/charity/assets/img-temp/800x450/img1.jpg"
+                            alt="Image Description">
 
                         <div class="g-pa-30">
                             <h3 class="h6 text-uppercase g-font-weight-700 g-mb-20">
@@ -1245,7 +1253,8 @@
                 <div class="js-slide g-px-15">
                     <!-- Article -->
                     <article class="g-bg-white g-brd-around g-theme-brd-color-gray-light-v2">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x450/img2.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/charity/assets/img-temp/800x450/img2.jpg"
+                            alt="Image Description">
 
                         <div class="g-pa-30">
                             <h3 class="h6 text-uppercase g-font-weight-700 g-mb-20">
@@ -1264,7 +1273,8 @@
                 <div class="js-slide g-px-15">
                     <!-- Article -->
                     <article class="g-bg-white g-brd-around g-theme-brd-color-gray-light-v2">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x450/img3.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/charity/assets/img-temp/800x450/img3.jpg"
+                            alt="Image Description">
 
                         <div class="g-pa-30">
                             <h3 class="h6 text-uppercase g-font-weight-700 g-mb-20">
@@ -1283,7 +1293,8 @@
                 <div class="js-slide g-px-15">
                     <!-- Article -->
                     <article class="g-bg-white g-brd-around g-theme-brd-color-gray-light-v2">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x450/img4.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/charity/assets/img-temp/800x450/img4.jpg"
+                            alt="Image Description">
 
                         <div class="g-pa-30">
                             <h3 class="h6 text-uppercase g-font-weight-700 g-mb-20">
@@ -1302,7 +1313,8 @@
                 <div class="js-slide g-px-15">
                     <!-- Article -->
                     <article class="g-bg-white g-brd-around g-theme-brd-color-gray-light-v2">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x450/img5.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/charity/assets/img-temp/800x450/img5.jpg"
+                            alt="Image Description">
 
                         <div class="g-pa-30">
                             <h3 class="h6 text-uppercase g-font-weight-700 g-mb-20">
@@ -1321,7 +1333,8 @@
                 <div class="js-slide g-px-15">
                     <!-- Article -->
                     <article class="g-bg-white g-brd-around g-theme-brd-color-gray-light-v2">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x450/img6.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/charity/assets/img-temp/800x450/img6.jpg"
+                            alt="Image Description">
 
                         <div class="g-pa-30">
                             <h3 class="h6 text-uppercase g-font-weight-700 g-mb-20">
@@ -1397,7 +1410,7 @@
                             <h2 class="text-uppercase g-font-weight-700 g-font-size-default g-color-white g-mb-15">Text
                                 widget</h2>
                             <p class="g-mb-20">
-                                <img class="img-fluid" src="assets/img-temp/800x344/img1.jpg"
+                                <img class="img-fluid" src="onepages/charity/assets/img-temp/800x344/img1.jpg"
                                     alt="Image description">
                             </p>
                             <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin vitae est

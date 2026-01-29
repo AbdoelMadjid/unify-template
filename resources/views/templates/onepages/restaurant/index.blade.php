@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Restaurant | Unify - Responsive Website Template</title>
 
@@ -32,7 +33,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-restaurant.css">
+    <link rel="stylesheet" href="onepages/restaurant/assets/css/styles.op-restaurant.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -50,7 +51,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-140"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/restaurant/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -114,7 +115,8 @@
         <!-- Main Slider -->
         <div class="master-slider" id="masterslider">
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description" data-src="assets/img-temp/1200x800/img1.jpg">
+                <img src="assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/restaurant/assets/img-temp/1200x800/img1.jpg">
 
                 <div class="ms-layer text-center g-pos-rel" data-type="text" data-delay="10"
                     data-effect="skewleft(50,340)" data-ease="easeOutExpo" data-duration="2200" data-origin="mc"
@@ -127,7 +129,7 @@
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-40 g-mb-50--md">
                         Only fresh meat</p>
                     <img class="g-width-130 g-height-130 g-brd-around g-brd-10 g-brd-white g-rounded-50x mx-auto g-mb-20 g-mb-25--md"
-                        src="assets/img-temp/500x500/img1.jpg" alt="Image description">
+                        src="onepages/restaurant/assets/img-temp/500x500/img1.jpg" alt="Image description">
                     <p
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-10 g-mb-15--md">
                         Juicy steak with special sauce</p>
@@ -141,7 +143,8 @@
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description" data-src="assets/img-temp/1200x800/img2.jpg">
+                <img src="assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/restaurant/assets/img-temp/1200x800/img2.jpg">
 
                 <div class="ms-layer text-center g-pos-rel" data-type="text" data-delay="10"
                     data-effect="skewleft(50,340)" data-ease="easeOutExpo" data-duration="2200" data-origin="mc"
@@ -154,7 +157,7 @@
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-40 g-mb-50--md">
                         Fresh from the ocean</p>
                     <img class="g-width-130 g-height-130 g-brd-around g-brd-10 g-brd-white g-rounded-50x mx-auto g-mb-20 g-mb-25--md"
-                        src="assets/img-temp/500x500/img2.jpg" alt="Image description">
+                        src="onepages/restaurant/assets/img-temp/500x500/img2.jpg" alt="Image description">
                     <p
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-10 g-mb-15--md">
                         Sushi rolls</p>
@@ -168,7 +171,8 @@
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description" data-src="assets/img-temp/1200x800/img3.jpg">
+                <img src="assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/restaurant/assets/img-temp/1200x800/img3.jpg">
 
                 <div class="ms-layer text-center g-pos-rel" data-type="text" data-delay="10"
                     data-effect="skewleft(50,340)" data-ease="easeOutExpo" data-duration="2200" data-origin="mc"
@@ -181,7 +185,7 @@
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-40 g-mb-50--md">
                         Green nature</p>
                     <img class="g-width-130 g-height-130 g-brd-around g-brd-10 g-brd-white g-rounded-50x mx-auto g-mb-20 g-mb-25--md"
-                        src="assets/img-temp/500x500/img3.jpg" alt="Image description">
+                        src="onepages/restaurant/assets/img-temp/500x500/img3.jpg" alt="Image description">
                     <p
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-10 g-mb-15--md">
                         Special Vegan tomato soup</p>
@@ -195,7 +199,8 @@
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description" data-src="assets/img-temp/1200x800/img4.jpg">
+                <img src="assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/restaurant/assets/img-temp/1200x800/img4.jpg">
 
                 <div class="ms-layer text-center g-pos-rel" data-type="text" data-delay="10"
                     data-effect="skewleft(50,340)" data-ease="easeOutExpo" data-duration="2200" data-origin="mc"
@@ -208,7 +213,7 @@
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-40 g-mb-50--md">
                         Sweet love</p>
                     <img class="g-width-130 g-height-130 g-brd-around g-brd-10 g-brd-white g-rounded-50x mx-auto g-mb-20 g-mb-25--md"
-                        src="assets/img-temp/500x500/img4.jpg" alt="Image description">
+                        src="onepages/restaurant/assets/img-temp/500x500/img4.jpg" alt="Image description">
                     <p
                         class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-default g-font-size-20--md g-color-white g-mb-10 g-mb-15--md">
                         Fruity caramel</p>
@@ -255,11 +260,13 @@
                             data-arrow-left-classes="fa fa-chevron-left g-ml-15"
                             data-arrow-right-classes="fa fa-chevron-right g-ml-75">
                             <div class="js-slide g-bg-cover g-bg-black-opacity-0_3--after">
-                                <img class="w-100" src="assets/img-temp/1200x800/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/restaurant/assets/img-temp/1200x800/img1.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="js-slide g-bg-cover g-bg-black-opacity-0_3--after">
-                                <img class="w-100" src="assets/img-temp/1200x800/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/restaurant/assets/img-temp/1200x800/img2.jpg"
+                                    alt="Image description">
                             </div>
                         </div>
                         <!-- End Carousel v20 -->
@@ -312,7 +319,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img5.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img5.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -343,73 +351,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img6.jpg"
-                                            alt="Image description">
-                                    </a>
-                                    <!-- End Article Image -->
-
-                                    <!-- Article Content -->
-                                    <div class="media-body align-self-center g-pl-10">
-                                        <div
-                                            class="d-flex justify-content-between u-heading-v1-4 g-bg-main g-theme-brd-gray-light-v1 g-mb-8">
-                                            <h3
-                                                class="align-self-center u-heading-v1__title g-color-black g-font-weight-700 g-font-size-13 text-uppercase mb-0">
-                                                Croissants</h3>
-
-                                            <div class="align-self-center g-pos-rel g-bg-main g-pl-15">
-                                                <strong
-                                                    class="g-font-weight-700 g-font-size-13 g-color-white g-bg-primary g-rounded-3 g-py-4 g-px-12">$1.20</strong>
-                                            </div>
-                                        </div>
-
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                    <!-- End Article Content -->
-                                </article>
-                                <!-- End Article -->
-                            </div>
-                        </div>
-                        <!-- End Products Block -->
-
-                        <!-- Products Block -->
-                        <div class="row">
-                            <div class="col-md-6 g-mb-50">
-                                <!-- Article -->
-                                <article class="media">
-                                    <!-- Article Image -->
-                                    <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img7.jpg"
-                                            alt="Image description">
-                                    </a>
-                                    <!-- End Article Image -->
-
-                                    <!-- Article Content -->
-                                    <div class="media-body align-self-center g-pl-10">
-                                        <div
-                                            class="d-flex justify-content-between u-heading-v1-4 g-bg-main g-theme-brd-gray-light-v1 g-mb-8">
-                                            <h3
-                                                class="align-self-center u-heading-v1__title g-color-black g-font-weight-700 g-font-size-13 text-uppercase mb-0">
-                                                Croissants</h3>
-
-                                            <div class="align-self-center g-pos-rel g-bg-main g-pl-15">
-                                                <strong
-                                                    class="g-font-weight-700 g-font-size-13 g-color-white g-bg-primary g-rounded-3 g-py-4 g-px-12">$1.20</strong>
-                                            </div>
-                                        </div>
-
-                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                    <!-- End Article Content -->
-                                </article>
-                                <!-- End Article -->
-                            </div>
-
-                            <div class="col-md-6 g-mb-50">
-                                <!-- Article -->
-                                <article class="media">
-                                    <!-- Article Image -->
-                                    <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img8.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img6.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -444,7 +387,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img9.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img7.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -475,7 +419,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img10.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img8.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -510,7 +455,76 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img11.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img9.jpg"
+                                            alt="Image description">
+                                    </a>
+                                    <!-- End Article Image -->
+
+                                    <!-- Article Content -->
+                                    <div class="media-body align-self-center g-pl-10">
+                                        <div
+                                            class="d-flex justify-content-between u-heading-v1-4 g-bg-main g-theme-brd-gray-light-v1 g-mb-8">
+                                            <h3
+                                                class="align-self-center u-heading-v1__title g-color-black g-font-weight-700 g-font-size-13 text-uppercase mb-0">
+                                                Croissants</h3>
+
+                                            <div class="align-self-center g-pos-rel g-bg-main g-pl-15">
+                                                <strong
+                                                    class="g-font-weight-700 g-font-size-13 g-color-white g-bg-primary g-rounded-3 g-py-4 g-px-12">$1.20</strong>
+                                            </div>
+                                        </div>
+
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <!-- End Article Content -->
+                                </article>
+                                <!-- End Article -->
+                            </div>
+
+                            <div class="col-md-6 g-mb-50">
+                                <!-- Article -->
+                                <article class="media">
+                                    <!-- Article Image -->
+                                    <a class="g-width-100" href="#!">
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img10.jpg"
+                                            alt="Image description">
+                                    </a>
+                                    <!-- End Article Image -->
+
+                                    <!-- Article Content -->
+                                    <div class="media-body align-self-center g-pl-10">
+                                        <div
+                                            class="d-flex justify-content-between u-heading-v1-4 g-bg-main g-theme-brd-gray-light-v1 g-mb-8">
+                                            <h3
+                                                class="align-self-center u-heading-v1__title g-color-black g-font-weight-700 g-font-size-13 text-uppercase mb-0">
+                                                Croissants</h3>
+
+                                            <div class="align-self-center g-pos-rel g-bg-main g-pl-15">
+                                                <strong
+                                                    class="g-font-weight-700 g-font-size-13 g-color-white g-bg-primary g-rounded-3 g-py-4 g-px-12">$1.20</strong>
+                                            </div>
+                                        </div>
+
+                                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                                    </div>
+                                    <!-- End Article Content -->
+                                </article>
+                                <!-- End Article -->
+                            </div>
+                        </div>
+                        <!-- End Products Block -->
+
+                        <!-- Products Block -->
+                        <div class="row">
+                            <div class="col-md-6 g-mb-50">
+                                <!-- Article -->
+                                <article class="media">
+                                    <!-- Article Image -->
+                                    <a class="g-width-100" href="#!">
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img11.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -541,7 +555,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img12.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img12.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -578,7 +593,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img9.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img9.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -609,7 +625,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img10.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img10.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -644,7 +661,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img11.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img11.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -675,7 +693,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img12.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img12.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -712,7 +731,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img5.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img5.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -743,7 +763,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img6.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img6.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -778,7 +799,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img7.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img7.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -809,7 +831,8 @@
                                 <article class="media">
                                     <!-- Article Image -->
                                     <a class="g-width-100" href="#!">
-                                        <img class="img-fluid g-rounded-50x" src="assets/img-temp/500x500/img8.jpg"
+                                        <img class="img-fluid g-rounded-50x"
+                                            src="onepages/restaurant/assets/img-temp/500x500/img8.jpg"
                                             alt="Image description">
                                     </a>
                                     <!-- End Article Image -->
@@ -875,7 +898,8 @@
                             <div class="col-lg-6">
                                 <!-- Article Image -->
                                 <img class="img-fluid g-width-360 g-width-auto--lg mx-auto"
-                                    src="assets/img-temp/700x700/img1.png" alt="Image description">
+                                    src="onepages/restaurant/assets/img-temp/700x700/img1.png"
+                                    alt="Image description">
                                 <!-- End Article Image -->
                             </div>
                         </article>
@@ -910,7 +934,8 @@
                             <div class="col-lg-6">
                                 <!-- Article Image -->
                                 <img class="img-fluid g-width-360 g-width-auto--lg mx-auto"
-                                    src="assets/img-temp/700x700/img2.png" alt="Image description">
+                                    src="onepages/restaurant/assets/img-temp/700x700/img2.png"
+                                    alt="Image description">
                                 <!-- End Article Image -->
                             </div>
                         </article>
@@ -945,7 +970,8 @@
                             <div class="col-lg-6">
                                 <!-- Article Image -->
                                 <img class="img-fluid g-width-360 g-width-auto--lg mx-auto"
-                                    src="assets/img-temp/700x700/img3.png" alt="Image description">
+                                    src="onepages/restaurant/assets/img-temp/700x700/img3.png"
+                                    alt="Image description">
                                 <!-- End Article Image -->
                             </div>
                         </article>
@@ -980,7 +1006,8 @@
                             <div class="col-lg-6">
                                 <!-- Article Image -->
                                 <img class="img-fluid g-width-360 g-width-auto--lg mx-auto"
-                                    src="assets/img-temp/700x700/img4.png" alt="Image description">
+                                    src="onepages/restaurant/assets/img-temp/700x700/img4.png"
+                                    alt="Image description">
                                 <!-- End Article Image -->
                             </div>
                         </article>
@@ -1015,7 +1042,8 @@
                             <div class="col-lg-6">
                                 <!-- Article Image -->
                                 <img class="img-fluid g-width-360 g-width-auto--lg mx-auto"
-                                    src="assets/img-temp/700x700/img5.png" alt="Image description">
+                                    src="onepages/restaurant/assets/img-temp/700x700/img5.png"
+                                    alt="Image description">
                                 <!-- End Article Image -->
                             </div>
                         </article>
@@ -1081,7 +1109,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1106,7 +1135,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1131,7 +1161,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1165,7 +1196,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 g-min-height-300 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1186,7 +1217,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 g-min-height-300 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1216,7 +1247,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1241,7 +1273,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1266,7 +1299,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1300,7 +1334,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1321,7 +1355,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1351,7 +1385,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1376,7 +1411,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1401,7 +1437,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1435,7 +1472,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1456,7 +1493,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1486,7 +1523,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1511,7 +1549,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1536,7 +1575,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1570,7 +1610,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1591,7 +1631,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1621,7 +1661,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1646,7 +1687,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1671,7 +1713,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1705,7 +1748,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1726,7 +1769,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1756,7 +1799,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1781,7 +1825,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1806,7 +1851,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1840,7 +1886,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1861,7 +1907,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1891,7 +1937,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img1.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img1.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1916,7 +1963,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img2.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img2.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1941,7 +1989,8 @@
                                         <!-- Article -->
                                         <article class="text-center">
                                             <!-- Article Image -->
-                                            <img class="w-100" src="assets/img-temp/738x678/img3.jpg"
+                                            <img class="w-100"
+                                                src="onepages/restaurant/assets/img-temp/738x678/img3.jpg"
                                                 alt="Image description">
                                             <!-- End Article Image -->
 
@@ -1975,7 +2024,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img1.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img1.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -1996,7 +2045,7 @@
                                         <!-- Article -->
                                         <article
                                             class="u-bg-overlay g-bg-img-hero h-100 w-100 g-bg-black-opacity-0_3--after"
-                                            style="background-image: url(assets/img-temp/1234x900/img2.jpg);">
+                                            style="background-image: url(onepages/restaurant/assets/img-temp/1234x900/img2.jpg);">
                                             <!-- Article Content -->
                                             <div
                                                 class="u-bg-overlay__inner g-pos-abs g-left-0 g-bottom-0 g-z-index-1 w-100 g-font-size-16 g-color-white-opacity-0_8 g-px-30 g-pb-100--sm g-pb-70">
@@ -2115,10 +2164,10 @@
                {"width": 320, "cols": 1}
              ]'>
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img1.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img1.jpg"
                         data-title="Custom Title 1">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img1.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img1.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2139,10 +2188,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img2.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img2.jpg"
                         data-title="Custom Title 2">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img2.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img2.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2163,10 +2212,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img3.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img3.jpg"
                         data-title="Custom Title 3">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img3.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img3.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2187,10 +2236,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img4.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img4.jpg"
                         data-title="Custom Title 4">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img4.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img4.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2211,10 +2260,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img5.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img5.jpg"
                         data-title="Custom Title 5">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img5.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img5.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2235,10 +2284,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img6.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img6.jpg"
                         data-title="Custom Title 6">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img6.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img6.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2259,10 +2308,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img7.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img7.jpg"
                         data-title="Custom Title 7">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img7.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img7.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2283,10 +2332,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img8.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img8.jpg"
                         data-title="Custom Title 8">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img8.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img8.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2307,10 +2356,10 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img9.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img9.jpg"
                         data-title="Custom Title 9">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img9.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img9.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2331,10 +2380,11 @@
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/560x560/img10.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/restaurant/assets/img-temp/560x560/img10.jpg"
                         data-title="Custom Title 10">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/560x560/img10.jpg" alt="Image description">
+                            <img src="onepages/restaurant/assets/img-temp/560x560/img10.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap">
@@ -2405,7 +2455,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img1.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img1.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2455,7 +2506,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img2.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img2.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2505,7 +2557,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img3.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img3.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2555,7 +2608,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img4.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img4.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2605,7 +2659,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img5.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img5.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2655,7 +2710,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img6.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img6.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2705,7 +2761,8 @@
                         <!-- Figure -->
                         <figure class="text-center g-pos-rel">
                             <!-- Figure Image -->
-                            <img class="w-100" src="assets/img-temp/810x1350/img7.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x1350/img7.jpg"
+                                alt="Image description">
                             <!-- End Figure Image -->
 
                             <!-- Figure Caption -->
@@ -2797,7 +2854,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img1.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img1.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2819,7 +2877,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img2.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img2.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2841,7 +2900,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img3.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img3.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2863,7 +2923,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img4.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img4.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2885,7 +2946,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img1.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img1.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2907,7 +2969,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img2.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img2.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2929,7 +2992,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img3.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img3.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -2951,7 +3015,8 @@
                         <!-- Article -->
                         <article class="u-shadow-v10 g-bg-white g-color-gray-light-v28">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/810x600/img4.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/restaurant/assets/img-temp/810x600/img4.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -3054,7 +3119,8 @@
                     <div class="container">
                         <div class="row mx-0">
                             <div class="col-sm-6 g-bg-img-hero g-min-height-250 px-0"
-                                style="background-image: url(assets/img-temp/900x1164/img1.jpg);"></div>
+                                style="background-image: url(onepages/restaurant/assets/img-temp/900x1164/img1.jpg);">
+                            </div>
 
                             <div class="col-sm-6 d-flex g-color-white g-bg-primary g-pa-20">
                                 <div class="align-self-center w-100">
@@ -3102,7 +3168,7 @@
         <footer>
             <div class="container-fluid text-center g-color-gray-dark-v5 g-py-40">
                 <a class="d-block g-width-140 mx-auto g-mb-20" href="/">
-                    <img class="img-fluid" src="assets/img/logo.png" alt="Image description">
+                    <img class="img-fluid" src="onepages/restaurant/assets/img/logo.png" alt="Image description">
                 </a>
 
                 <p class="mb-0">

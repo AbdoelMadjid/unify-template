@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Travel | Unify - Responsive Website Template</title>
 
@@ -33,7 +34,7 @@
     <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-travel.css">
+    <link rel="stylesheet" href="onepages/travel/assets/css/styles.op-travel.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -51,7 +52,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-130"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/travel/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -109,7 +110,8 @@
         <!-- Main Slider -->
         <div class="master-slider" id="masterslider">
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description" data-src="assets/img-temp/1920x1280/img9.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img9.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -130,12 +132,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img9.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img9.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img1.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img1.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -156,12 +158,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img1.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img1.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img10.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img10.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -182,12 +184,13 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img10.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img10.jpg"
+                    alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img7.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img7.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -208,12 +211,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img7.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img7.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img4.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img4.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -234,12 +237,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img4.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img4.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img3.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img3.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -260,12 +263,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img3.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img3.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img8.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img8.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -286,12 +289,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img8.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img8.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img5.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img5.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -312,12 +315,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img5.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img5.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img6.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img6.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -338,12 +341,12 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img6.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img6.jpg" alt="Image description">
             </div>
 
             <div class="ms-slide">
-                <img src="assets/img/blank.gif" alt="Image description"
-                    data-src="assets/img-temp/1920x1280/img2.jpg">
+                <img src="onepages/travel/assets/img/blank.gif" alt="Image description"
+                    data-src="onepages/travel/assets/img-temp/1920x1280/img2.jpg">
 
                 <div class="ms-layer u-ribbon-v1 text-uppercase g-pos-rel g-line-height-1_2 g-font-weight-700 g-font-size-16 g-font-size-18--md g-color-white g-theme-bg-black-v1 g-pa-10 g-mb-10"
                     data-type="text" data-delay="10" data-effect="skewleft(50, 340)" data-ease="easeOutExpo"
@@ -364,7 +367,7 @@
                         href="#!">Take a tour</a>
                 </div>
 
-                <img class="ms-thumb" src="assets/img-temp/200x133/img2.jpg" alt="Image description">
+                <img class="ms-thumb" src="onepages/travel/assets/img-temp/200x133/img2.jpg" alt="Image description">
             </div>
         </div>
         <!-- End Main Slider -->
@@ -500,7 +503,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -526,7 +530,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img2.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -552,7 +557,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img3.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -578,7 +584,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img4.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img4.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -604,7 +611,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -630,7 +638,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -656,7 +665,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -682,7 +692,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img2.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -708,7 +719,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img3.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -734,7 +746,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img4.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img4.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -760,7 +773,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -786,7 +800,8 @@
                     <a class="d-block g-pos-rel g-text-underline--none--hover g-parent g-theme-bg-black-v1 g-bg-primary--hover g-color-white g-transition-0_3"
                         href="#!">
                         <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img class="img-fluid" src="assets/img-temp/600x600/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/600x600/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="g-pa-20">
@@ -835,7 +850,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/740x480/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/740x480/img1.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div class="u-bg-overlay__inner g-pos-abs g-top-0 g-left-0 w-100 h-100 g-pa-10">
@@ -869,7 +885,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/740x480/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/740x480/img2.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div class="u-bg-overlay__inner g-pos-abs g-top-0 g-left-0 w-100 h-100 g-pa-10">
@@ -902,7 +919,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/740x480/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/740x480/img3.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div class="u-bg-overlay__inner g-pos-abs g-top-0 g-left-0 w-100 h-100 g-pa-10">
@@ -936,7 +954,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/740x480/img4.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/740x480/img4.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div class="u-bg-overlay__inner g-pos-abs g-top-0 g-left-0 w-100 h-100 g-pa-10">
@@ -969,7 +988,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/740x480/img5.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/740x480/img5.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div class="u-bg-overlay__inner g-pos-abs g-top-0 g-left-0 w-100 h-100 g-pa-10">
@@ -1002,7 +1022,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/740x480/img6.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/740x480/img6.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div class="u-bg-overlay__inner g-pos-abs g-top-0 g-left-0 w-100 h-100 g-pa-10">
@@ -1040,7 +1061,7 @@
         <!-- Hero Subscribe -->
         <section id="subscribe"
             class="u-bg-overlay g-bg-black-opacity-0_7--after g-bg-img-hero g-py-150--md g-py-50 g-mb-40"
-            style="background-image: url(assets/img-temp/1400x534/img1.jpg);">
+            style="background-image: url(onepages/travel/assets/img-temp/1400x534/img1.jpg);">
             <div class="container u-bg-overlay__inner text-center g-color-white">
                 <div class="row justify-content-center">
                     <div class="col-md-8">
@@ -1100,7 +1121,8 @@
                         <!-- Article -->
                         <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                             href="#!">
-                            <img class="img-fluid" src="assets/img-temp/800x623/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/travel/assets/img-temp/800x623/img1.jpg"
+                                alt="Image description">
 
                             <!-- Article Content -->
                             <div
@@ -1134,7 +1156,7 @@
                                 <!-- Article -->
                                 <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                                     href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/570x436/img1.jpg"
+                                    <img class="img-fluid" src="onepages/travel/assets/img-temp/570x436/img1.jpg"
                                         alt="Image description">
 
                                     <!-- Article Content -->
@@ -1163,7 +1185,7 @@
                                 <!-- Article -->
                                 <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                                     href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/570x436/img2.jpg"
+                                    <img class="img-fluid" src="onepages/travel/assets/img-temp/570x436/img2.jpg"
                                         alt="Image description">
 
                                     <!-- Article Content -->
@@ -1192,7 +1214,7 @@
                                 <!-- Article -->
                                 <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                                     href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/570x436/img3.jpg"
+                                    <img class="img-fluid" src="onepages/travel/assets/img-temp/570x436/img3.jpg"
                                         alt="Image description">
 
                                     <!-- Article Content -->
@@ -1221,7 +1243,7 @@
                                 <!-- Article -->
                                 <a class="d-block u-bg-overlay g-bg-black-opacity-0_3--after g-parent g-text-underline--none--hover"
                                     href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/570x436/img4.jpg"
+                                    <img class="img-fluid" src="onepages/travel/assets/img-temp/570x436/img4.jpg"
                                         alt="Image description">
 
                                     <!-- Article Content -->
@@ -1290,7 +1312,7 @@
                         <article
                             class="u-shadow-v26 g-parent g-theme-bg-black-v1 g-bg-primary--hover g-transition-0_2 g-transition--ease-in">
                             <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/570x436/img5.jpg"
+                                <img class="img-fluid w-100" src="onepages/travel/assets/img-temp/570x436/img5.jpg"
                                     alt="Image description">
                             </div>
 
@@ -1310,7 +1332,7 @@
                         <article
                             class="u-shadow-v26 g-parent g-theme-bg-black-v1 g-bg-primary--hover g-transition-0_2 g-transition--ease-in">
                             <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/570x436/img6.jpg"
+                                <img class="img-fluid w-100" src="onepages/travel/assets/img-temp/570x436/img6.jpg"
                                     alt="Image description">
                             </div>
 
@@ -1330,7 +1352,7 @@
                         <article
                             class="u-shadow-v26 g-parent g-theme-bg-black-v1 g-bg-primary--hover g-transition-0_2 g-transition--ease-in">
                             <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/570x436/img7.jpg"
+                                <img class="img-fluid w-100" src="onepages/travel/assets/img-temp/570x436/img7.jpg"
                                     alt="Image description">
                             </div>
 
@@ -1350,7 +1372,7 @@
                         <article
                             class="u-shadow-v26 g-parent g-theme-bg-black-v1 g-bg-primary--hover g-transition-0_2 g-transition--ease-in">
                             <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/570x436/img1.jpg"
+                                <img class="img-fluid w-100" src="onepages/travel/assets/img-temp/570x436/img1.jpg"
                                     alt="Image description">
                             </div>
 
@@ -1371,7 +1393,7 @@
                         <article
                             class="u-shadow-v26 g-parent g-theme-bg-black-v1 g-bg-primary--hover g-transition-0_2 g-transition--ease-in">
                             <div class="u-bg-overlay g-bg-black-opacity-0_3--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/570x436/img8.jpg"
+                                <img class="img-fluid w-100" src="onepages/travel/assets/img-temp/570x436/img8.jpg"
                                     alt="Image description">
                             </div>
 
@@ -1418,64 +1440,64 @@
                {"width": 320, "cols": 1}
              ]'>
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img1.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img1.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/760x720/img1.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/760x720/img1.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img2.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img2.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/380x360/img1.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/380x360/img1.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img3.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img3.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/380x360/img2.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/380x360/img2.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img4.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img4.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/760x360/img1.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/760x360/img1.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img5.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img5.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/380x360/img3.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/380x360/img3.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img6.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img6.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/760x360/img2.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/760x360/img2.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1200x675/img7.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/travel/assets/img-temp/1200x675/img7.jpg"
                         data-title="Sed feugiat porttitor nunc<br>by Vivamus">
                         <div class="cbp-caption-defaultWrap u-bg-overlay g-bg-black-opacity-0_3--after">
-                            <img src="assets/img-temp/380x360/img4.jpg" alt="Image description">
+                            <img src="onepages/travel/assets/img-temp/380x360/img4.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
@@ -1509,39 +1531,39 @@
                     data-arrow-left-classes="fa fa-angle-left g-ml-minus-142"
                     data-arrow-right-classes="fa fa-angle-right g-ml-142" data-nav-for="#carouselCus3">
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img1.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img1.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img2.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img2.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img3.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img3.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img4.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img4.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img5.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img5.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img6.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img6.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img7.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img7.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img8.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img8.jpg" alt="Image description">
                     </div>
 
                     <div class="js-thumb">
-                        <img src="assets/img-temp/240x240/img9.jpg" alt="Image description">
+                        <img src="onepages/travel/assets/img-temp/240x240/img9.jpg" alt="Image description">
                     </div>
                 </div>
 
@@ -1649,7 +1671,7 @@
                          ["", "labels", [{"visibility":"on"}]],
                          ["water", "", [{"color":"#bac6cb"}]]
                        ]'
-                                data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                                data-pin="true" data-pin-icon="onepages/travel/assets/img/pin.png"></div>
                         </div>
                         <!-- End Google (Map) [custom] -->
                     </div>
@@ -1758,7 +1780,8 @@
                     <div class="row">
                         <div class="col-md-6 text-center text-md-left g-mb-20 g-mb-0--md">
                             <a class="d-inline-block g-width-130 g-opacity-0_5" href="/">
-                                <img class="img-fluid" src="assets/img/logo-dark.png" alt="Logo">
+                                <img class="img-fluid" src="onepages/travel/assets/img/logo-dark.png"
+                                    alt="Logo">
                             </a>
                         </div>
 

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Event | Unify - Responsive Website Template</title>
 
@@ -30,7 +31,7 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-event.css">
+    <link rel="stylesheet" href="onepages/event/assets/css/styles.op-event.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -49,11 +50,11 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main d-block"
-                                src="assets/img/logo-light.png" alt="Image description"
+                                src="onepages/event/assets/img/logo-light.png" alt="Image description"
                                 data-header-fix-moment-exclude="d-block" data-header-fix-moment-classes="d-none">
 
                             <img class="u-header__logo-img u-header__logo-img--main d-none"
-                                src="assets/img/logo-dark.png" alt="Image description"
+                                src="onepages/event/assets/img/logo-dark.png" alt="Image description"
                                 data-header-fix-moment-exclude="d-none" data-header-fix-moment-classes="d-block">
                         </a>
                         <!-- End Logo -->
@@ -111,7 +112,7 @@
 
         <!-- Section Content -->
         <section id="home" class="g-bg-img-hero g-pos-rel u-bg-overlay g-bg-darkblue-opacity-0_7--after g-pt-150"
-            style="background-image: url(assets/img-temp/1920x1281/img1.jpg);">
+            style="background-image: url(onepages/event/assets/img-temp/1920x1281/img1.jpg);">
             <div class="container g-max-width-750 u-bg-overlay__inner g-color-white g-mb-60">
                 <!-- Countdown v4 -->
                 <div class="js-countdown text-center text-uppercase u-countdown-v4 g-mb-40 g-mb-70--md"
@@ -199,10 +200,10 @@
                             data-arrow-left-classes="fa fa-angle-left g-left-0"
                             data-arrow-right-classes="fa fa-angle-right g-right-0">
                             <div class="js-slide g-bg-img-hero g-min-height-50vh"
-                                style="background-image: url(assets/img-temp/1000x667/img1.jpg);"></div>
+                                style="background-image: url(onepages/event/assets/img-temp/1000x667/img1.jpg);"></div>
 
                             <div class="js-slide g-bg-img-hero g-min-height-50vh"
-                                style="background-image: url(assets/img-temp/1000x667/img2.jpg);"></div>
+                                style="background-image: url(onepages/event/assets/img-temp/1000x667/img2.jpg);"></div>
                         </div>
                     </div>
 
@@ -286,7 +287,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img1.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -327,7 +329,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img2.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -368,7 +371,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img3.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -409,7 +413,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img4.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -454,7 +459,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img1.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -495,7 +501,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img2.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -536,7 +543,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img3.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -577,7 +585,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img4.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -622,7 +631,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img1.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -663,7 +673,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img2.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -704,7 +715,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img3.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -745,7 +757,8 @@
                                             <div
                                                 class="d-md-flex u-bg-overlay g-width-120 g-width-170--md g-height-120 g-height-170--md g-bg-darkblue-opacity-0_7--after g-bg-white-opacity-0--after--parent-hover g-overflow-hidden g-rounded-50x g-mr-30--md mx-auto g-mb-15 g-mb-0--md g-transition-0_2 g-transition--ease-in">
                                                 <img class="img-fluid g-rounded-50x"
-                                                    src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                                                    src="onepages/event/assets/img-temp/200x200/img4.jpg"
+                                                    alt="Image description">
                                             </div>
 
                                             <div class="media-body align-self-center">
@@ -773,7 +786,7 @@
 
         <!-- Section Content -->
         <section id="about" class="u-bg-overlay g-bg-img-hero g-bg-darkblue-opacity-0_7--after g-py-100"
-            style="background-image: url(assets/img-temp/1920x1080/img1.jpg);">
+            style="background-image: url(onepages/event/assets/img-temp/1920x1080/img1.jpg);">
             <div class="container u-bg-overlay__inner">
                 <div class="text-center g-mb-70">
                     <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-white g-mb-30">
@@ -843,7 +856,8 @@
              }]'>
                 <div class="js-slide g-parent g-px-15 g-pb-30">
                     <article>
-                        <img class="img-fluid" src="assets/img-temp/1000x667/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/event/assets/img-temp/1000x667/img2.jpg"
+                            alt="Image description">
 
                         <div class="u-shadow-v24--active g-pa-30">
                             <header class="text-uppercase g-mb-20">
@@ -879,7 +893,8 @@
 
                 <div class="js-slide g-parent g-px-15 g-pb-30">
                     <article>
-                        <img class="img-fluid" src="assets/img-temp/1000x667/img3.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/event/assets/img-temp/1000x667/img3.jpg"
+                            alt="Image description">
 
                         <div class="u-shadow-v24--active g-pa-30">
                             <header class="text-uppercase g-mb-20">
@@ -916,7 +931,8 @@
 
                 <div class="js-slide g-parent g-px-15 g-pb-30">
                     <article>
-                        <img class="img-fluid" src="assets/img-temp/1000x667/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/event/assets/img-temp/1000x667/img2.jpg"
+                            alt="Image description">
 
                         <div class="u-shadow-v24--active g-pa-30">
                             <header class="text-uppercase g-mb-20">
@@ -952,7 +968,8 @@
 
                 <div class="js-slide g-parent g-px-15 g-pb-30">
                     <article>
-                        <img class="img-fluid" src="assets/img-temp/1000x667/img3.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/event/assets/img-temp/1000x667/img3.jpg"
+                            alt="Image description">
 
                         <div class="u-shadow-v24--active g-pa-30">
                             <header class="text-uppercase g-mb-20">
@@ -988,7 +1005,8 @@
 
                 <div class="js-slide g-parent g-px-15 g-pb-30">
                     <article>
-                        <img class="img-fluid" src="assets/img-temp/1000x667/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/event/assets/img-temp/1000x667/img2.jpg"
+                            alt="Image description">
 
                         <div class="u-shadow-v24--active g-pa-30">
                             <header class="text-uppercase g-mb-20">
@@ -1024,7 +1042,8 @@
 
                 <div class="js-slide g-parent g-px-15 g-pb-30">
                     <article>
-                        <img class="img-fluid" src="assets/img-temp/1000x667/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/event/assets/img-temp/1000x667/img2.jpg"
+                            alt="Image description">
 
                         <div class="u-shadow-v24--active g-pa-30">
                             <header class="text-uppercase g-mb-20">
@@ -1063,7 +1082,7 @@
 
         <!-- Section Content -->
         <section id="gallery" class="u-bg-overlay g-bg-img-hero g-bg-darkblue-opacity-0_7--after g-py-100"
-            style="background-image: url(assets/img-temp/1920x1080/img2.jpg);">
+            style="background-image: url(onepages/event/assets/img-temp/1920x1080/img2.jpg);">
             <div class="container u-bg-overlay__inner">
                 <div class="text-center g-mb-70">
                     <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-white g-mb-30">
@@ -1106,99 +1125,99 @@
                  }
                }]'>
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img1.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img3.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img2.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img4.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img1.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img3.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img2.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img4.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img1.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img3.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img2.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img4.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img1.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img1.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img1.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img3.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img3.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img3.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img2.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img2.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img2.jpg" alt="Image description">
                     </a>
 
                     <a class="js-slide u-bg-overlay g-parent g-overflow-hidden g-bg-black-opacity-0_3--after"
-                        href="assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
+                        href="onepages/event/assets/img-temp/400x269/img4.jpg" data-fancybox="fancyGallery1">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                            src="assets/img-temp/200x200/img4.jpg" alt="Image description">
+                            src="onepages/event/assets/img-temp/200x200/img4.jpg" alt="Image description">
                     </a>
                 </div>
             </div>
@@ -1225,7 +1244,8 @@
 
                     <div class="masonry-grid-item col-md-6 col-lg-4 g-mb-30">
                         <article class="g-bg-white">
-                            <img class="img-fluid" src="assets/img-temp/800x496/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/event/assets/img-temp/800x496/img1.jpg"
+                                alt="Image description">
 
                             <div class="u-shadow-v24 g-pa-30">
                                 <header class="g-mb-20">
@@ -1243,7 +1263,8 @@
                                 <div class="media g-font-weight-600 g-font-size-10 g-theme-color-gray-dark-v1">
                                     <div
                                         class="d-flex rounded-circle u-bg-overlay g-overflow-hidden g-bg-primary-opacity-0_3--after g-width-40 g-height-40 g-mr-10">
-                                        <img class="img-fluid rounded-circle" src="assets/img-temp/50x50/img1.jpg"
+                                        <img class="img-fluid rounded-circle"
+                                            src="onepages/event/assets/img-temp/50x50/img1.jpg"
                                             alt="Image description">
                                     </div>
 
@@ -1255,7 +1276,8 @@
 
                     <div class="masonry-grid-item col-md-6 col-lg-4 g-mb-30">
                         <article class="g-bg-white">
-                            <img class="img-fluid" src="assets/img-temp/1200x960/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/event/assets/img-temp/1200x960/img1.jpg"
+                                alt="Image description">
 
                             <div class="u-shadow-v24 g-pa-30">
                                 <header class="g-mb-20">
@@ -1274,7 +1296,8 @@
                                 <div class="media g-font-weight-600 g-font-size-10 g-theme-color-gray-dark-v1">
                                     <div
                                         class="d-flex rounded-circle u-bg-overlay g-overflow-hidden g-bg-primary-opacity-0_3--after g-width-40 g-height-40 g-mr-10">
-                                        <img class="img-fluid rounded-circle" src="assets/img-temp/50x50/img2.jpg"
+                                        <img class="img-fluid rounded-circle"
+                                            src="onepages/event/assets/img-temp/50x50/img2.jpg"
                                             alt="Image description">
                                     </div>
 
@@ -1286,7 +1309,8 @@
 
                     <div class="masonry-grid-item col-md-6 col-lg-4 g-mb-30">
                         <article class="g-bg-white">
-                            <img class="img-fluid" src="assets/img-temp/800x496/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/event/assets/img-temp/800x496/img2.jpg"
+                                alt="Image description">
 
                             <div class="u-shadow-v24 g-pa-30">
                                 <header class="g-mb-20">
@@ -1305,7 +1329,8 @@
                                 <div class="media g-font-weight-600 g-font-size-10 g-theme-color-gray-dark-v1">
                                     <div
                                         class="d-flex rounded-circle u-bg-overlay g-overflow-hidden g-bg-primary-opacity-0_3--after g-width-40 g-height-40 g-mr-10">
-                                        <img class="img-fluid rounded-circle" src="assets/img-temp/50x50/img3.jpg"
+                                        <img class="img-fluid rounded-circle"
+                                            src="onepages/event/assets/img-temp/50x50/img3.jpg"
                                             alt="Image description">
                                     </div>
 
@@ -1317,7 +1342,8 @@
 
                     <div class="masonry-grid-item col-md-6 col-lg-4 g-mb-30">
                         <article class="g-bg-white">
-                            <img class="img-fluid" src="assets/img-temp/1200x960/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/event/assets/img-temp/1200x960/img2.jpg"
+                                alt="Image description">
 
                             <div class="u-shadow-v24 g-pa-30">
                                 <header class="g-mb-20">
@@ -1335,7 +1361,8 @@
                                 <div class="media g-font-weight-600 g-font-size-10 g-theme-color-gray-dark-v1">
                                     <div
                                         class="d-flex rounded-circle u-bg-overlay g-overflow-hidden g-bg-primary-opacity-0_3--after g-width-40 g-height-40 g-mr-10">
-                                        <img class="img-fluid rounded-circle" src="assets/img-temp/50x50/img2.jpg"
+                                        <img class="img-fluid rounded-circle"
+                                            src="onepages/event/assets/img-temp/50x50/img2.jpg"
                                             alt="Image description">
                                     </div>
 
@@ -1347,7 +1374,8 @@
 
                     <div class="masonry-grid-item col-md-6 col-lg-4 g-mb-30">
                         <article class="g-bg-white">
-                            <img class="img-fluid" src="assets/img-temp/800x496/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/event/assets/img-temp/800x496/img3.jpg"
+                                alt="Image description">
 
                             <div class="u-shadow-v24 g-pa-30">
                                 <header class="g-mb-20">
@@ -1365,7 +1393,8 @@
                                 <div class="media g-font-weight-600 g-font-size-10 g-theme-color-gray-dark-v1">
                                     <div
                                         class="d-flex rounded-circle u-bg-overlay g-overflow-hidden g-bg-primary-opacity-0_3--after g-width-40 g-height-40 g-mr-10">
-                                        <img class="img-fluid rounded-circle" src="assets/img-temp/50x50/img1.jpg"
+                                        <img class="img-fluid rounded-circle"
+                                            src="onepages/event/assets/img-temp/50x50/img1.jpg"
                                             alt="Image description">
                                     </div>
 
@@ -1377,7 +1406,8 @@
 
                     <div class="masonry-grid-item col-md-6 col-lg-4 g-mb-30">
                         <article class="g-bg-white">
-                            <img class="img-fluid" src="assets/img-temp/1200x960/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/event/assets/img-temp/1200x960/img3.jpg"
+                                alt="Image description">
 
                             <div class="u-shadow-v24 g-pa-30">
                                 <header class="g-mb-20">
@@ -1396,7 +1426,8 @@
                                 <div class="media g-font-weight-600 g-font-size-10 g-theme-color-gray-dark-v1">
                                     <div
                                         class="d-flex rounded-circle u-bg-overlay g-overflow-hidden g-bg-primary-opacity-0_3--after g-width-40 g-height-40 g-mr-10">
-                                        <img class="img-fluid rounded-circle" src="assets/img-temp/50x50/img3.jpg"
+                                        <img class="img-fluid rounded-circle"
+                                            src="onepages/event/assets/img-temp/50x50/img3.jpg"
                                             alt="Image description">
                                     </div>
 
@@ -1567,47 +1598,47 @@
                  }
                }]'>
                     <div class="js-slide">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/150x100/img1.png"
+                        <img class="mx-auto g-width-120" src="onepages/event/assets/img-temp/150x100/img1.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img2.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img2.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img3.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img3.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img4.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img4.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img5.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img5.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img6.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img6.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/150x100/img1.png"
+                        <img class="mx-auto g-width-120" src="onepages/event/assets/img-temp/150x100/img1.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img2.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img2.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide">
-                        <img class="mx-auto g-width-100" src="assets/img-temp/150x100/img3.png"
+                        <img class="mx-auto g-width-100" src="onepages/event/assets/img-temp/150x100/img3.png"
                             alt="Image description">
                     </div>
                 </div>
@@ -1619,7 +1650,7 @@
         <footer class="text-center">
             <div id="contact"
                 class="u-bg-overlay g-bg-img-hero g-color-white g-bg-darkblue-opacity-0_7--after g-pt-100 g-pb-200"
-                style="background-image: url(assets/img-temp/1600x827/img1.jpg);">
+                style="background-image: url(onepages/event/assets/img-temp/1600x827/img1.jpg);">
                 <div class="u-bg-overlay__inner g-width-780 mx-auto">
                     <div class="u-heading-v8-2 g-mb-30">
                         <h2
@@ -1703,7 +1734,7 @@
 
                 <div class="g-py-40 g-color-gray-dark-v5">
                     <a class="d-inline-block g-mb-30" href="/">
-                        <img src="assets/img/logo-dark.png" alt="Unify">
+                        <img src="onepages/event/assets/img/logo-dark.png" alt="Unify">
                     </a>
 
                     <p class="g-mb-30">Integer accumsan maximus leo, et consectetur metus vestibulum in. Vestibulum

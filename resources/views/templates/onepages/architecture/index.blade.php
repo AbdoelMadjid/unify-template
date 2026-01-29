@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Architecture | Unify - Responsive Website Template</title>
 
@@ -29,7 +30,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-architecture.css">
+    <link rel="stylesheet" href="onepages/architecture/assets/css/styles.op-architecture.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -46,13 +47,13 @@
                 <nav class="navbar navbar-expand-lg p-0 g-px-15">
                     <div class="container g-pos-rel">
                         <a href="/" class="g-hidden-lg-up navbar-brand mr-0">
-                            <img class="d-block g-width-140 g-width-160--md" src="assets/img/logo-light.png"
-                                alt="Image Description" data-header-fix-moment-exclude="d-block"
-                                data-header-fix-moment-classes="d-none">
+                            <img class="d-block g-width-140 g-width-160--md"
+                                src="onepages/architecture/assets/img/logo-light.png" alt="Image Description"
+                                data-header-fix-moment-exclude="d-block" data-header-fix-moment-classes="d-none">
 
-                            <img class="d-none g-width-140 g-width-160--md" src="assets/img/logo-dark.png"
-                                alt="Image Description" data-header-fix-moment-exclude="d-none"
-                                data-header-fix-moment-classes="d-block">
+                            <img class="d-none g-width-140 g-width-160--md"
+                                src="onepages/architecture/assets/img/logo-dark.png" alt="Image Description"
+                                data-header-fix-moment-exclude="d-none" data-header-fix-moment-classes="d-block">
                         </a>
 
                         <!-- Navigation -->
@@ -76,12 +77,14 @@
                                 <!-- Logo -->
                                 <li class="g-hidden-lg-down nav-logo-item g-mx-15--lg">
                                     <a href="/" class="js-go-to navbar-brand mr-0" data-type="static">
-                                        <img class="d-block g-width-140 g-width-160--md" src="assets/img/logo-light.png"
+                                        <img class="d-block g-width-140 g-width-160--md"
+                                            src="onepages/architecture/assets/img/logo-light.png"
                                             alt="Image Description" data-header-fix-moment-exclude="d-block"
                                             data-header-fix-moment-classes="d-none">
 
-                                        <img class="d-none g-width-140 g-width-160--md" src="assets/img/logo-dark.png"
-                                            alt="Image Description" data-header-fix-moment-exclude="d-none"
+                                        <img class="d-none g-width-140 g-width-160--md"
+                                            src="onepages/architecture/assets/img/logo-dark.png" alt="Image Description"
+                                            data-header-fix-moment-exclude="d-none"
                                             data-header-fix-moment-classes="d-block">
                                     </a>
                                 </li>
@@ -125,10 +128,10 @@
         <section id="home" class="u-bg-overlay g-pos-rel g-theme-bg-blue-dark-v1-opacity-0_8--after">
             <div class="js-carousel" data-autoplay="true" data-infinite="true" data-fade="true" data-speed="5000">
                 <div class="js-slide g-bg-img-hero g-height-100vh"
-                    style="background-image: url(assets/img-temp/1600x1060/img1.jpg);"></div>
+                    style="background-image: url(onepages/architecture/assets/img-temp/1600x1060/img1.jpg);"></div>
 
                 <div class="js-slide g-bg-img-hero g-height-100vh"
-                    style="background-image: url(assets/img-temp/1600x1060/img2.jpg);"></div>
+                    style="background-image: url(onepages/architecture/assets/img-temp/1600x1060/img2.jpg);"></div>
             </div>
 
             <div class="u-bg-overlay__inner g-absolute-centered w-100">
@@ -161,7 +164,8 @@
                 <!-- Row -->
                 <div class="row no-gutters">
                     <div class="col-md-6 col-lg-3">
-                        <div class="g-bg-img-hero" style="background-image: url(assets/img-temp/1024x683/img1.jpg);">
+                        <div class="g-bg-img-hero"
+                            style="background-image: url(onepages/architecture/assets/img-temp/1024x683/img1.jpg);">
                             <div
                                 class="g-theme-bg-blue-dark-v3 g-opacity-1 g-opacity-0_8--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
                                 <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
@@ -180,7 +184,8 @@
                     </div>
 
                     <div class="col-md-6 col-lg-3">
-                        <div class="g-bg-img-hero" style="background-image: url(assets/img-temp/1024x683/img2.jpg);">
+                        <div class="g-bg-img-hero"
+                            style="background-image: url(onepages/architecture/assets/img-temp/1024x683/img2.jpg);">
                             <div
                                 class="g-theme-bg-blue-dark-v4 g-opacity-1 g-opacity-0_8--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
                                 <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
@@ -199,7 +204,8 @@
                     </div>
 
                     <div class="col-md-6 col-lg-3">
-                        <div class="g-bg-img-hero" style="background-image: url(assets/img-temp/1024x683/img3.jpg);">
+                        <div class="g-bg-img-hero"
+                            style="background-image: url(onepages/architecture/assets/img-temp/1024x683/img3.jpg);">
                             <div
                                 class="g-theme-bg-blue-dark-v3 g-opacity-1 g-opacity-0_8--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
                                 <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
@@ -218,7 +224,8 @@
                     </div>
 
                     <div class="col-md-6 col-lg-3">
-                        <div class="g-bg-img-hero" style="background-image: url(assets/img-temp/1024x683/img4.jpg);">
+                        <div class="g-bg-img-hero"
+                            style="background-image: url(onepages/architecture/assets/img-temp/1024x683/img4.jpg);">
                             <div
                                 class="g-theme-bg-blue-dark-v4 g-opacity-1 g-opacity-0_8--hover g-py-50 g-px-15 g-pa-100-30--sm g-transition-0_2 g-transition--ease-in">
                                 <span class="d-block g-line-height-1 g-font-size-30 g-color-primary g-mb-20">
@@ -265,8 +272,8 @@
                     data-arrow-right-classes="fa fa-chevron-right g-right-0">
                     <div class="js-slide">
                         <div class="container text-center g-max-width-600 g-mb-30">
-                            <img class="img-fluid d-inline-block" src="assets/img-temp/597x354/img1.png"
-                                alt="Image description">
+                            <img class="img-fluid d-inline-block"
+                                src="onepages/architecture/assets/img-temp/597x354/img1.png" alt="Image description">
                         </div>
 
                         <div class="container text-center g-max-width-550">
@@ -283,8 +290,8 @@
 
                     <div class="js-slide">
                         <div class="container text-center g-max-width-600 g-mb-30">
-                            <img class="img-fluid d-inline-block" src="assets/img-temp/597x354/img1.png"
-                                alt="Image description">
+                            <img class="img-fluid d-inline-block"
+                                src="onepages/architecture/assets/img-temp/597x354/img1.png" alt="Image description">
                         </div>
 
                         <div class="container text-center g-max-width-550">
@@ -301,8 +308,8 @@
 
                     <div class="js-slide">
                         <div class="container text-center g-max-width-600 g-mb-30">
-                            <img class="img-fluid d-inline-block" src="assets/img-temp/597x354/img1.png"
-                                alt="Image description">
+                            <img class="img-fluid d-inline-block"
+                                src="onepages/architecture/assets/img-temp/597x354/img1.png" alt="Image description">
                         </div>
 
                         <div class="container text-center g-max-width-550">
@@ -338,7 +345,8 @@
                 <div class="row no-gutters">
                     <div
                         class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-                        <img class="img-fluid w-100" src="assets/img-temp/1024x683/img5.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/architecture/assets/img-temp/1024x683/img5.jpg"
+                            alt="Image Description">
 
                         <div class="text-center text-uppercase g-pa-30">
                             <h4
@@ -352,7 +360,8 @@
 
                     <div
                         class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-                        <img class="img-fluid w-100" src="assets/img-temp/1024x683/img6.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/architecture/assets/img-temp/1024x683/img6.jpg"
+                            alt="Image Description">
 
                         <div class="text-center text-uppercase g-pa-30">
                             <h4
@@ -366,7 +375,8 @@
 
                     <div
                         class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-                        <img class="img-fluid w-100" src="assets/img-temp/1024x683/img7.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/architecture/assets/img-temp/1024x683/img7.jpg"
+                            alt="Image Description">
 
                         <div class="text-center text-uppercase g-pa-30">
                             <h4
@@ -380,7 +390,8 @@
 
                     <div
                         class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-                        <img class="img-fluid w-100" src="assets/img-temp/1024x683/img8.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/architecture/assets/img-temp/1024x683/img8.jpg"
+                            alt="Image Description">
 
                         <div class="text-center text-uppercase g-pa-30">
                             <h4
@@ -394,7 +405,8 @@
 
                     <div
                         class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-                        <img class="img-fluid w-100" src="assets/img-temp/1024x683/img9.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/architecture/assets/img-temp/1024x683/img9.jpg"
+                            alt="Image Description">
 
                         <div class="text-center text-uppercase g-pa-30">
                             <h4
@@ -408,7 +420,7 @@
 
                     <div
                         class="col-md-6 col-lg-4 g-parent g-theme-bg-blue-dark-v1--hover g-transition-0_2 g-transition--ease-in">
-                        <img class="img-fluid w-100" src="assets/img-temp/1024x683/img10.jpg"
+                        <img class="img-fluid w-100" src="onepages/architecture/assets/img-temp/1024x683/img10.jpg"
                             alt="Image Description">
 
                         <div class="text-center text-uppercase g-pa-30">
@@ -468,7 +480,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img1.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img1.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -510,7 +523,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img2.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img2.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -552,7 +566,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img3.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img3.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -594,7 +609,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img4.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img4.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -636,7 +652,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img5.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img5.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -678,7 +695,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img6.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img6.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -720,7 +738,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img7.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img7.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -762,7 +781,8 @@
                             <!-- Figure -->
                             <figure class="text-center">
                                 <!-- Figure Image -->
-                                <img class="w-100 g-mb-35" src="assets/img-temp/600x605/img8.jpg"
+                                <img class="w-100 g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/600x605/img8.jpg"
                                     alt="Image Description">
                                 <!-- End Figure Image -->
 
@@ -824,7 +844,8 @@
                         <div class="js-carousel g-pb-40" data-infinite="true"
                             data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-0 text-center">
                             <div class="js-slide">
-                                <img class="img-fluid g-mb-40" src="assets/img-temp/1024x683/img11.jpg"
+                                <img class="img-fluid g-mb-40"
+                                    src="onepages/architecture/assets/img-temp/1024x683/img11.jpg"
                                     alt="Image description">
 
                                 <div class="container text-center g-max-width-550">
@@ -837,7 +858,8 @@
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid g-mb-40" src="assets/img-temp/1024x683/img12.jpg"
+                                <img class="img-fluid g-mb-40"
+                                    src="onepages/architecture/assets/img-temp/1024x683/img12.jpg"
                                     alt="Image description">
 
                                 <div class="container text-center g-max-width-550">
@@ -850,7 +872,8 @@
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid g-mb-40" src="assets/img-temp/1024x683/img13.jpg"
+                                <img class="img-fluid g-mb-40"
+                                    src="onepages/architecture/assets/img-temp/1024x683/img13.jpg"
                                     alt="Image description">
 
                                 <div class="container text-center g-max-width-550">
@@ -865,7 +888,7 @@
                     </div>
 
                     <div class="tab-pane fade" id="creativeConcept" role="tabpanel">
-                        <img class="img-fluid g-mb-40" src="assets/img-temp/1024x683/img14.jpg"
+                        <img class="img-fluid g-mb-40" src="onepages/architecture/assets/img-temp/1024x683/img14.jpg"
                             alt="Image description">
 
                         <div class="container text-center g-max-width-550">
@@ -878,7 +901,7 @@
                     </div>
 
                     <div class="tab-pane fade" id="modeling3D" role="tabpanel">
-                        <img class="img-fluid g-mb-40" src="assets/img-temp/1024x683/img15.jpg"
+                        <img class="img-fluid g-mb-40" src="onepages/architecture/assets/img-temp/1024x683/img15.jpg"
                             alt="Image description">
 
                         <div class="container text-center g-max-width-550">
@@ -891,7 +914,7 @@
                     </div>
 
                     <div class="tab-pane fade" id="happyClients" role="tabpanel">
-                        <img class="img-fluid g-mb-40" src="assets/img-temp/1024x683/img16.jpg"
+                        <img class="img-fluid g-mb-40" src="onepages/architecture/assets/img-temp/1024x683/img16.jpg"
                             alt="Image description">
 
                         <div class="container text-center g-max-width-550">
@@ -997,7 +1020,8 @@
                  }
                }]'>
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img1.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img1.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1008,7 +1032,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img2.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1019,7 +1044,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img3.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img3.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1030,7 +1056,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img4.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img4.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1041,7 +1068,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img5.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img5.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1052,7 +1080,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img6.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img6.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1063,7 +1092,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img1.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img1.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1074,7 +1104,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img2.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1085,7 +1116,8 @@
                     </div>
 
                     <div class="js-slide">
-                        <img class="img-fluid" src="assets/img-temp/1024x574/img3.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/architecture/assets/img-temp/1024x574/img3.jpg"
+                            alt="Image description">
 
                         <div class="text-center g-pa-40">
                             <h4 class="h6 text-uppercase g-font-weight-700 g-color-white g-mb-15">Projects of
@@ -1122,7 +1154,8 @@
                     <div class="col-lg-9">
                         <div class="row">
                             <div class="col-md-4 text-center g-mb-30 g-mb-0--md">
-                                <img class="img-fluid d-inline-block g-mb-35" src="assets/img-temp/Xx350/img1.png"
+                                <img class="img-fluid d-inline-block g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/Xx350/img1.png"
                                     alt="Image description">
 
                                 <div class="text-uppercase g-mb-20">
@@ -1139,7 +1172,8 @@
                             </div>
 
                             <div class="col-md-4 text-center g-mb-30 g-mb-0--md">
-                                <img class="img-fluid d-inline-block g-mb-35" src="assets/img-temp/Xx350/img2.png"
+                                <img class="img-fluid d-inline-block g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/Xx350/img2.png"
                                     alt="Image description">
 
                                 <div class="text-uppercase g-mb-20">
@@ -1156,7 +1190,8 @@
                             </div>
 
                             <div class="col-md-4 text-center">
-                                <img class="img-fluid d-inline-block g-mb-35" src="assets/img-temp/Xx350/img3.png"
+                                <img class="img-fluid d-inline-block g-mb-35"
+                                    src="onepages/architecture/assets/img-temp/Xx350/img3.png"
                                     alt="Image description">
 
                                 <div class="text-uppercase g-mb-20">
@@ -1188,56 +1223,64 @@
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img1.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img1.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img2.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img2.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img3.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img3.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img4.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img4.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img5.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img5.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img6.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img6.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img7.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img7.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
 
                                 <div class="col-md-3">
                                     <div class="g-brd-left g-brd-bottom g-theme-brd-blue-dark-v5 g-py-60">
                                         <img class="img-fluid g-opacity-0_6 g-opacity-1--hover g-transition-0_2"
-                                            src="assets/img-temp/Xx72/img8.png" alt="Image Description">
+                                            src="onepages/architecture/assets/img-temp/Xx72/img8.png"
+                                            alt="Image Description">
                                     </div>
                                 </div>
                             </div>
@@ -1249,7 +1292,8 @@
                             data-pagi-classes="u-carousel-indicators-v1 u-carousel-indicators-dark g-absolute-centered--x g-bottom-0 text-center">
                             <div class="js-slide">
                                 <img class="g-width-80 g-rounded-50x mx-auto g-mb-20"
-                                    src="assets/img-temp/400x400/img1.jpg" alt="Image description">
+                                    src="onepages/architecture/assets/img-temp/400x400/img1.jpg"
+                                    alt="Image description">
 
                                 <div class="text-center">
                                     <p class="g-font-size-default g-color-white-opacity-0_5 g-mb-25">Nullam quis ante.
@@ -1264,7 +1308,8 @@
 
                             <div class="js-slide">
                                 <img class="g-width-80 g-rounded-50x mx-auto g-mb-20"
-                                    src="assets/img-temp/400x400/img2.jpg" alt="Image description">
+                                    src="onepages/architecture/assets/img-temp/400x400/img2.jpg"
+                                    alt="Image description">
 
                                 <div class="text-center">
                                     <p class="g-font-size-default g-color-white-opacity-0_5 g-mb-25">Nullam quis ante.
@@ -1279,7 +1324,8 @@
 
                             <div class="js-slide">
                                 <img class="g-width-80 g-rounded-50x mx-auto g-mb-20"
-                                    src="assets/img-temp/400x400/img3.jpg" alt="Image description">
+                                    src="onepages/architecture/assets/img-temp/400x400/img3.jpg"
+                                    alt="Image description">
 
                                 <div class="text-center">
                                     <p class="g-font-size-default g-color-white-opacity-0_5 g-mb-25">Nullam quis ante.
@@ -1398,13 +1444,14 @@
                  ["road.highway", "", [{"color":"#cc0033"}]],
                  ["water", "", [{"color":"#f7f4f4"}]]
                ]'
-                    data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                    data-pin="true" data-pin-icon="onepages/architecture/assets/img/pin.png"></div>
             </div>
             <!-- End Google (Map) [custom] -->
 
             <div class="text-center g-color-gray-dark-v5 g-theme-bg-blue-dark-v1 g-py-70">
                 <a class="d-block g-width-140 mx-auto g-mb-30" href="/">
-                    <img class="img-fluid" src="assets/img/logo-light.png" alt="Image description">
+                    <img class="img-fluid" src="onepages/architecture/assets/img/logo-light.png"
+                        alt="Image description">
                 </a>
 
                 <ul class="list-inline d-inline-block mb-0">

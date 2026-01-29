@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Gym | Unify - Responsive Website Template</title>
 
@@ -33,7 +34,7 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-gym.css">
+    <link rel="stylesheet" href="onepages/gym/assets/css/styles.op-gym.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -52,7 +53,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-140"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/gym/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -112,10 +113,10 @@
             <div class="js-carousel u-bg-overlay g-bg-black-opacity-0_2--after" data-autoplay="true"
                 data-infinite="true" data-fade="true" data-speed="5000">
                 <div class="js-slide g-bg-img-hero g-height-100vh g-min-height-600"
-                    style="background-image: url(assets/img-temp/1600x927/img1.jpg);"></div>
+                    style="background-image: url(onepages/gym/assets/img-temp/1600x927/img1.jpg);"></div>
 
                 <div class="js-slide g-bg-img-hero g-height-100vh g-min-height-600"
-                    style="background-image: url(assets/img-temp/1600x927/img2.jpg);"></div>
+                    style="background-image: url(onepages/gym/assets/img-temp/1600x927/img2.jpg);"></div>
             </div>
 
             <div class="u-bg-overlay__inner g-absolute-centered w-100">
@@ -167,7 +168,7 @@
                         <!-- Article -->
                         <article
                             class="h-100 text-uppercase text-center g-flex-middle g-font-size-13 g-color-white g-bg-img-hero g-py-100 g-px-40"
-                            data-bg-img-src="assets/img-temp/800x534/img1.jpg">
+                            data-bg-img-src="onepages/gym/assets/img-temp/800x534/img1.jpg">
                             <div class="g-flex-middle-item">
                                 <!-- Article Title -->
                                 <h3 class="g-letter-spacing-3 g-font-weight-700 g-font-size-26 g-mb-40">Your Perfect
@@ -208,7 +209,7 @@
                     <div class="col-md-6">
                         <!-- Article -->
                         <article class="h-100 text-center g-flex-middle g-color-white g-bg-img-hero g-py-100 g-px-40"
-                            data-bg-img-src="assets/img-temp/800x534/img2.jpg">
+                            data-bg-img-src="onepages/gym/assets/img-temp/800x534/img2.jpg">
                             <div class="g-flex-middle-item">
                                 <em class="d-block g-font-style-normal g-mb-5">Trainings</em>
                                 <!-- Article Title -->
@@ -361,7 +362,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img1.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img1.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">01.</span>
@@ -383,7 +384,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img2.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img2.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">02.</span>
@@ -405,7 +406,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img3.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img3.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">03.</span>
@@ -427,7 +428,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img4.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img4.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">04.</span>
@@ -449,7 +450,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img5.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img5.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">05.</span>
@@ -471,7 +472,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img6.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img6.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">06.</span>
@@ -493,7 +494,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img1.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img1.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">01.</span>
@@ -515,7 +516,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img2.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img2.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">02.</span>
@@ -537,7 +538,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img3.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img3.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">03.</span>
@@ -559,7 +560,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img4.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img4.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">04.</span>
@@ -581,7 +582,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img5.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img5.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">05.</span>
@@ -603,7 +604,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-theme-bg-gray-dark-v1 g-overflow-hidden">
                             <img class="img-fluid g-pos-rel g-bottom-0 g-bottom-50--parent-hover w-100 g-transition-0_2 g-transition--ease-in"
-                                src="assets/img-temp/280x500/img6.jpg" alt="Image description">
+                                src="onepages/gym/assets/img-temp/280x500/img6.jpg" alt="Image description">
 
                             <span
                                 class="g-absolute-centered--y g-left-minus-15 g-left-minus-50--parent-hover g-font-weight-700 g-font-size-65 g-color-white opacity-0--parent-hover g-transition-0_2 g-transition--ease-in">06.</span>
@@ -834,7 +835,7 @@
                         <div class="row">
                             <div class="col-lg-7">
                                 <div class="g-pos-rel g-pl-50--lg">
-                                    <img class="img-fluid w-100" src="assets/img-temp/570x321/img1.jpg"
+                                    <img class="img-fluid w-100" src="onepages/gym/assets/img-temp/570x321/img1.jpg"
                                         alt="Image description">
 
                                     <span
@@ -867,7 +868,7 @@
                         <div class="row">
                             <div class="col-lg-7">
                                 <div class="g-pos-rel g-pl-50--lg">
-                                    <img class="img-fluid w-100" src="assets/img-temp/570x321/img2.jpg"
+                                    <img class="img-fluid w-100" src="onepages/gym/assets/img-temp/570x321/img2.jpg"
                                         alt="Image description">
 
                                     <span
@@ -940,7 +941,8 @@
                             class="u-block-hover g-theme-bg-gray-dark-v1 g-bg-primary--hover g-color-white mb-0 g-transition-0_2">
                             <div class="g-pos-rel">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x400/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/gym/assets/img-temp/270x400/img1.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
 
                                 <div class="u-block-hover__additional--fade g-flex-middle">
@@ -1006,7 +1008,8 @@
                             class="u-block-hover g-theme-bg-gray-dark-v1 g-bg-primary--hover g-color-white mb-0 g-transition-0_2">
                             <div class="g-pos-rel">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x400/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/gym/assets/img-temp/270x400/img2.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
 
                                 <div class="u-block-hover__additional--fade g-flex-middle">
@@ -1072,7 +1075,8 @@
                             class="u-block-hover g-theme-bg-gray-dark-v1 g-bg-primary--hover g-color-white mb-0 g-transition-0_2">
                             <div class="g-pos-rel">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x400/img3.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/gym/assets/img-temp/270x400/img3.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
 
                                 <div class="u-block-hover__additional--fade g-flex-middle">
@@ -1138,7 +1142,8 @@
                             class="u-block-hover g-theme-bg-gray-dark-v1 g-bg-primary--hover g-color-white mb-0 g-transition-0_2">
                             <div class="g-pos-rel">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x400/img4.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/gym/assets/img-temp/270x400/img4.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
 
                                 <div class="u-block-hover__additional--fade g-flex-middle">
@@ -1204,7 +1209,8 @@
                             class="u-block-hover g-theme-bg-gray-dark-v1 g-bg-primary--hover g-color-white mb-0 g-transition-0_2">
                             <div class="g-pos-rel">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x400/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/gym/assets/img-temp/270x400/img1.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
 
                                 <div class="u-block-hover__additional--fade g-flex-middle">
@@ -1375,7 +1381,7 @@
                  ["", "labels", [{"visibility":"on"}]],
                  ["water", "", [{"color":"#cccccc"}]]
                ]'
-                    data-pin="1" data-pin-icon="assets/img/pin.png"></div>
+                    data-pin="1" data-pin-icon="onepages/gym/assets/img/pin.png"></div>
             </div>
             <!-- End Google (Map) [custom] -->
 

@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Corporate | Unify - Responsive Website Template</title>
 
@@ -34,7 +35,7 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-corporate.css">
+    <link rel="stylesheet" href="onepages/corporate/assets/css/styles.op-corporate.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -52,7 +53,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-90"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/corporate/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -110,7 +111,8 @@
         <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll loaded dzsprx-readyall g-min-height-100vh g-bg-cover g-bg-black-opacity-0_2--after"
             data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
             <div class="divimage dzsparallaxer--target w-100"
-                style="height: 115%; background-image: url(assets/img-temp/1920x1080/img1.jpg);"></div>
+                style="height: 115%; background-image: url(onepages/corporate/assets/img-temp/1920x1080/img1.jpg);">
+            </div>
 
             <div class="g-absolute-centered--y g-bg-cover__inner w-100">
                 <div class="container g-pos-rel g-z-index-1 g-mt-50--md">
@@ -214,7 +216,8 @@
 
                     <div class="col-sm-6 col-lg-4 g-mb-30">
                         <div class="g-pos-rel">
-                            <img class="img-fluid" src="assets/img-temp/500x335/img7.jpg" alt="Image Description">
+                            <img class="img-fluid" src="onepages/corporate/assets/img-temp/500x335/img7.jpg"
+                                alt="Image Description">
                             <div
                                 class="g-font-weight-700 g-font-size-30 g-pos-abs g-top-10 g-left-20 g-left-minus-20--sm">
                                 Consult.</div>
@@ -232,7 +235,8 @@
 
                     <div class="col-sm-6 col-lg-4 g-offset-lg-1 order-1 g-mb-30">
                         <div class="g-pos-rel">
-                            <img class="img-fluid" src="assets/img-temp/500x335/img8.jpg" alt="Image Description">
+                            <img class="img-fluid" src="onepages/corporate/assets/img-temp/500x335/img8.jpg"
+                                alt="Image Description">
                             <div
                                 class="g-font-weight-700 g-font-size-30 g-pos-abs g-top-10 g-left-20 g-left-auto--sm g-right-minus-20--sm">
                                 Plan.</div>
@@ -250,7 +254,8 @@
 
                     <div class="col-sm-6 col-lg-4 g-mb-30">
                         <div class="g-pos-rel">
-                            <img class="img-fluid" src="assets/img-temp/450x450/img1.jpg" alt="Image Description">
+                            <img class="img-fluid" src="onepages/corporate/assets/img-temp/450x450/img1.jpg"
+                                alt="Image Description">
                             <div
                                 class="g-font-weight-700 g-font-size-30 g-pos-abs g-top-10 g-left-20 g-left-minus-20--sm">
                                 Create.</div>
@@ -268,7 +273,8 @@
 
                     <div class="col-sm-6 col-lg-4 g-offset-lg-1 order-1 g-mb-30">
                         <div class="g-pos-rel">
-                            <img class="img-fluid" src="assets/img-temp/500x245/img1.jpg" alt="Image Description">
+                            <img class="img-fluid" src="onepages/corporate/assets/img-temp/500x245/img1.jpg"
+                                alt="Image Description">
                             <div
                                 class="g-font-weight-700 g-font-size-30 g-pos-abs g-top-10 g-left-20 g-left-auto--sm g-right-minus-20--sm">
                                 Release.</div>
@@ -279,7 +285,8 @@
             </div>
 
             <div class="hidden-lg-down g-pos-abs g-top-50x g-left-0">
-                <img class="img-fluid" src="assets/img-temp/190x471/img1.png" alt="Image Description">
+                <img class="img-fluid" src="onepages/corporate/assets/img-temp/190x471/img1.png"
+                    alt="Image Description">
             </div>
 
             <!-- SVG Background -->
@@ -338,7 +345,7 @@
                 <div class="cbp-item identity design">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img1.jpg" alt="Image description">
+                            src="onepages/corporate/assets/img-temp/500x335/img1.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -350,7 +357,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle"
-                                        href="assets/img-temp/500x335/img1.jpg">
+                                        href="onepages/corporate/assets/img-temp/500x335/img1.jpg">
                                         <i class="icon-communication-017 u-line-icon-pro"></i>
                                     </a>
                                 </li>
@@ -368,7 +375,7 @@
                 <div class="cbp-item design">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img2.jpg" alt="Image description">
+                            src="onepages/corporate/assets/img-temp/500x335/img2.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -380,7 +387,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle"
-                                        href="assets/img-temp/500x335/img2.jpg">
+                                        href="onepages/corporate/assets/img-temp/500x335/img2.jpg">
                                         <i class="icon-communication-017 u-line-icon-pro"></i>
                                     </a>
                                 </li>
@@ -398,7 +405,7 @@
                 <div class="cbp-item identity">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img6.jpg" alt="Image description">
+                            src="onepages/corporate/assets/img-temp/500x335/img6.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -410,7 +417,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle"
-                                        href="assets/img-temp/500x335/img6.jpg">
+                                        href="onepages/corporate/assets/img-temp/500x335/img6.jpg">
                                         <i class="icon-communication-017 u-line-icon-pro"></i>
                                     </a>
                                 </li>
@@ -428,7 +435,7 @@
                 <div class="cbp-item design">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img4.jpg" alt="Image description">
+                            src="onepages/corporate/assets/img-temp/500x335/img4.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -440,7 +447,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle"
-                                        href="assets/img-temp/500x335/img4.jpg">
+                                        href="onepages/corporate/assets/img-temp/500x335/img4.jpg">
                                         <i class="icon-communication-017 u-line-icon-pro"></i>
                                     </a>
                                 </li>
@@ -458,7 +465,7 @@
                 <div class="cbp-item identity">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img5.jpg" alt="Image description">
+                            src="onepages/corporate/assets/img-temp/500x335/img5.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -470,7 +477,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle"
-                                        href="assets/img-temp/500x335/img5.jpg">
+                                        href="onepages/corporate/assets/img-temp/500x335/img5.jpg">
                                         <i class="icon-communication-017 u-line-icon-pro"></i>
                                     </a>
                                 </li>
@@ -488,7 +495,7 @@
                 <div class="cbp-item identity">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img3.jpg" alt="Image description">
+                            src="onepages/corporate/assets/img-temp/500x335/img3.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -500,7 +507,7 @@
                                 </li>
                                 <li class="list-inline-item">
                                     <a class="cbp-lightbox u-icon-v2 u-icon-size--sm g-brd-white g-color-black g-bg-white rounded-circle"
-                                        href="assets/img-temp/500x335/img3.jpg">
+                                        href="onepages/corporate/assets/img-temp/500x335/img3.jpg">
                                         <i class="icon-communication-017 u-line-icon-pro"></i>
                                     </a>
                                 </li>
@@ -524,7 +531,7 @@
 
         <!-- Video Content -->
         <div class="g-bg-size-cover g-bg-img-hero text-center g-py-170"
-            style="background-image: url(assets/img-temp/1920x800/img2.jpg);">
+            style="background-image: url(onepages/corporate/assets/img-temp/1920x800/img2.jpg);">
             <a class="js-fancybox u-icon-v3 u-icon-size--xl u-block-hover--scale g-overflow-inherit g-bg-white g-color-gray-dark-v1 g-color-primary--hover g-font-size-20 rounded-circle g-text-underline--none--hover g-cursor-pointer mb-3"
                 href="javascript:;" data-src="//vimeo.com/167434033" data-caption="Video">
                 <i class="fa fa-play g-pos-rel g-left-2"></i>
@@ -778,37 +785,37 @@
              }]'>
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img1.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img1.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img2.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img2.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img3.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img3.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img4.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img4.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img5.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img5.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img7.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img7.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--grayscale g-opacity-0_3 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img8.png" alt="Image description">
+                        data-lazy="onepages/corporate/assets/img-temp/200x100/img8.png" alt="Image description">
                 </div>
             </div>
         </div>
@@ -836,7 +843,7 @@
                     <!-- Team -->
                     <div class="row justify-content-center align-items-center no-gutters">
                         <div class="col-sm-6 col-lg-4 g-bg-size-cover g-bg-pos-top-center g-min-height-400"
-                            data-bg-img-src="assets/img-temp/400x450/img1.jpg"></div>
+                            data-bg-img-src="onepages/corporate/assets/img-temp/400x450/img1.jpg"></div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="g-px-30 g-px-50--lg g-py-60">
                                 <h3 class="h4 mb-1">Jessica Lisbon</h3>
@@ -898,7 +905,7 @@
                     <!-- Team -->
                     <div class="row justify-content-center align-items-center no-gutters">
                         <div class="col-sm-6 col-lg-4 g-bg-size-cover g-bg-pos-top-center g-min-height-400"
-                            data-bg-img-src="assets/img-temp/400x450/img3.jpg"></div>
+                            data-bg-img-src="onepages/corporate/assets/img-temp/400x450/img3.jpg"></div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="g-px-30 g-px-50--lg g-py-60">
                                 <h3 class="h4 mb-1">David Case</h3>
@@ -960,7 +967,7 @@
                     <!-- Team -->
                     <div class="row justify-content-center align-items-center no-gutters">
                         <div class="col-sm-6 col-lg-4 g-bg-size-cover g-bg-pos-top-center g-min-height-400"
-                            data-bg-img-src="assets/img-temp/400x450/img4.jpg"></div>
+                            data-bg-img-src="onepages/corporate/assets/img-temp/400x450/img4.jpg"></div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="g-px-30 g-px-50--lg g-py-60">
                                 <h3 class="h4 mb-1">Maria Olsson</h3>
@@ -1021,7 +1028,7 @@
                     <!-- Team -->
                     <div class="row justify-content-center align-items-center no-gutters">
                         <div class="col-sm-6 col-lg-4 g-bg-size-cover g-bg-pos-top-center g-min-height-400"
-                            data-bg-img-src="assets/img-temp/400x450/img2.jpg"></div>
+                            data-bg-img-src="onepages/corporate/assets/img-temp/400x450/img2.jpg"></div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="g-px-30 g-px-50--lg g-py-60">
                                 <h3 class="h4 mb-1">Tina Krueger</h3>
@@ -1082,7 +1089,7 @@
                     <!-- Team -->
                     <div class="row justify-content-center align-items-center no-gutters">
                         <div class="col-sm-6 col-lg-4 g-bg-size-cover g-bg-pos-top-center g-min-height-400"
-                            data-bg-img-src="assets/img-temp/400x450/img5.jpg"></div>
+                            data-bg-img-src="onepages/corporate/assets/img-temp/400x450/img5.jpg"></div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="g-px-30 g-px-50--lg g-py-60">
                                 <h3 class="h4 mb-1">John Watson</h3>
@@ -1144,7 +1151,7 @@
                     <!-- Team -->
                     <div class="row justify-content-center align-items-center no-gutters">
                         <div class="col-sm-6 col-lg-4 g-bg-size-cover g-bg-pos-top-center g-min-height-400"
-                            data-bg-img-src="assets/img-temp/400x450/img6.jpg"></div>
+                            data-bg-img-src="onepages/corporate/assets/img-temp/400x450/img6.jpg"></div>
                         <div class="col-sm-6 col-lg-4">
                             <div class="g-px-30 g-px-50--lg g-py-60">
                                 <h3 class="h4 mb-1">Monica Gaudy</h3>
@@ -1232,32 +1239,38 @@
                }
              }]'>
                 <div class="js-slide g-opacity-1 g-cursor-pointer g-px-15">
-                    <img class="img-fluid mb-3" src="assets/img-temp/400x450/img1.jpg" alt="Image Description">
+                    <img class="img-fluid mb-3" src="onepages/corporate/assets/img-temp/400x450/img1.jpg"
+                        alt="Image Description">
                     <h3 class="h6 g-color-text">Jessica Lisbon</h3>
                 </div>
 
                 <div class="js-slide g-opacity-1 g-cursor-pointer g-px-15">
-                    <img class="img-fluid mb-3" src="assets/img-temp/400x450/img3.jpg" alt="Image Description">
+                    <img class="img-fluid mb-3" src="onepages/corporate/assets/img-temp/400x450/img3.jpg"
+                        alt="Image Description">
                     <h3 class="h6 g-color-text">David Case</h3>
                 </div>
 
                 <div class="js-slide g-opacity-1 g-cursor-pointer g-px-15">
-                    <img class="img-fluid mb-3" src="assets/img-temp/400x450/img4.jpg" alt="Image Description">
+                    <img class="img-fluid mb-3" src="onepages/corporate/assets/img-temp/400x450/img4.jpg"
+                        alt="Image Description">
                     <h3 class="h6 g-color-text">Maria Olsson</h3>
                 </div>
 
                 <div class="js-slide g-opacity-1 g-cursor-pointer g-px-15">
-                    <img class="img-fluid mb-3" src="assets/img-temp/400x450/img2.jpg" alt="Image Description">
+                    <img class="img-fluid mb-3" src="onepages/corporate/assets/img-temp/400x450/img2.jpg"
+                        alt="Image Description">
                     <h3 class="h6 g-color-text">Tina Krueger</h3>
                 </div>
 
                 <div class="js-slide g-opacity-1 g-cursor-pointer g-px-15">
-                    <img class="img-fluid mb-3" src="assets/img-temp/400x450/img5.jpg" alt="Image Description">
+                    <img class="img-fluid mb-3" src="onepages/corporate/assets/img-temp/400x450/img5.jpg"
+                        alt="Image Description">
                     <h3 class="h6 g-color-text">John Watson</h3>
                 </div>
 
                 <div class="js-slide g-opacity-1 g-cursor-pointer g-px-15">
-                    <img class="img-fluid mb-3" src="assets/img-temp/400x450/img6.jpg" alt="Image Description">
+                    <img class="img-fluid mb-3" src="onepages/corporate/assets/img-temp/400x450/img6.jpg"
+                        alt="Image Description">
                     <h3 class="h6 g-color-text">Monica Gaudy</h3>
                 </div>
             </div>
@@ -1308,7 +1321,7 @@
                             really nice and offers quite a large set of options.</blockquote>
                         <div class="media">
                             <img class="d-flex align-self-center rounded-circle u-shadow-v19 g-brd-around g-brd-3 g-brd-white g-width-50 mr-3"
-                                src="assets/img-temp/100x100/img1.jpg" alt="Image Description">
+                                src="onepages/corporate/assets/img-temp/100x100/img1.jpg" alt="Image Description">
                             <div class="media-body align-self-center">
                                 <h4 class="g-font-weight-400 g-font-size-15 g-mb-0">Alex Pottorf</h4>
                                 <span class="d-block g-color-text g-font-size-13">Reason: Template Quality</span>
@@ -1324,7 +1337,7 @@
                             guys, they gave me some great help with some fiddly setup issues.</blockquote>
                         <div class="media">
                             <img class="d-flex align-self-center rounded-circle u-shadow-v19 g-brd-around g-brd-3 g-brd-white g-width-50 mr-3"
-                                src="assets/img-temp/100x100/img5.jpg" alt="Image Description">
+                                src="onepages/corporate/assets/img-temp/100x100/img5.jpg" alt="Image Description">
                             <div class="media-body align-self-center">
                                 <h4 class="g-font-weight-400 g-font-size-15 g-mb-0">Bastien Rojanawisut</h4>
                                 <span class="d-block g-color-text g-font-size-13">Reason: Template Quality</span>
@@ -1341,7 +1354,7 @@
                         </blockquote>
                         <div class="media">
                             <img class="d-flex align-self-center rounded-circle u-shadow-v19 g-brd-around g-brd-3 g-brd-white g-width-50 mr-3"
-                                src="assets/img-temp/100x100/img2.jpg" alt="Image Description">
+                                src="onepages/corporate/assets/img-temp/100x100/img2.jpg" alt="Image Description">
                             <div class="media-body align-self-center">
                                 <h4 class="g-font-weight-400 g-font-size-15 g-mb-0">Massalha Shady</h4>
                                 <span class="d-block g-color-text g-font-size-13">Reason: Code Quality</span>
@@ -1357,7 +1370,7 @@
                             new Show code Copy code snippet feature is brilliant</blockquote>
                         <div class="media">
                             <img class="d-flex align-self-center rounded-circle u-shadow-v19 g-brd-around g-brd-3 g-brd-white g-width-50 mr-3"
-                                src="assets/img-temp/100x100/img4.jpg" alt="Image Description">
+                                src="onepages/corporate/assets/img-temp/100x100/img4.jpg" alt="Image Description">
                             <div class="media-body align-self-center">
                                 <h4 class="g-font-weight-400 g-font-size-15 g-mb-0">Mark Mcmanus</h4>
                                 <span class="d-block g-color-text g-font-size-13">Reason: Code Quality</span>
@@ -1373,7 +1386,7 @@
                             done quickly and seamlessly. Thank you!</blockquote>
                         <div class="media">
                             <img class="d-flex align-self-center rounded-circle u-shadow-v19 g-brd-around g-brd-3 g-brd-white g-width-50 mr-3"
-                                src="assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                                src="onepages/corporate/assets/img-temp/100x100/img3.jpg" alt="Image Description">
                             <div class="media-body align-self-center">
                                 <h4 class="g-font-weight-400 g-font-size-15 g-mb-0">Zuza Muszyńska</h4>
                                 <span class="d-block g-color-text g-font-size-13">Reason: Unify Quality</span>
@@ -1401,7 +1414,8 @@
                 <div class="col-sm-6 col-md-4 g-mb-30">
                     <!-- Article -->
                     <article class="u-shadow-v28 g-bg-white">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x335/img9.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/corporate/assets/img-temp/500x335/img9.jpg"
+                            alt="Image Description">
 
                         <div class="g-pos-rel">
                             <!-- SVG Background -->
@@ -1435,7 +1449,8 @@
                 <div class="col-sm-6 col-md-4 g-mb-30">
                     <!-- Article -->
                     <article class="u-shadow-v28 g-bg-white">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x335/img10.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/corporate/assets/img-temp/500x335/img10.jpg"
+                            alt="Image Description">
 
                         <div class="g-pos-rel">
                             <!-- SVG Background -->
@@ -1469,7 +1484,8 @@
                 <div class="col-sm-6 col-md-4 g-mb-30">
                     <!-- Article -->
                     <article class="u-shadow-v28 g-bg-white">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x335/img11.jpg" alt="Image Description">
+                        <img class="img-fluid w-100" src="onepages/corporate/assets/img-temp/500x335/img11.jpg"
+                            alt="Image Description">
 
                         <div class="g-pos-rel">
                             <!-- SVG Background -->
@@ -1506,7 +1522,7 @@
 
         <!-- Call to Action -->
         <section class="g-bg-size-cover g-bg-pos-center"
-            style="background-image: url(assets/img-temp/1920x800/img1.jpg);">
+            style="background-image: url(onepages/corporate/assets/img-temp/1920x800/img1.jpg);">
             <div class="g-max-width-645 text-center g-pos-rel g-z-index-1 mx-auto g-px-30 g-py-120">
                 <h2 class="h1 g-font-weight-400 mb-5">Unify completes every project with experience hand.</h2>
                 <a class="btn u-btn-primary g-min-width-170 g-font-weight-500 g-font-size-13 text-uppercase g-rounded-30 g-px-30 g-py-14"
@@ -1612,7 +1628,7 @@
             <div class="row align-items-center g-py-35">
                 <div class="col-4">
                     <a class="g-text-underline--none--hover" href="index.html">
-                        <img class="g-width-70" src="assets/img/logo.png" alt="Image Description">
+                        <img class="g-width-70" src="onepages/corporate/assets/img/logo.png" alt="Image Description">
                     </a>
                 </div>
                 <div class="col-8 text-right">

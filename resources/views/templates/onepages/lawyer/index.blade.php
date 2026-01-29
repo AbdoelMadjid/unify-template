@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Lawyer | Unify - Responsive Website Template</title>
 
@@ -35,7 +36,7 @@
     <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/navigation.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-lawyer.css">
+    <link rel="stylesheet" href="onepages/lawyer/assets/css/styles.op-lawyer.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -53,7 +54,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-110"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/lawyer/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -118,9 +119,9 @@
                     <!-- SLIDE  -->
                     <li style="text-align: center;" data-index="rs-68" data-transition="zoomout"
                         data-slotamount="default" data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut"
-                        data-masterspeed="2000" data-thumb="assets/img-temp/promo/img1.jpg" data-rotate="0"
-                        data-saveperformance="off" data-title="Intro">
-                        <img src="assets/img-temp/1600x1066/img1.jpg" alt="Image description"
+                        data-masterspeed="2000" data-thumb="onepages/lawyer/assets/img-temp/promo/img1.jpg"
+                        data-rotate="0" data-saveperformance="off" data-title="Intro">
+                        <img src="onepages/lawyer/assets/img-temp/1600x1066/img1.jpg" alt="Image description"
                             data-bgposition="50% 10%" data-bgfit="cover" data-bgrepeat="no-repeat"
                             data-bgparallax="10" class="rev-slidebg" data-no-retina>
 
@@ -206,7 +207,8 @@
                         <!-- Article -->
                         <article class="d-flex flex-wrap text-center g-color-gray-dark-v3">
                             <div class="order-2 w-100">
-                                <img class="w-100" src="assets/img-temp/1200x800/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/lawyer/assets/img-temp/1200x800/img1.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div
@@ -227,7 +229,8 @@
                         <!-- Article -->
                         <article class="d-flex flex-wrap text-center g-color-white">
                             <div class="order-1 w-100">
-                                <img class="w-100" src="assets/img-temp/1200x800/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/lawyer/assets/img-temp/1200x800/img2.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div
@@ -248,7 +251,8 @@
                         <!-- Article -->
                         <article class="d-flex flex-wrap text-center g-color-gray-dark-v3">
                             <div class="order-2 w-100">
-                                <img class="w-100" src="assets/img-temp/1200x800/img3.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/lawyer/assets/img-temp/1200x800/img3.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div
@@ -442,7 +446,7 @@
                     </div>
 
                     <div class="col-md-6 g-min-height-300 g-bg-img-hero"
-                        style="background-image: url(assets/img-temp/1200x914/img1.jpg);"></div>
+                        style="background-image: url(onepages/lawyer/assets/img-temp/1200x914/img1.jpg);"></div>
                 </div>
             </div>
         </section>
@@ -499,7 +503,7 @@
                     </div>
 
                     <div class="col-md-6 g-order-1--sm g-min-height-300 g-bg-img-hero"
-                        style="background-image: url(assets/img-temp/1200x914/img2.jpg);"></div>
+                        style="background-image: url(onepages/lawyer/assets/img-temp/1200x914/img2.jpg);"></div>
                 </div>
             </div>
         </section>
@@ -553,7 +557,8 @@
                  }]'>
                         <div class="js-slide g-px-15">
                             <!-- Article -->
-                            <article class="g-bg-img-hero" data-bg-img-src="assets/img-temp/1200x800/img4.jpg">
+                            <article class="g-bg-img-hero"
+                                data-bg-img-src="onepages/lawyer/assets/img-temp/1200x800/img4.jpg">
                                 <div
                                     class="w-100 g-min-height-360 g-flex-middle g-width-50x--md g-theme-bg-gray-dark-v1-opacity-0_9 g-pa-25 ml-auto">
                                     <div class="g-flex-middle-item">
@@ -569,7 +574,8 @@
 
                         <div class="js-slide g-px-15">
                             <!-- Article -->
-                            <article class="g-bg-img-hero" data-bg-img-src="assets/img-temp/1200x800/img5.jpg">
+                            <article class="g-bg-img-hero"
+                                data-bg-img-src="onepages/lawyer/assets/img-temp/1200x800/img5.jpg">
                                 <div
                                     class="w-100 g-min-height-360 g-flex-middle g-width-50x--md g-theme-bg-gray-dark-v1-opacity-0_9 g-pa-25 ml-auto">
                                     <div class="g-flex-middle-item">
@@ -585,7 +591,8 @@
 
                         <div class="js-slide g-px-15">
                             <!-- Article -->
-                            <article class="g-bg-img-hero" data-bg-img-src="assets/img-temp/1200x800/img6.jpg">
+                            <article class="g-bg-img-hero"
+                                data-bg-img-src="onepages/lawyer/assets/img-temp/1200x800/img6.jpg">
                                 <div
                                     class="w-100 g-min-height-360 g-flex-middle g-width-50x--md g-theme-bg-gray-dark-v1-opacity-0_9 g-pa-25 ml-auto">
                                     <div class="g-flex-middle-item">
@@ -601,7 +608,8 @@
 
                         <div class="js-slide g-px-15">
                             <!-- Article -->
-                            <article class="g-bg-img-hero" data-bg-img-src="assets/img-temp/1200x800/img7.jpg">
+                            <article class="g-bg-img-hero"
+                                data-bg-img-src="onepages/lawyer/assets/img-temp/1200x800/img7.jpg">
                                 <div
                                     class="w-100 g-min-height-360 g-flex-middle g-width-50x--md g-theme-bg-gray-dark-v1-opacity-0_9 g-pa-25 ml-auto">
                                     <div class="g-flex-middle-item">
@@ -617,7 +625,8 @@
 
                         <div class="js-slide g-px-15">
                             <!-- Article -->
-                            <article class="g-bg-img-hero" data-bg-img-src="assets/img-temp/1200x800/img8.jpg">
+                            <article class="g-bg-img-hero"
+                                data-bg-img-src="onepages/lawyer/assets/img-temp/1200x800/img8.jpg">
                                 <div
                                     class="w-100 g-min-height-360 g-flex-middle g-width-50x--md g-theme-bg-gray-dark-v1-opacity-0_9 g-pa-25 ml-auto">
                                     <div class="g-flex-middle-item">
@@ -633,7 +642,8 @@
 
                         <div class="js-slide g-px-15">
                             <!-- Article -->
-                            <article class="g-bg-img-hero" data-bg-img-src="assets/img-temp/1200x800/img9.jpg">
+                            <article class="g-bg-img-hero"
+                                data-bg-img-src="onepages/lawyer/assets/img-temp/1200x800/img9.jpg">
                                 <div
                                     class="w-100 g-min-height-360 g-flex-middle g-width-50x--md g-theme-bg-gray-dark-v1-opacity-0_9 g-pa-25 ml-auto">
                                     <div class="g-flex-middle-item">
@@ -679,7 +689,7 @@
                                 <!-- Figure -->
                                 <figure class="g-color-gray-dark-v2">
                                     <!-- Figure Image -->
-                                    <img class="w-100 g-mb-35" src="assets/img-temp/600x996/img1.jpg"
+                                    <img class="w-100 g-mb-35" src="onepages/lawyer/assets/img-temp/600x996/img1.jpg"
                                         alt="Image description">
                                     <!-- End Figure Image -->
 
@@ -711,7 +721,7 @@
                                 <!-- Figure -->
                                 <figure class="g-color-gray-dark-v2">
                                     <!-- Figure Image -->
-                                    <img class="w-100 g-mb-35" src="assets/img-temp/600x996/img2.jpg"
+                                    <img class="w-100 g-mb-35" src="onepages/lawyer/assets/img-temp/600x996/img2.jpg"
                                         alt="Image description">
                                     <!-- End Figure Image -->
 
@@ -743,7 +753,7 @@
                                 <!-- Figure -->
                                 <figure class="g-color-gray-dark-v2">
                                     <!-- Figure Image -->
-                                    <img class="w-100 g-mb-35" src="assets/img-temp/600x996/img3.jpg"
+                                    <img class="w-100 g-mb-35" src="onepages/lawyer/assets/img-temp/600x996/img3.jpg"
                                         alt="Image description">
                                     <!-- End Figure Image -->
 
@@ -792,52 +802,52 @@
                 data-arrow-left-classes="fa fa-angle-left g-ml-minus-82"
                 data-arrow-right-classes="fa fa-angle-right g-ml-82" data-nav-for="#carouselCus2">
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img1.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img1.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img2.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img2.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img3.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img3.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img4.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img4.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img5.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img5.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img1.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img1.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img2.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img2.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img3.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img3.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img4.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img4.jpg"
                         alt="Image description">
                 </div>
 
                 <div class="js-thumb">
-                    <img class="g-width-130 g-height-130" src="assets/img-temp/130x130/img5.jpg"
+                    <img class="g-width-130 g-height-130" src="onepages/lawyer/assets/img-temp/130x130/img5.jpg"
                         alt="Image description">
                 </div>
             </div>
@@ -954,7 +964,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img1.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img1.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -962,7 +972,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img2.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img2.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -970,7 +980,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img3.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img3.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -978,7 +988,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img4.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img4.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -986,7 +996,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img5.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img5.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -994,7 +1004,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img6.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img6.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1002,7 +1012,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img7.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img7.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1010,7 +1020,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img8.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img8.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1018,7 +1028,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img9.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img9.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1026,7 +1036,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img10.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img10.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1034,7 +1044,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img11.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img11.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1042,7 +1052,7 @@
                         <div
                             class="col-6 col-sm-3 col-lg-2 d-flex align-items-center g-brd-left g-brd-bottom g-theme-brd-gray-dark-v2 px-0">
                             <a class="w-100 g-py-30 g-px-15" href="#!">
-                                <img class="img-fluid" src="assets/img-temp/clients/img12.png"
+                                <img class="img-fluid" src="onepages/lawyer/assets/img-temp/clients/img12.png"
                                     alt="Image description">
                             </a>
                         </div>
@@ -1071,8 +1081,8 @@
                     <div class="col-md-4 g-mb-30 g-mb-0--md">
                         <!-- Article -->
                         <article>
-                            <img class="img-fluid w-100 g-mb-25" src="assets/img-temp/1200x800/img10.jpg"
-                                alt="Image description">
+                            <img class="img-fluid w-100 g-mb-25"
+                                src="onepages/lawyer/assets/img-temp/1200x800/img10.jpg" alt="Image description">
 
                             <p class="small g-color-primary g-font-weight-700 g-mb-10">
                                 <time>April 27, 2017</time>
@@ -1090,8 +1100,8 @@
                     <div class="col-md-4 g-mb-30 g-mb-0--md">
                         <!-- Article -->
                         <article>
-                            <img class="img-fluid w-100 g-mb-25" src="assets/img-temp/1200x800/img11.jpg"
-                                alt="Image description">
+                            <img class="img-fluid w-100 g-mb-25"
+                                src="onepages/lawyer/assets/img-temp/1200x800/img11.jpg" alt="Image description">
 
                             <p class="small g-color-primary g-font-weight-700 g-mb-10">
                                 <time>April 27, 2017</time>
@@ -1110,8 +1120,8 @@
                     <div class="col-md-4">
                         <!-- Article -->
                         <article>
-                            <img class="img-fluid w-100 g-mb-25" src="assets/img-temp/1200x800/img12.jpg"
-                                alt="Image description">
+                            <img class="img-fluid w-100 g-mb-25"
+                                src="onepages/lawyer/assets/img-temp/1200x800/img12.jpg" alt="Image description">
 
                             <p class="small g-color-primary g-font-weight-700 g-mb-10">
                                 <time>April 27, 2017</time>
@@ -1194,7 +1204,7 @@
                      ["", "labels", [{"visibility":"on"}]],
                      ["water", "", [{"color":"#f7f4f4"}]]
                    ]'
-                            data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                            data-pin="true" data-pin-icon="onepages/lawyer/assets/img/pin.png"></div>
                     </div>
                     <!-- End Google (Map) [custom] -->
                 </div>

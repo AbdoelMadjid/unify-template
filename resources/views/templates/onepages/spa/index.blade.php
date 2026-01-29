@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Spa | Unify - Responsive Website Template</title>
 
@@ -29,7 +30,7 @@
     <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-spa.css">
+    <link rel="stylesheet" href="onepages/spa/assets/css/styles.op-spa.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -48,11 +49,11 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main d-block g-width-60"
-                                src="assets/img/logo-light.png" alt="Image description"
+                                src="onepages/spa/assets/img/logo-light.png" alt="Image description"
                                 data-header-fix-moment-exclude="d-block" data-header-fix-moment-classes="d-none">
 
                             <img class="u-header__logo-img u-header__logo-img--main d-none g-width-60"
-                                src="assets/img/logo-dark.png" alt="Image description"
+                                src="onepages/spa/assets/img/logo-dark.png" alt="Image description"
                                 data-header-fix-moment-exclude="d-none" data-header-fix-moment-classes="d-block"> </a>
                         <!-- End Logo -->
 
@@ -114,7 +115,7 @@
         <!-- Section Content -->
         <section id="home"
             class="u-bg-overlay g-height-100vh g-min-height-600 g-bg-img-hero g-bg-black-opacity-0_3--after"
-            style="background-image: url(assets/img-temp/2100x1416/img1.jpg);">
+            style="background-image: url(onepages/spa/assets/img-temp/2100x1416/img1.jpg);">
             <div class="u-bg-overlay__inner g-absolute-centered--y w-100">
                 <div class="container text-center g-max-width-750">
                     <h3
@@ -135,7 +136,7 @@
             <div class="container-fluid px-0">
                 <div class="row no-gutters">
                     <div class="col-md-6 g-bg-img-hero g-min-height-400"
-                        style="background-image: url(assets/img-temp/1200x781/img1.jpg);"></div>
+                        style="background-image: url(onepages/spa/assets/img-temp/1200x781/img1.jpg);"></div>
 
                     <div class="col-md-6 d-flex align-items-center text-center g-pa-50">
                         <div class="w-100">
@@ -156,7 +157,8 @@
 
                 <div class="row no-gutters">
                     <div class="col-md-6">
-                        <img class="img-fluid" src="assets/img-temp/1200x781/img2.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/spa/assets/img-temp/1200x781/img2.jpg"
+                            alt="Image description">
                     </div>
 
                     <div class="col-md-6">
@@ -165,17 +167,17 @@
                             data-arrow-left-classes="fa fa-chevron-left g-left-0"
                             data-arrow-right-classes="fa fa-chevron-right g-right-0">
                             <div class="js-slide">
-                                <img class="img-fluid" src="assets/img-temp/1200x781/img3.jpg"
+                                <img class="img-fluid" src="onepages/spa/assets/img-temp/1200x781/img3.jpg"
                                     alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid" src="assets/img-temp/1200x781/img4.jpg"
+                                <img class="img-fluid" src="onepages/spa/assets/img-temp/1200x781/img4.jpg"
                                     alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid" src="assets/img-temp/1200x781/img5.jpg"
+                                <img class="img-fluid" src="onepages/spa/assets/img-temp/1200x781/img5.jpg"
                                     alt="Image description">
                             </div>
                         </div>
@@ -191,8 +193,8 @@
                             <article
                                 class="text-center u-block-hover u-bg-overlay g-color-white g-bg-img-hero g-bg-black-opacity-0_3--after">
                                 <!-- Article Image -->
-                                <img class="w-100 u-block-hover__main--zoom-v1" src="assets/img-temp/800x867/img1.jpg"
-                                    alt="Image description">
+                                <img class="w-100 u-block-hover__main--zoom-v1"
+                                    src="onepages/spa/assets/img-temp/800x867/img1.jpg" alt="Image description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -219,8 +221,8 @@
                             <article
                                 class="text-center u-block-hover u-bg-overlay g-color-white g-bg-img-hero g-bg-black-opacity-0_3--after">
                                 <!-- Article Image -->
-                                <img class="w-100 u-block-hover__main--zoom-v1" src="assets/img-temp/800x867/img2.jpg"
-                                    alt="Image description">
+                                <img class="w-100 u-block-hover__main--zoom-v1"
+                                    src="onepages/spa/assets/img-temp/800x867/img2.jpg" alt="Image description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -260,8 +262,8 @@
                             <article
                                 class="text-center u-block-hover u-bg-overlay g-color-white g-bg-img-hero g-bg-black-opacity-0_3--after">
                                 <!-- Article Image -->
-                                <img class="w-100 u-block-hover__main--zoom-v1" src="assets/img-temp/800x401/img1.jpg"
-                                    alt="Image description">
+                                <img class="w-100 u-block-hover__main--zoom-v1"
+                                    src="onepages/spa/assets/img-temp/800x401/img1.jpg" alt="Image description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -305,7 +307,8 @@
                         <article class="text-center g-bg-white">
                             <!-- Article Image -->
                             <div class="g-pos-rel">
-                                <img class="w-100" src="assets/img-temp/800x350/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/spa/assets/img-temp/800x350/img1.jpg"
+                                    alt="Image description">
 
                                 <div
                                     class="u-ribbon-v1 text-uppercase g-top-0 g-right-0 g-width-70 g-font-weight-700 g-font-size-22 g-bg-primary p-0">
@@ -349,7 +352,8 @@
                         <article class="text-center g-bg-white">
                             <!-- Article Image -->
                             <div class="g-pos-rel">
-                                <img class="w-100" src="assets/img-temp/800x350/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/spa/assets/img-temp/800x350/img2.jpg"
+                                    alt="Image description">
 
                                 <div
                                     class="u-ribbon-v1 text-uppercase g-top-0 g-right-0 g-width-70 g-font-weight-700 g-font-size-22 g-bg-primary p-0">
@@ -395,7 +399,8 @@
                         <article class="text-center g-bg-white">
                             <!-- Article Image -->
                             <div class="g-pos-rel">
-                                <img class="w-100" src="assets/img-temp/800x652/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/spa/assets/img-temp/800x652/img1.jpg"
+                                    alt="Image description">
 
                                 <div
                                     class="u-ribbon-v1 text-uppercase g-top-0 g-left-0 g-width-60 g-font-weight-700 g-font-size-18 g-bg-primary p-0">
@@ -439,7 +444,8 @@
                         <article class="text-center g-bg-white">
                             <!-- Article Image -->
                             <div class="g-pos-rel">
-                                <img class="w-100" src="assets/img-temp/800x652/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/spa/assets/img-temp/800x652/img2.jpg"
+                                    alt="Image description">
 
                                 <div
                                     class="u-ribbon-v1 text-uppercase g-top-0 g-left-0 g-width-60 g-font-weight-700 g-font-size-18 g-bg-primary p-0">
@@ -483,7 +489,8 @@
                         <article class="text-center g-bg-white">
                             <!-- Article Image -->
                             <div class="g-pos-rel">
-                                <img class="w-100" src="assets/img-temp/800x652/img3.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/spa/assets/img-temp/800x652/img3.jpg"
+                                    alt="Image description">
 
                                 <div
                                     class="u-ribbon-v1 text-uppercase g-top-0 g-left-0 g-width-60 g-font-weight-700 g-font-size-18 g-bg-primary p-0">
@@ -527,7 +534,8 @@
                         <article class="text-center g-bg-white">
                             <!-- Article Image -->
                             <div class="g-pos-rel">
-                                <img class="w-100" src="assets/img-temp/800x652/img4.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/spa/assets/img-temp/800x652/img4.jpg"
+                                    alt="Image description">
 
                                 <div
                                     class="u-ribbon-v1 text-uppercase g-top-0 g-left-0 g-width-60 g-font-weight-700 g-font-size-18 g-bg-primary p-0">
@@ -586,7 +594,7 @@
                     </div>
 
                     <div class="col-md-6 g-bg-img-hero g-min-height-300"
-                        style="background-image: url(assets/img-temp/800x457/img1.jpg);"></div>
+                        style="background-image: url(onepages/spa/assets/img-temp/800x457/img1.jpg);"></div>
                 </div>
 
                 <div class="row no-gutters">
@@ -601,7 +609,7 @@
                     </div>
 
                     <div class="col-md-6 g-order-1--sm g-bg-img-hero g-min-height-300"
-                        style="background-image: url(assets/img-temp/800x457/img2.jpg);"></div>
+                        style="background-image: url(onepages/spa/assets/img-temp/800x457/img2.jpg);"></div>
                 </div>
 
                 <div class="row no-gutters">
@@ -616,7 +624,7 @@
                     </div>
 
                     <div class="col-md-6 g-bg-img-hero g-min-height-300"
-                        style="background-image: url(assets/img-temp/800x457/img3.jpg);"></div>
+                        style="background-image: url(onepages/spa/assets/img-temp/800x457/img3.jpg);"></div>
                 </div>
 
                 <div class="row no-gutters">
@@ -631,7 +639,7 @@
                     </div>
 
                     <div class="col-md-6 g-order-1--sm g-bg-img-hero g-min-height-300"
-                        style="background-image: url(assets/img-temp/800x457/img4.jpg);"></div>
+                        style="background-image: url(onepages/spa/assets/img-temp/800x457/img4.jpg);"></div>
                 </div>
             </div>
         </section>
@@ -672,7 +680,8 @@
                         <article
                             class="u-block-hover u-block-hover__additional--jump u-shadow-v19 g-bg-white g-transition-0_3">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x333/img1.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/spa/assets/img-temp/600x333/img1.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -732,7 +741,8 @@
                         <article
                             class="u-block-hover u-block-hover__additional--jump u-shadow-v19 g-bg-white g-transition-0_3">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x333/img2.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/spa/assets/img-temp/600x333/img2.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -794,7 +804,8 @@
                         <article
                             class="u-block-hover u-block-hover__additional--jump u-shadow-v19 g-bg-white g-transition-0_3">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x333/img3.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/spa/assets/img-temp/600x333/img3.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -855,7 +866,8 @@
                         <article
                             class="u-block-hover u-block-hover__additional--jump u-shadow-v19 g-bg-white g-transition-0_3">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x333/img4.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/spa/assets/img-temp/600x333/img4.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -917,7 +929,8 @@
                         <article
                             class="u-block-hover u-block-hover__additional--jump u-shadow-v19 g-bg-white g-transition-0_3">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x333/img5.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/spa/assets/img-temp/600x333/img5.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -982,7 +995,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-6 text-center">
-                        <img class="img-fluid" src="assets/img-temp/582x356/img1.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/spa/assets/img-temp/582x356/img1.jpg"
+                            alt="Image description">
                     </div>
 
                     <div class="col-lg-6 d-flex align-items-center g-pt-50 g-pl-50--lg">
@@ -1028,82 +1042,91 @@
                {"width": 320, "cols": 1}
              ]'>
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img1.jpg" data-title="Image 1">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img1.jpg"
+                        data-title="Image 1">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img1.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img1.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img2.jpg" data-title="Image 2">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img2.jpg"
+                        data-title="Image 2">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img2.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img2.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img3.jpg" data-title="Image 3">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img3.jpg"
+                        data-title="Image 3">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img3.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img3.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img4.jpg" data-title="Image 4">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img4.jpg"
+                        data-title="Image 4">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img4.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img4.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img5.jpg" data-title="Image 5">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img5.jpg"
+                        data-title="Image 5">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img5.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img5.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img6.jpg" data-title="Image 6">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img6.jpg"
+                        data-title="Image 6">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img6.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img6.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img7.jpg" data-title="Image 7">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img7.jpg"
+                        data-title="Image 7">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img7.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img7.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img8.jpg" data-title="Image 8">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img8.jpg"
+                        data-title="Image 8">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img8.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img8.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img9.jpg" data-title="Image 9">
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img9.jpg"
+                        data-title="Image 9">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img9.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img9.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/800x534/img10.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/spa/assets/img-temp/800x534/img10.jpg"
                         data-title="Image 10">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/400x400/img10.jpg" alt="Image description">
+                            <img src="onepages/spa/assets/img-temp/400x400/img10.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
@@ -1152,8 +1175,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img1.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img1.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1169,8 +1192,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img2.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img2.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1186,8 +1209,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img3.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img3.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1203,8 +1226,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img4.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img4.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1220,8 +1243,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img1.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img1.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1237,8 +1260,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img2.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img2.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1254,8 +1277,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img3.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img3.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1271,8 +1294,8 @@
                             <!-- Article -->
                             <article class="u-shadow-v19 g-bg-white text-center g-pa-45">
                                 <!-- Article Image -->
-                                <img class="img-fluid d-inline-block g-mb-10" src="assets/img-temp/180x288/img4.png"
-                                    alt="Image Description">
+                                <img class="img-fluid d-inline-block g-mb-10"
+                                    src="onepages/spa/assets/img-temp/180x288/img4.png" alt="Image Description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Content -->
@@ -1374,11 +1397,11 @@
                ["", "labels", [{"visibility":"on"}]],
                ["water", "", [{"color":"#aee2e0"}]]
              ]'
-                data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                data-pin="true" data-pin-icon="onepages/spa/assets/img/pin.png"></div>
             <!-- End Google Map -->
 
             <div class="container-fluid text-center g-color-gray-dark-v5 g-py-40">
-                <a class="d-inline-block g-mb-25" href="/"> <img src="assets/img/logo-dark.png"
+                <a class="d-inline-block g-mb-25" href="/"> <img src="onepages/spa/assets/img/logo-dark.png"
                         alt="Logo"> </a>
 
                 <p class="g-mb-30">In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.</p>

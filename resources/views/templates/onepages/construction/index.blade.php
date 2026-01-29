@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Construction | Unify - Responsive Website Template</title>
 
@@ -31,7 +32,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-construction.css">
+    <link rel="stylesheet" href="onepages/construction/assets/css/styles.op-construction.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -49,7 +50,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-140"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/construction/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -109,7 +110,8 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 u-bg-overlay g-flex-centered g-height-100vh--md g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_7--after text-md-right g-py-40 g-pr-50--md"
-                        style="background-image: url(assets/img-temp/700x800/img1.jpg);" data-calc-target="#js-header">
+                        style="background-image: url(onepages/construction/assets/img-temp/700x800/img1.jpg);"
+                        data-calc-target="#js-header">
                         <div class="w-100 u-bg-overlay__inner g-py-100">
                             <h3 class="h4 g-font-weight-700 g-color-primary g-mb-20">We professionally do</h3>
 
@@ -128,7 +130,7 @@
                     </div>
 
                     <div class="col-md-6 u-bg-overlay g-flex-centered g-height-100vh--md g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_7--after g-py-40 g-pl-50--md"
-                        style="background-image: url(assets/img-temp/700x800/img2.jpg);"
+                        style="background-image: url(onepages/construction/assets/img-temp/700x800/img2.jpg);"
                         data-calc-target="#js-header">
                         <div class="w-100 u-bg-overlay__inner g-py-100">
                             <h3 class="h4 g-font-weight-700 g-color-primary g-mb-20">We professionally do</h3>
@@ -157,7 +159,7 @@
                     <div class="row justify-content-between">
                         <div class="col-lg-3 ml-lg-autoQ">
                             <img class="img-fluid g-width-200 g-width-auto--lg g-mb-30 g-mb-0--lg mx-auto"
-                                src="assets/img-temp/874x600/img1.png" alt="Image description">
+                                src="onepages/construction/assets/img-temp/874x600/img1.png" alt="Image description">
                         </div>
 
                         <div class="col-lg-6 u-bg-overlay__inner g-flex-centered">
@@ -187,7 +189,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 g-mb-30 g-mb-0--md">
-                        <img class="img-fluid g-mb-30" src="assets/img-temp/1000x562/img1.jpg"
+                        <img class="img-fluid g-mb-30" src="onepages/construction/assets/img-temp/1000x562/img1.jpg"
                             alt="Image description">
 
                         <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-black g-mb-10">Building
@@ -337,9 +339,9 @@
             <div class="row no-gutters">
                 <div class="col-md-6">
                     <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden"
-                        style="background-image: url(assets/img-temp/900x506/img1.jpg);">
+                        style="background-image: url(onepages/construction/assets/img-temp/900x506/img1.jpg);">
                         <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                            src="assets/img-temp/900x506/img1.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/900x506/img1.jpg" alt="Image description">
 
                         <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x">
                             <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Building
@@ -356,9 +358,9 @@
 
                 <div class="col-md-6">
                     <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden"
-                        style="background-image: url(assets/img-temp/900x506/img2.jpg);">
+                        style="background-image: url(onepages/construction/assets/img-temp/900x506/img2.jpg);">
                         <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                            src="assets/img-temp/900x506/img2.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/900x506/img2.jpg" alt="Image description">
 
                         <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x">
                             <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Plumbing
@@ -377,9 +379,9 @@
             <div class="row no-gutters">
                 <div class="col-md-6">
                     <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden"
-                        style="background-image: url(assets/img-temp/900x506/img3.jpg);">
+                        style="background-image: url(onepages/construction/assets/img-temp/900x506/img3.jpg);">
                         <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                            src="assets/img-temp/900x506/img3.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/900x506/img3.jpg" alt="Image description">
 
                         <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x">
                             <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">Painting
@@ -396,9 +398,9 @@
 
                 <div class="col-md-6">
                     <div class="u-bg-overlay g-parent g-pos-rel g-min-height-300 g-bg-img-hero g-bg-black-opacity-0_6--after g-overflow-hidden"
-                        style="background-image: url(assets/img-temp/900x506/img4.jpg);">
+                        style="background-image: url(onepages/construction/assets/img-temp/900x506/img4.jpg);">
                         <img class="img-fluid g-hidden-md-down g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                            src="assets/img-temp/900x506/img4.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/900x506/img4.jpg" alt="Image description">
 
                         <div class="text-center u-bg-overlay__inner g-absolute-centered g-width-90x">
                             <h3 class="text-uppercase g-font-weight-700 g-font-size-18 g-color-white g-mb-20">
@@ -478,7 +480,8 @@
                                 role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img1.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img1.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -491,7 +494,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img2.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img2.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -504,7 +508,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img3.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img3.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -521,7 +526,8 @@
                             <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody2" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img4.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img4.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -534,7 +540,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img5.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img5.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -547,7 +554,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img6.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img6.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -564,7 +572,8 @@
                             <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody3" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img7.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img7.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -577,7 +586,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img8.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img8.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -590,7 +600,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img9.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img9.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -607,7 +618,8 @@
                             <div class="tab-pane fade g-pb-20 g-pb-0--md" id="servicesTabsBody4" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img10.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img10.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -620,7 +632,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img11.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img11.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -633,7 +646,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img12.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img12.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -650,7 +664,8 @@
                             <div class="tab-pane fade" id="servicesTabsBody5" role="tabpanel">
                                 <div class="row">
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img13.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img13.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -663,7 +678,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4 g-mb-20 g-mb-0--lg">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img14.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img14.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -676,7 +692,8 @@
                                     </div>
 
                                     <div class="col-md-6 col-lg-4">
-                                        <img class="img-fluid g-mb-20" src="assets/img-temp/600x397/img15.jpg"
+                                        <img class="img-fluid g-mb-20"
+                                            src="onepages/construction/assets/img-temp/600x397/img15.jpg"
                                             alt="Image description">
 
                                         <h3
@@ -699,7 +716,7 @@
 
         <!-- Section Content -->
         <section id="recentProjects" class="u-bg-overlay g-bg-img-hero g-bg-primary-opacity-0_9--after g-py-100"
-            style="background-image: url(assets/img-temp/1920x1073/img1.jpg);">
+            style="background-image: url(onepages/construction/assets/img-temp/1920x1073/img1.jpg);">
             <div class="container u-bg-overlay__inner">
                 <div class="text-uppercase text-center u-heading-v2-4--bottom g-brd-white g-mb-60">
                     <h4 class="g-font-weight-700 g-font-size-12 g-color-white g-mb-15">Recent projects</h4>
@@ -717,7 +734,7 @@
                             </h2>
                         </div>
 
-                        <img class="img-fluid g-mb-20" src="assets/img-temp/1000x565/img1.jpg"
+                        <img class="img-fluid g-mb-20" src="onepages/construction/assets/img-temp/1000x565/img1.jpg"
                             alt="Image description">
 
                         <p class="g-line-height-1_8 g-font-size-default g-color-white-opacity-0_8 g-mb-40">Duis aute
@@ -737,7 +754,7 @@
                             </h2>
                         </div>
 
-                        <img class="img-fluid g-mb-20" src="assets/img-temp/1000x565/img2.jpg"
+                        <img class="img-fluid g-mb-20" src="onepages/construction/assets/img-temp/1000x565/img2.jpg"
                             alt="Image description">
 
                         <p class="g-line-height-1_8 g-font-size-default g-color-white-opacity-0_8 g-mb-40">Duis aute
@@ -757,7 +774,7 @@
                             </h2>
                         </div>
 
-                        <img class="img-fluid g-mb-20" src="assets/img-temp/1000x565/img3.jpg"
+                        <img class="img-fluid g-mb-20" src="onepages/construction/assets/img-temp/1000x565/img3.jpg"
                             alt="Image description">
 
                         <p class="g-line-height-1_8 g-font-size-default g-color-white-opacity-0_8 g-mb-40">Duis aute
@@ -808,7 +825,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img1.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img1.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">Simone Gomez</h4>
                         <em
@@ -827,7 +844,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img2.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img2.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">Carla Harris</h4>
                         <em
@@ -846,7 +863,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img3.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img3.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">Dianna Kimwealth</h4>
                         <em
@@ -865,7 +882,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img4.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img4.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">John Wellberg</h4>
                         <em
@@ -884,7 +901,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img5.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img5.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">Sarah Rahman</h4>
                         <em
@@ -903,7 +920,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img6.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img6.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">Derek Fineman</h4>
                         <em
@@ -922,7 +939,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img7.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img7.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">William Mountcon</h4>
                         <em
@@ -941,7 +958,7 @@
                     <!-- Testimonial Block -->
                     <div class="text-center u-shadow-v10 g-bg-white g-pa-0-35-35--sm g-pa-0-20-20">
                         <img class="rounded-circle mx-auto g-width-100 g-brd-10 g-brd-around g-theme-brd-gray-light-v7 g-pull-50x-up"
-                            src="assets/img-temp/500x500/img8.jpg" alt="Image description">
+                            src="onepages/construction/assets/img-temp/500x500/img8.jpg" alt="Image description">
 
                         <h4 class="text-uppercase g-font-weight-700 g-font-size-default mb-0">Cathy Bollak</h4>
                         <em
@@ -960,7 +977,7 @@
         <!-- End Section Content -->
 
         <section id="clients" class="g-bg-img-hero u-bg-overlay g-bg-primary-opacity-0_9--after g-py-80"
-            style="background-image: url(assets/img-temp/1920x350/img1.jpg);">
+            style="background-image: url(onepages/construction/assets/img-temp/1920x350/img1.jpg);">
             <div class="container u-bg-overlay__inner text-center">
                 <div class="js-carousel" data-autoplay="true" data-infinite="true" data-slides-show="6"
                     data-responsive='[{
@@ -985,37 +1002,37 @@
                  }
                }]'>
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img1.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img1.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img2.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img2.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img3.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img3.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img4.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img4.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img5.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img5.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img6.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img6.png"
                             alt="Image description">
                     </div>
 
                     <div class="js-slide g-mx-15">
-                        <img class="mx-auto g-width-120" src="assets/img-temp/clients/img7.png"
+                        <img class="mx-auto g-width-120" src="onepages/construction/assets/img-temp/clients/img7.png"
                             alt="Image description">
                     </div>
                 </div>
@@ -1081,7 +1098,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img1.jpg" data-title="Custom Title 1">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img1.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img1.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1105,7 +1122,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img2.jpg" data-title="Custom Title 2">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img2.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img2.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1129,7 +1146,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img3.jpg" data-title="Custom Title 3">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img3.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img3.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1153,7 +1170,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img4.jpg" data-title="Custom Title 4">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img4.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img4.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1177,7 +1194,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img5.jpg" data-title="Custom Title 5">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img5.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img5.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1201,7 +1218,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img6.jpg" data-title="Custom Title 6">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img6.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img6.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1225,7 +1242,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img7.jpg" data-title="Custom Title 7">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img7.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img7.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1249,7 +1266,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img8.jpg" data-title="Custom Title 8">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img8.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img8.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1273,7 +1290,7 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img9.jpg" data-title="Custom Title 9">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img9.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img9.jpg" alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1297,7 +1314,8 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img10.jpg" data-title="Custom Title 10">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img10.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img10.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1321,7 +1339,8 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img11.jpg" data-title="Custom Title 11">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img11.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img11.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1345,7 +1364,8 @@
                     <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent"
                         href="assets/img-temp/2800x2096/img12.jpg" data-title="Custom Title 12">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/500x375/img12.jpg" alt="Image description">
+                            <img src="onepages/construction/assets/img-temp/500x375/img12.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_9">
@@ -1384,7 +1404,7 @@
             </div>
 
             <div class="u-bg-overlay g-bg-img-hero g-bg-primary-opacity-0_9--after g-py-100"
-                style="background-image: url(assets/img-temp/1920x1280/img2.jpg);">
+                style="background-image: url(onepages/construction/assets/img-temp/1920x1280/img2.jpg);">
                 <div class="container u-bg-overlay__inner">
                     <div class="js-carousel" data-infinite="true"
                         data-arrows-classes="u-arrow-v1 g-pos-abs g-absolute-centered--y--md g-top-0 g-top-50x--md g-width-50 g-height-50 g-font-size-default g-color-primary g-bg-gray-dark-v1 g-opacity-0_8--hover g-transition-0_2 g-transition--ease-in"
@@ -1540,7 +1560,7 @@
             </div>
 
             <div class="u-bg-overlay g-bg-img-hero g-color-white g-bg-primary-opacity-0_8--after g-py-100"
-                style="background-image: url(assets/img-temp/1920x1280/img1.jpg);">
+                style="background-image: url(onepages/construction/assets/img-temp/1920x1280/img1.jpg);">
                 <div class="container text-center text-md-left u-bg-overlay__inner">
                     <div class="row">
                         <div class="col-md-4 col-lg-5 d-flex align-items-center g-mb-20 g-mb-0--md">

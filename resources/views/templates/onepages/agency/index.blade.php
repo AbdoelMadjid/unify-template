@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Agency | Unify - Responsive Website Template</title>
 
@@ -38,7 +39,7 @@
     <link rel="stylesheet" href="assets/vendor/revolution-slider/revolution/css/navigation.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-agency.css">
+    <link rel="stylesheet" href="onepages/agency/assets/css/styles.op-agency.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -57,7 +58,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-130"
-                                src="assets/img/logo-dark.png" alt="Image Description">
+                                src="onepages/agency/assets/img/logo-dark.png" alt="Image Description">
                         </a>
                         <!-- End Logo -->
 
@@ -130,9 +131,9 @@
                             data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"
                             data-title="Unify Agency">
                             <!-- MAIN IMAGE -->
-                            <img class="rev-slidebg" src="assets/img-temp/1920x1080/img1.jpg" alt="Image description"
-                                data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                                data-bgparallax="10" data-no-retina>
+                            <img class="rev-slidebg" src="onepages/agency/assets/img-temp/1920x1080/img1.jpg"
+                                alt="Image description" data-bgposition="center center" data-bgfit="cover"
+                                data-bgrepeat="no-repeat" data-bgparallax="10" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -219,12 +220,12 @@
                         <!-- SLIDE  -->
                         <li data-index="rs-310" data-transition="slideoverhorizontal" data-slotamount="default"
                             data-easein="Power4.easeInOut" data-easeout="Power4.easeInOut" data-masterspeed="1000"
-                            data-thumb="assets/img-temp/100x50/img2.jpg" data-rotate="0" data-saveperformance="off"
-                            data-title="HTML5 Video">
+                            data-thumb="onepages/agency/assets/img-temp/100x50/img2.jpg" data-rotate="0"
+                            data-saveperformance="off" data-title="HTML5 Video">
                             <!-- MAIN IMAGE -->
-                            <img class="rev-slidebg" src="assets/img-temp/1920x1080/img2.jpg" alt="Image description"
-                                data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                                data-bgparallax="10" data-no-retina>
+                            <img class="rev-slidebg" src="onepages/agency/assets/img-temp/1920x1080/img2.jpg"
+                                alt="Image description" data-bgposition="center center" data-bgfit="cover"
+                                data-bgrepeat="no-repeat" data-bgparallax="10" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- BACKGROUND VIDEO LAYER -->
@@ -325,9 +326,9 @@
                             data-thumb="assets/img-temp/100x50/img3.jpg" data-rotate="0" data-saveperformance="off"
                             data-title="Scroll Down">
                             <!-- MAIN IMAGE -->
-                            <img class="rev-slidebg" src="assets/img-temp/1920x1080/img3.jpg" alt="Image description"
-                                data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat"
-                                data-bgparallax="10" data-no-retina>
+                            <img class="rev-slidebg" src="onepages/agency/assets/img-temp/1920x1080/img3.jpg"
+                                alt="Image description" data-bgposition="center center" data-bgfit="cover"
+                                data-bgrepeat="no-repeat" data-bgparallax="10" data-no-retina>
                             <!-- LAYERS -->
 
                             <!-- LAYER NR. 1 -->
@@ -503,7 +504,7 @@
             </div>
 
             <img class="g-hidden-sm-down g-width-100--md g-width-200--lg g-height-100--md g-height-200--lg g-absolute-centered"
-                src="assets/img-temp/230x230/img1.jpg" alt="Image description">
+                src="onepages/agency/assets/img-temp/230x230/img1.jpg" alt="Image description">
             <!-- End Info Blocks -->
         </section>
         <!-- End Section Content -->
@@ -729,7 +730,7 @@
                         <div id="workProcessTabs" class="tab-content">
                             <div id="userInterfase" class="tab-pane fade g-mb-20 g-mb-0--md show active"
                                 role="tabpanel">
-                                <img class="img-fluid g-mb-30" src="assets/img-temp/900x372/img1.jpg"
+                                <img class="img-fluid g-mb-30" src="onepages/agency/assets/img-temp/900x372/img1.jpg"
                                     alt="Image description">
 
                                 <div class="row">
@@ -802,7 +803,7 @@
                             </div>
 
                             <div id="identityAndBranding" class="tab-pane fade g-mb-20 g-mb-0--md" role="tabpanel">
-                                <img class="img-fluid g-mb-30" src="assets/img-temp/900x372/img2.jpg"
+                                <img class="img-fluid g-mb-30" src="onepages/agency/assets/img-temp/900x372/img2.jpg"
                                     alt="Image description">
 
                                 <div class="row">
@@ -853,7 +854,7 @@
                             </div>
 
                             <div id="webDesign" class="tab-pane fade" role="tabpanel">
-                                <img class="img-fluid g-mb-30" src="assets/img-temp/900x372/img3.jpg"
+                                <img class="img-fluid g-mb-30" src="onepages/agency/assets/img-temp/900x372/img3.jpg"
                                     alt="Image description">
                                 <p class="g-line-height-1_4 mb-0">Sed feugiat porttitor nunc, non dignissim ipsum
                                     vestibulum in. Donec in blandit dolor. Vivamus a fringilla lorem, vel faucibus ante.
@@ -1085,7 +1086,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel g-parent g-mb-30">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x450/img1.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/agency/assets/img-temp/270x450/img1.jpg"
+                                    alt="Image Description">
                                 <!-- End Figure Image -->
 
                                 <!-- Figure Caption -->
@@ -1143,7 +1145,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel g-parent g-mb-30">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x450/img2.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/agency/assets/img-temp/270x450/img2.jpg"
+                                    alt="Image Description">
                                 <!-- End Figure Image -->
 
                                 <!-- Figure Caption -->
@@ -1201,7 +1204,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel g-parent g-mb-30">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x450/img3.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/agency/assets/img-temp/270x450/img3.jpg"
+                                    alt="Image Description">
                                 <!-- End Figure Image -->
 
                                 <!-- Figure Caption -->
@@ -1259,7 +1263,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel g-parent g-mb-30">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/270x450/img4.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/agency/assets/img-temp/270x450/img4.jpg"
+                                    alt="Image Description">
                                 <!-- End Figure Image -->
 
                                 <!-- Figure Caption -->
@@ -1346,7 +1351,8 @@
                                 <!-- Testimonial Block -->
                                 <div class="media g-mb-25">
                                     <div class="media-left g-pr-20">
-                                        <img class="media-object rounded-circle" src="assets/img-temp/80x80/img1.jpg"
+                                        <img class="media-object rounded-circle"
+                                            src="onepages/agency/assets/img-temp/80x80/img1.jpg"
                                             alt="Image Description">
                                     </div>
 
@@ -1370,7 +1376,8 @@
                                 <!-- Testimonial Block -->
                                 <div class="media g-mb-25">
                                     <div class="media-left g-pr-20">
-                                        <img class="media-object rounded-circle" src="assets/img-temp/80x80/img2.jpg"
+                                        <img class="media-object rounded-circle"
+                                            src="onepages/agency/assets/img-temp/80x80/img2.jpg"
                                             alt="Image Description">
                                     </div>
 
@@ -1413,33 +1420,33 @@
                      }
                    }]'>
                             <div class="js-slide">
-                                <img class="img-fluid mx-auto" src="assets/img-temp/200x150/img1.png"
-                                    alt="Image description">
+                                <img class="img-fluid mx-auto"
+                                    src="onepages/agency/assets/img-temp/200x150/img1.png" alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid mx-auto" src="assets/img-temp/200x150/img2.png"
-                                    alt="Image description">
+                                <img class="img-fluid mx-auto"
+                                    src="onepages/agency/assets/img-temp/200x150/img2.png" alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid mx-auto" src="assets/img-temp/200x150/img3.png"
-                                    alt="Image description">
+                                <img class="img-fluid mx-auto"
+                                    src="onepages/agency/assets/img-temp/200x150/img3.png" alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid mx-auto" src="assets/img-temp/200x150/img4.png"
-                                    alt="Image description">
+                                <img class="img-fluid mx-auto"
+                                    src="onepages/agency/assets/img-temp/200x150/img4.png" alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid mx-auto" src="assets/img-temp/200x150/img5.png"
-                                    alt="Image description">
+                                <img class="img-fluid mx-auto"
+                                    src="onepages/agency/assets/img-temp/200x150/img5.png" alt="Image description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid mx-auto" src="assets/img-temp/200x150/img6.png"
-                                    alt="Image description">
+                                <img class="img-fluid mx-auto"
+                                    src="onepages/agency/assets/img-temp/200x150/img6.png" alt="Image description">
                             </div>
                         </div>
                     </section>
@@ -1562,13 +1569,14 @@
                  ["", "labels", [{"visibility":"on"}]],
                  ["water", "", [{"color":"#bac6cb"}]]
                ]'
-                    data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                    data-pin="true" data-pin-icon="onepages/agency/assets/img/pin.png"></div>
             </div>
             <!-- End Google (Map) [custom] -->
 
             <div class="g-color-white g-bg-primary-dark-v1 g-py-40 g-px-15">
                 <a class="d-inline-block g-mb-30" href="/">
-                    <img class="img-fluid g-width-130" src="assets/img/logo-light.png" alt="Image description">
+                    <img class="img-fluid g-width-130" src="onepages/agency/assets/img/logo-light.png"
+                        alt="Image description">
                 </a>
                 <p class="g-color-white-opacity-0_7 g-mb-30">Integer accumsan maximus leo, et consectetur metus
                     vestibulum in. Vestibulum viverra justo odio maximus efficitur</p>
@@ -1733,7 +1741,7 @@
                             space: 5,
                             tmp: '<span class="tp-bullet-image"></span>' +
                                 '<span class="tp-bullet-imageoverlay"></span>' +
-                                '<span class="tp-bullet-title">{{ title }}</span>'
+                                '<span class="tp-bullet-title">@{{ title }}</span>'
                         }
                     },
                     responsiveLevels: [1240, 1024, 778, 480],

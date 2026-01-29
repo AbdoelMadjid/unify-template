@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Business | Unify - Responsive Website Template</title>
 
@@ -29,7 +30,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-business.css">
+    <link rel="stylesheet" href="onepages/business/assets/css/styles.op-business.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -46,8 +47,8 @@
                     <div class="container g-pos-rel">
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
-                            <img class="u-header__logo-img u-header__logo-img--main" src="assets/img/logo.png"
-                                alt="Image Description">
+                            <img class="u-header__logo-img u-header__logo-img--main"
+                                src="onepages/business/assets/img/logo.png" alt="Image Description">
                         </a>
                         <!-- End Logo -->
 
@@ -107,10 +108,10 @@
             <div class="js-carousel g-overflow-hidden g-max-height-100vh" data-autoplay="true" data-infinite="true"
                 data-fade="true" data-speed="5000">
                 <div class="js-slide g-bg-img-hero g-height-100vh g-min-height-500--md"
-                    style="background-image: url(assets/img-temp/1600x1075/img1.jpg);"></div>
+                    style="background-image: url(onepages/business/assets/img-temp/1600x1075/img1.jpg);"></div>
 
                 <div class="js-slide g-bg-img-hero g-height-100vh g-min-height-500--md"
-                    style="background-image: url(assets/img-temp/1600x1075/img2.jpg);"></div>
+                    style="background-image: url(onepages/business/assets/img-temp/1600x1075/img2.jpg);"></div>
             </div>
 
             <div class="g-absolute-centered w-100">
@@ -138,7 +139,7 @@
         <section id="about" class="container-fluid px-0">
             <div class="row no-gutters">
                 <div class="g-hidden-md-down col-lg-4 g-bg-img-hero"
-                    style="background-image: url(assets/img-temp/1600x1920/img2.jpg);"></div>
+                    style="background-image: url(onepages/business/assets/img-temp/1600x1920/img2.jpg);"></div>
 
                 <div class="col-md-6 col-lg-4 g-flex-centered g-theme-bg-blue-dark-v1">
                     <div class="text-center g-color-gray-light-v2 g-pa-30">
@@ -163,7 +164,7 @@
                     <div class="js-carousel g-pb-90" data-infinite="true" data-slides-show="true"
                         data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-30">
                         <div class="js-slide">
-                            <img class="img-fluid w-100" src="assets/img-temp/450x300/img1.jpg"
+                            <img class="img-fluid w-100" src="onepages/business/assets/img-temp/450x300/img1.jpg"
                                 alt="Image description">
 
                             <div class="g-pa-30">
@@ -178,7 +179,7 @@
                         </div>
 
                         <div class="js-slide">
-                            <img class="img-fluid w-100" src="assets/img-temp/450x300/img2.jpg"
+                            <img class="img-fluid w-100" src="onepages/business/assets/img-temp/450x300/img2.jpg"
                                 alt="Image description">
 
                             <div class="g-pa-30">
@@ -193,7 +194,7 @@
                         </div>
 
                         <div class="js-slide">
-                            <img class="img-fluid w-100" src="assets/img-temp/450x300/img3.jpg"
+                            <img class="img-fluid w-100" src="onepages/business/assets/img-temp/450x300/img3.jpg"
                                 alt="Image description">
 
                             <div class="g-pa-30">
@@ -360,7 +361,7 @@
                                     class="g-pull-50x-left g-brd-around g-brd-5 g-brd-primary-dark-v3 g-rounded-50x g-overflow-hidden">
                                     <span
                                         class="d-block g-pos-abs g-top-0 g-left-0 g-width-95 g-height-95 g-brd-around g-brd-5 g-brd-primary g-rounded-50x"
-                                        style="background-image: url(assets/img-temp/80x80/img1.jpg);"></span>
+                                        style="background-image: url(onepages/business/assets/img-temp/80x80/img1.jpg);"></span>
                                     <span
                                         class="u-icon-v3 u-icon-size--xl g-width-95 g-height-95 g-color-white g-bg-primary g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
                                         <i class="icon-fire"></i>
@@ -384,7 +385,7 @@
                                     class="g-pull-50x-left g-brd-around g-brd-5 g-brd-primary-dark-v3 g-rounded-50x g-overflow-hidden">
                                     <span
                                         class="d-block g-pos-abs g-top-0 g-left-0 g-width-95 g-height-95 g-brd-around g-brd-5 g-brd-primary g-rounded-50x"
-                                        style="background-image: url(assets/img-temp/80x80/img2.jpg);"></span>
+                                        style="background-image: url(onepages/business/assets/img-temp/80x80/img2.jpg);"></span>
                                     <span
                                         class="u-icon-v3 u-icon-size--xl g-width-95 g-height-95 g-color-white g-bg-primary g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
                                         <i class="icon-energy"></i>
@@ -412,7 +413,7 @@
                                     class="g-pull-50x-left g-brd-around g-brd-5 g-brd-primary-dark-v3 g-rounded-50x g-overflow-hidden">
                                     <span
                                         class="d-block g-pos-abs g-top-0 g-left-0 g-width-95 g-height-95 g-brd-around g-brd-5 g-brd-primary g-rounded-50x"
-                                        style="background-image: url(assets/img-temp/80x80/img3.jpg);"></span>
+                                        style="background-image: url(onepages/business/assets/img-temp/80x80/img3.jpg);"></span>
                                     <span
                                         class="u-icon-v3 u-icon-size--xl g-width-95 g-height-95 g-color-white g-bg-primary g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
                                         <i class="icon-rocket"></i>
@@ -436,7 +437,7 @@
                                     class="g-pull-50x-left g-brd-around g-brd-5 g-brd-primary-dark-v3 g-rounded-50x g-overflow-hidden">
                                     <span
                                         class="d-block g-pos-abs g-top-0 g-left-0 g-width-95 g-height-95 g-brd-around g-brd-5 g-brd-primary g-rounded-50x"
-                                        style="background-image: url(assets/img-temp/80x80/img4.jpg);"></span>
+                                        style="background-image: url(onepages/business/assets/img-temp/80x80/img4.jpg);"></span>
                                     <span
                                         class="u-icon-v3 u-icon-size--xl g-width-95 g-height-95 g-color-white g-bg-primary g-opacity-1 opacity-0--parent-hover g-transition-0_1 g-transition--ease-in">
                                         <i class="icon-layers"></i>
@@ -506,7 +507,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img9.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img9.jpg"
+                                        alt="Image description">
 
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
@@ -520,7 +522,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img10.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img10.jpg"
+                                        alt="Image description">
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
                                         <h3 class="text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">
@@ -534,7 +537,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img11.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img11.jpg"
+                                        alt="Image description">
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
                                         <h3 class="text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">
@@ -548,7 +552,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img12.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img12.jpg"
+                                        alt="Image description">
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
                                         <h3 class="text-uppercase g-font-weight-700 g-font-size-16 g-color-white mb-0">
@@ -562,7 +567,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img9.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img9.jpg"
+                                        alt="Image description">
 
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
@@ -577,7 +583,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img10.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img10.jpg"
+                                        alt="Image description">
 
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
@@ -592,7 +599,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img11.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img11.jpg"
+                                        alt="Image description">
 
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
@@ -607,7 +615,8 @@
                             <div class="js-slide g-pa-5">
                                 <div class="g-parent g-pos-rel g-overflow-hidden">
                                     <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                        src="assets/img-temp/400x269/img12.jpg" alt="Image description">
+                                        src="onepages/business/assets/img-temp/400x269/img12.jpg"
+                                        alt="Image description">
 
                                     <div
                                         class="g-pos-abs g-top-0 g-left-0 w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-pa-25 g-transition-0_3 g-transition--ease-in">
@@ -629,7 +638,7 @@
         <section id="howWeWork" class="row no-gutters">
             <!-- Info Image -->
             <div class="g-hidden-md-down col-lg-4 col-xl-5 g-min-height-360 g-bg-img-hero"
-                data-bg-img-src="assets/img-temp/1600x1920/img1.jpg"></div>
+                data-bg-img-src="onepages/business/assets/img-temp/1600x1920/img1.jpg"></div>
             <!-- End Info Image -->
 
             <div class="col-xl-7 col-lg-8 g-theme-bg-blue-dark-v1 g-pt-100 g-pb-80 g-px-15 g-px-40--md">
@@ -889,7 +898,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img1.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img1.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -911,7 +920,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img2.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img2.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -933,7 +942,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img3.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img3.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -955,7 +964,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img4.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img4.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -977,7 +986,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img5.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img5.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -999,7 +1008,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img6.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img6.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1021,7 +1030,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img7.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img7.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1043,7 +1052,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img8.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img8.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1065,7 +1074,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img1.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img1.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1087,7 +1096,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img2.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img2.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1109,7 +1118,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img3.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img3.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1131,7 +1140,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img4.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img4.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1153,7 +1162,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img5.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img5.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1175,7 +1184,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img6.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img6.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1197,7 +1206,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img7.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img7.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1219,7 +1228,7 @@
                     <div class="js-slide">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
                             <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_3 g-transition--ease-in"
-                                src="assets/img-temp/400x269/img8.jpg" alt="Image description">
+                                src="onepages/business/assets/img-temp/400x269/img8.jpg" alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 g-bg-primary-opacity-0_8 g-color-white opacity-0 g-opacity-1--parent-hover g-brd-around g-brd-10 g-brd-white g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -1278,48 +1287,48 @@
                  }
                }]'>
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img1.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img1.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img2.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img2.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img3.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img3.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img4.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img4.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img5.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img5.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img6.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img6.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img7.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img7.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img8.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img8.png" alt="Image Description">
                     </div>
 
                     <div class="js-slide g-brd-around g-brd-gray-light-v1--hover g-transition-0_2 g-mx-10 g-my-1">
-                        <img class="img-fluid g-max-width-170--md mx-auto" src="assets/img-temp/200x150/img9.png"
-                            alt="Image Description">
+                        <img class="img-fluid g-max-width-170--md mx-auto"
+                            src="onepages/business/assets/img-temp/200x150/img9.png" alt="Image Description">
                     </div>
                 </div>
 
@@ -1434,7 +1443,7 @@
                    ["", "labels", [{"visibility":"on"}]],
                    ["water", "", [{"color":"#1d1a37"}]]
                  ]'
-                    data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                    data-pin="true" data-pin-icon="onepages/business/assets/img/pin.png"></div>
             </div>
             <!-- End Google (Map) [custom] -->
 

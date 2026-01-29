@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Photography | Unify - Responsive Website Template</title>
 
@@ -31,7 +32,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-photography.css">
+    <link rel="stylesheet" href="onepages/photography/assets/css/styles.op-photography.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -105,7 +106,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-70"
-                                src="assets/img/logo.png" alt="Image Description">
+                                src="onepages/photography/assets/img/logo.png" alt="Image Description">
                         </a>
                         <!-- End Logo -->
 
@@ -164,7 +165,7 @@
         <section id="home" class="g-theme-bg-gray-light-v1 g-pb-30">
             <div class="container">
                 <div class="g-bg-cover g-bg-pos-top-center g-bg-img-hero g-bg-black-opacity-0_2--after g-px-20 g-py-200"
-                    style="background-image: url(assets/img-temp/1600x1068/img1.jpg);">
+                    style="background-image: url(onepages/photography/assets/img-temp/1600x1068/img1.jpg);">
                     <div class="text-center g-pos-rel g-z-index-1">
                         <span
                             class="d-block g-color-white g-font-size-20 text-uppercase g-letter-spacing-5 g-mb-50">Hello!
@@ -188,7 +189,7 @@
                         <!-- Article -->
                         <article
                             class="h-100 text-center text-uppercase u-block-hover u-bg-img-hero g-bg-cover g-bg-black-opacity-0_2--after info-v3-2 g-flex-middle g-color-white g-py-210 g-px-30"
-                            data-bg-img-src="assets/img-temp/500x700/img1.jpg">
+                            data-bg-img-src="onepages/photography/assets/img-temp/500x700/img1.jpg">
                             <div class="g-flex-middle-item g-pos-rel g-z-index-2">
                                 <!-- Article Title -->
                                 <h3 class="g-letter-spacing-3 g-font-weight-700 g-color-white g-mb-20">Professional
@@ -208,7 +209,7 @@
                         <!-- Article -->
                         <article
                             class="h-100 text-center text-uppercase u-block-hover u-bg-img-hero g-bg-cover g-bg-black-opacity-0_2--after info-v3-2 g-flex-middle g-color-white g-py-210 g-px-30"
-                            data-bg-img-src="assets/img-temp/500x700/img2.jpg">
+                            data-bg-img-src="onepages/photography/assets/img-temp/500x700/img2.jpg">
                             <div class="g-flex-middle-item g-pos-rel g-z-index-2">
                                 <!-- Article Title -->
                                 <h3 class="g-letter-spacing-3 g-font-weight-700 g-color-white g-mb-20">Work
@@ -280,10 +281,12 @@
                    ]'>
                             <div class="cbp-item g-width-280 g-width-170--md people">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img1.jpg" data-title="Custom Title 1">
+                                    href="onepages/photography/assets/img-temp/1024x683/img1.jpg"
+                                    data-title="Custom Title 1">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img1.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img1.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -304,10 +307,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md nature">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img2.jpg" data-title="Custom Title 2">
+                                    href="onepages/photography/assets/img-temp/1024x683/img2.jpg"
+                                    data-title="Custom Title 2">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img2.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img2.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -328,10 +333,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md work">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img3.jpg" data-title="Custom Title 3">
+                                    href="onepages/photography/assets/img-temp/1024x683/img3.jpg"
+                                    data-title="Custom Title 3">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img3.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img3.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -352,10 +359,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md abstract">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img4.jpg" data-title="Custom Title 4">
+                                    href="onepages/photography/assets/img-temp/1024x683/img4.jpg"
+                                    data-title="Custom Title 4">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img4.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img4.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -376,10 +385,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md inspire">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img5.jpg" data-title="Custom Title 5">
+                                    href="onepages/photography/assets/img-temp/1024x683/img5.jpg"
+                                    data-title="Custom Title 5">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img5.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img5.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -400,10 +411,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md city">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img6.jpg" data-title="Custom Title 6">
+                                    href="onepages/photography/assets/img-temp/1024x683/img6.jpg"
+                                    data-title="Custom Title 6">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img6.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img6.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -424,10 +437,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md people">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img7.jpg" data-title="Custom Title 7">
+                                    href="onepages/photography/assets/img-temp/1024x683/img7.jpg"
+                                    data-title="Custom Title 7">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img7.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img7.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -448,10 +463,12 @@
 
                             <div class="cbp-item g-width-280 g-width-170--md abstract">
                                 <a class="cbp-caption cbp-lightbox info-v3-2 d-block g-parent g-mb-20"
-                                    href="assets/img-temp/1024x683/img8.jpg" data-title="Custom Title 8">
+                                    href="onepages/photography/assets/img-temp/1024x683/img8.jpg"
+                                    data-title="Custom Title 8">
                                     <div class="cbp-caption-defaultWrap g-overflow-hidden">
                                         <img class="g-transform-scale-1_2--parent-hover g-transition-0_2 g-transition--ease-in"
-                                            src="assets/img-temp/170x270/img8.jpg" alt="Image description">
+                                            src="onepages/photography/assets/img-temp/170x270/img8.jpg"
+                                            alt="Image description">
                                     </div>
 
                                     <div class="cbp-caption-activeWrap g-theme-bg-blue-dark-v1-opacity-0_6">
@@ -477,7 +494,8 @@
         <!-- End Section Content -->
 
         <!-- Section Content -->
-        <section id="services" class="g-py-80" style="background-image: url(assets/img/pattern1.png);">
+        <section id="services" class="g-py-80"
+            style="background-image: url(onepages/photography/assets/img/pattern1.png);">
             <div class="container">
                 <div class="text-uppercase text-center g-mb-70">
                     <h2
@@ -492,7 +510,8 @@
                         <article class="media d-block d-md-flex h-100 g-bg-white">
                             <!-- Article Image -->
                             <div class="d-md-flex align-self-center g-mr-30--md g-ml-minus-82--md">
-                                <img class="w-100" src="assets/img-temp/169x169/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/photography/assets/img-temp/169x169/img1.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -511,7 +530,8 @@
                         <article class="media d-block d-md-flex h-100 g-bg-white">
                             <!-- Article Image -->
                             <div class="d-md-flex align-self-center g-mr-30--md g-ml-minus-82--md">
-                                <img class="w-100" src="assets/img-temp/169x169/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/photography/assets/img-temp/169x169/img2.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -532,7 +552,8 @@
                         <article class="media d-block d-md-flex h-100 g-bg-white">
                             <!-- Article Image -->
                             <div class="d-md-flex align-self-center g-mr-30--md g-ml-minus-82--md">
-                                <img class="w-100" src="assets/img-temp/169x169/img3.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/photography/assets/img-temp/169x169/img3.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -551,7 +572,8 @@
                         <article class="media d-block d-md-flex h-100 g-bg-white">
                             <!-- Article Image -->
                             <div class="d-md-flex align-self-center g-mr-30--md g-ml-minus-82--md">
-                                <img class="w-100" src="assets/img-temp/169x169/img4.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/photography/assets/img-temp/169x169/img4.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -572,7 +594,8 @@
                         <article class="media d-block d-md-flex h-100 g-bg-white">
                             <!-- Article Image -->
                             <div class="d-md-flex align-self-center g-mr-30--md g-ml-minus-82--md">
-                                <img class="w-100" src="assets/img-temp/169x169/img5.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/photography/assets/img-temp/169x169/img5.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -591,7 +614,8 @@
                         <article class="media d-block d-md-flex h-100 g-bg-white">
                             <!-- Article Image -->
                             <div class="d-md-flex align-self-center g-mr-30--md g-ml-minus-82--md">
-                                <img class="w-100" src="assets/img-temp/169x169/img6.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/photography/assets/img-temp/169x169/img6.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -632,10 +656,12 @@
                  {"width": 320, "cols": 1}
                ]'>
                     <div class="cbp-item">
-                        <a class="cbp-caption cbp-lightbox" href="assets/img-temp/570x770/img1.jpg"
+                        <a class="cbp-caption cbp-lightbox"
+                            href="onepages/photography/assets/img-temp/570x770/img1.jpg"
                             data-title="Tiger<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/570x770/img1.jpg" alt="Image description">
+                                <img src="onepages/photography/assets/img-temp/570x770/img1.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-black-opacity-0_5">
@@ -658,10 +684,12 @@
                     </div>
 
                     <div class="cbp-item">
-                        <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1024x683/img9.jpg"
+                        <a class="cbp-caption cbp-lightbox"
+                            href="onepages/photography/assets/img-temp/1024x683/img9.jpg"
                             data-title="Easy Note<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/570x370/img1.jpg" alt="Image description">
+                                <img src="onepages/photography/assets/img-temp/570x370/img1.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-black-opacity-0_5">
@@ -684,10 +712,12 @@
                     </div>
 
                     <div class="cbp-item">
-                        <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1024x683/img10.jpg"
+                        <a class="cbp-caption cbp-lightbox"
+                            href="onepages/photography/assets/img-temp/1024x683/img10.jpg"
                             data-title="Easy Note<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/570x370/img2.jpg" alt="Image description">
+                                <img src="onepages/photography/assets/img-temp/570x370/img2.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-black-opacity-0_5">
@@ -722,10 +752,12 @@
                  {"width": 320, "cols": 1}
                ]'>
                     <div class="cbp-item">
-                        <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1024x683/img11.jpg"
+                        <a class="cbp-caption cbp-lightbox"
+                            href="onepages/photography/assets/img-temp/1024x683/img11.jpg"
                             data-title="Tiger<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/370x370/img1.jpg" alt="Image description">
+                                <img src="onepages/photography/assets/img-temp/370x370/img1.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-black-opacity-0_5">
@@ -748,10 +780,12 @@
                     </div>
 
                     <div class="cbp-item">
-                        <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1024x683/img12.jpg"
+                        <a class="cbp-caption cbp-lightbox"
+                            href="onepages/photography/assets/img-temp/1024x683/img12.jpg"
                             data-title="Tiger<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/370x370/img2.jpg" alt="Image description">
+                                <img src="onepages/photography/assets/img-temp/370x370/img2.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-black-opacity-0_5">
@@ -774,10 +808,12 @@
                     </div>
 
                     <div class="cbp-item">
-                        <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1024x683/img13.jpg"
+                        <a class="cbp-caption cbp-lightbox"
+                            href="onepages/photography/assets/img-temp/1024x683/img13.jpg"
                             data-title="Tiger<br>by Cosmin Capitanu">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/370x370/img3.jpg" alt="Image description">
+                                <img src="onepages/photography/assets/img-temp/370x370/img3.jpg"
+                                    alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-black-opacity-0_5">
@@ -807,7 +843,8 @@
         <!-- End Section Content -->
 
         <!-- Section Content -->
-        <section id="about" class="g-py-100" style="background-image: url(assets/img/pattern1.png);">
+        <section id="about" class="g-py-100"
+            style="background-image: url(onepages/photography/assets/img/pattern1.png);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-4 g-mb-30">
@@ -842,12 +879,12 @@
                             data-arrow-left-classes="fa fa-angle-left g-left-0 g-ml-20"
                             data-arrow-right-classes="fa fa-angle-right g-right-0 g-mr-20">
                             <div class="js-slide">
-                                <img class="img-fluid" src="assets/img-temp/370x500/img1.jpg"
+                                <img class="img-fluid" src="onepages/photography/assets/img-temp/370x500/img1.jpg"
                                     alt="Image Description">
                             </div>
 
                             <div class="js-slide">
-                                <img class="img-fluid" src="assets/img-temp/370x500/img2.jpg"
+                                <img class="img-fluid" src="onepages/photography/assets/img-temp/370x500/img2.jpg"
                                     alt="Image Description">
                             </div>
                         </div>
@@ -860,7 +897,8 @@
                             <!-- Figure Image -->
                             <figure>
                                 <img class="w-100 g-grayscale-100x g-grayscale-0--hover g-transition-0_3 g-transition--ease-in"
-                                    src="assets/img-temp/370x370/img4.jpg" alt="Image Description">
+                                    src="onepages/photography/assets/img-temp/370x370/img4.jpg"
+                                    alt="Image Description">
                             </figure>
                             <!-- End Figure Image -->
 
@@ -914,7 +952,8 @@
                             <!-- Figure Image -->
                             <figure>
                                 <img class="w-100 g-grayscale-100x g-grayscale-0--hover g-transition-0_3 g-transition--ease-in"
-                                    src="assets/img-temp/370x370/img5.jpg" alt="Image Description">
+                                    src="onepages/photography/assets/img-temp/370x370/img5.jpg"
+                                    alt="Image Description">
                             </figure>
                             <!-- End Figure Image -->
 
@@ -968,7 +1007,8 @@
                             <!-- Figure Image -->
                             <figure>
                                 <img class="w-100 g-grayscale-100x g-grayscale-0--hover g-transition-0_3 g-transition--ease-in"
-                                    src="assets/img-temp/370x370/img6.jpg" alt="Image Description">
+                                    src="onepages/photography/assets/img-temp/370x370/img6.jpg"
+                                    alt="Image Description">
                             </figure>
                             <!-- End Figure Image -->
 
@@ -1037,7 +1077,8 @@
                         <!-- Article -->
                         <article class="text-center text-uppercase g-theme-bg-gray-dark-v2 g-color-white-opacity-0_5">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/370x200/img1.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/photography/assets/img-temp/370x200/img1.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -1077,7 +1118,8 @@
                         <!-- Article -->
                         <article class="text-center text-uppercase g-theme-bg-gray-dark-v2 g-color-white-opacity-0_5">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/370x200/img2.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/photography/assets/img-temp/370x200/img2.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -1117,7 +1159,8 @@
                         <!-- Article -->
                         <article class="text-center text-uppercase g-theme-bg-gray-dark-v2 g-color-white-opacity-0_5">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/370x200/img3.jpg" alt="Image Description">
+                            <img class="w-100" src="onepages/photography/assets/img-temp/370x200/img3.jpg"
+                                alt="Image Description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -1173,7 +1216,8 @@
                                 class="text-uppercase g-letter-spacing-1_5 g-theme-color-gray-light-v2 g-mb-30 g-mb-60--md">
                                 Wertdf sdfgsga etgr et accusamus</p>
 
-                            <img class="img-fluid" src="assets/img-temp/470x150/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/photography/assets/img-temp/470x150/img1.jpg"
+                                alt="Image description">
                         </div>
 
                         <div class="col-md-6 col-lg-7">
@@ -1251,7 +1295,7 @@
                  ["road", "labels.text.fill", [{"color":"#5c5c60"}]],
                  ["water", "", [{"color":"#232323"}]]
                ]'
-                    data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                    data-pin="true" data-pin-icon="onepages/photography/assets/img/pin.png"></div>
             </div>
             <!-- End Google (Map) [custom] -->
 

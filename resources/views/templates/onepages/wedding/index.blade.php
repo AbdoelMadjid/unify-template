@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Wedding | Unify - Responsive Website Template</title>
 
@@ -30,7 +31,7 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-wedding.css">
+    <link rel="stylesheet" href="onepages/wedding/assets/css/styles.op-wedding.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -48,7 +49,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-215"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/wedding/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -114,10 +115,7 @@
             <div class="js-carousel u-carousel-v5 g-height-100vh--md" data-autoplay="true" data-infinite="true"
                 data-fade="true" data-speed="5000">
                 <div class="js-slide g-bg-img-hero g-height-100vh--md g-min-height-300"
-                    style="background-image: url(assets/img-temp/1920x1280/img3.jpg);"></div>
-
-                <div class="js-slide g-bg-img-hero g-height-100vh--md g-min-height-300"
-                    style="background-image: url(assets/img-temp/1920x1280/img4.jpg);"></div>
+                    style="background-image: url(onepages/wedding/assets/img-temp/1920x1280/img3.jpg);"></div>
             </div>
 
             <div class="u-bg-overlay__inner g-absolute-centered w-100">
@@ -166,7 +164,7 @@
                             <article class="text-center">
                                 <!-- Article Image -->
                                 <img class="g-max-width-200 g-rounded-50x g-mb-20"
-                                    src="assets/img-temp/300x300/img1.jpg" alt="Image description">
+                                    src="onepages/wedding/assets/img-temp/300x300/img1.jpg" alt="Image description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Title -->
@@ -221,7 +219,7 @@
                             <article class="text-center">
                                 <!-- Article Image -->
                                 <img class="g-max-width-200 g-rounded-50x g-mb-20"
-                                    src="assets/img-temp/300x300/img2.jpg" alt="Image description">
+                                    src="onepages/wedding/assets/img-temp/300x300/img2.jpg" alt="Image description">
                                 <!-- End Article Image -->
 
                                 <!-- Article Title -->
@@ -327,7 +325,7 @@
 
         <!-- Section Content -->
         <section id="presentation" class="u-bg-overlay g-bg-img-hero g-bg-black-opacity-0_4--after g-py-100"
-            style="background-image: url(assets/img-temp/1920x1280/img2.jpg);">
+            style="background-image: url(onepages/wedding/assets/img-temp/1920x1280/img2.jpg);">
             <div class="container text-center u-bg-overlay__inner g-width-770">
                 <div class="u-heading-v7-3 g-mb-30">
                     <h2 class="u-heading-v7__title g-font-size-60 g-font-niconne g-color-white g-mb-20">The Power
@@ -384,7 +382,8 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-3 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img1.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -403,7 +402,8 @@
 
                     <div class="col-md-6 col-lg-3 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img2.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -422,7 +422,8 @@
 
                     <div class="col-md-6 col-lg-3 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img3.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -441,7 +442,8 @@
 
                     <div class="col-md-6 col-lg-3 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img4.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img4.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -460,7 +462,8 @@
 
                     <div class="col-md-6 col-lg-3 g-mb-30 g-mb-0--lg">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img5.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img5.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -479,7 +482,8 @@
 
                     <div class="col-md-6 col-lg-3 g-mb-30 g-mb-0--lg">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img6.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img6.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -498,7 +502,8 @@
 
                     <div class="col-md-6 col-lg-3 g-mb-30 g-mb-0--md">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img7.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img7.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -517,7 +522,8 @@
 
                     <div class="col-md-6 col-lg-3">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1000x1000/img8.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/1000x1000/img8.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-15 g-transition-0_3 g-transition--ease-in">
@@ -566,7 +572,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel u-theme-shadow-v3 u-shadow-none--parent-hover g-pa-10">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/315x435/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/wedding/assets/img-temp/315x435/img1.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
                             </figure>
                             <!-- End Figure -->
@@ -595,7 +602,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel u-theme-shadow-v3 u-shadow-none--parent-hover g-pa-10">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/315x435/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/wedding/assets/img-temp/315x435/img2.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
                             </figure>
                             <!-- End Figure -->
@@ -624,7 +632,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel u-theme-shadow-v3 u-shadow-none--parent-hover g-pa-10">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/315x435/img3.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/wedding/assets/img-temp/315x435/img3.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
                             </figure>
                             <!-- End Figure -->
@@ -653,7 +662,8 @@
                             <!-- Figure -->
                             <figure class="g-pos-rel u-theme-shadow-v3 u-shadow-none--parent-hover g-pa-10">
                                 <!-- Figure Image -->
-                                <img class="w-100" src="assets/img-temp/315x435/img4.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/wedding/assets/img-temp/315x435/img4.jpg"
+                                    alt="Image description">
                                 <!-- End Figure Image -->
                             </figure>
                             <!-- End Figure -->
@@ -682,7 +692,7 @@
 
         <!-- Section Content -->
         <section id="testimonials" class="u-bg-overlay g-bg-img-hero g-bg-black-opacity-0_5--after g-py-100"
-            style="background-image: url(assets/img-temp/1920x1280/img1.jpg);">
+            style="background-image: url(onepages/wedding/assets/img-temp/1920x1280/img1.jpg);">
             <div class="container u-bg-overlay__inner">
                 <div class="js-carousel" data-infinite="true"
                     data-arrows-classes="hidden-down u-arrow-v1 g-pos-abs g-absolute-centered--y--md g-top-100x g-top-50x--md g-width-50 g-height-50 g-rounded-50x g-font-size-12 g-color-white g-bg-white-opacity-0_4 g-bg-white-opacity-0_7--hover g-mt-30 g-mt-0--md"
@@ -691,7 +701,8 @@
                     <div class="js-slide">
                         <!-- Testimonial Block -->
                         <div class="text-center g-max-width-600 mx-auto">
-                            <img class="img-fluid" src="assets/img-temp/600x315/img1.jpg" alt="Image Description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/600x315/img1.jpg"
+                                alt="Image Description">
 
                             <div class="g-bg-white g-pa-30-50-40--sm g-pa-20">
                                 <h4 class="g-font-size-30 g-font-niconne g-mb-20">Monica and Eddie</h4>
@@ -712,7 +723,8 @@
                     <div class="js-slide">
                         <!-- Testimonial Block -->
                         <div class="text-center g-max-width-600 mx-auto">
-                            <img class="img-fluid" src="assets/img-temp/600x315/img2.jpg" alt="Image Description">
+                            <img class="img-fluid" src="onepages/wedding/assets/img-temp/600x315/img2.jpg"
+                                alt="Image Description">
 
                             <div class="g-bg-white g-pa-30-50-40--sm g-pa-20">
                                 <h4 class="g-font-size-30 g-font-niconne g-mb-20">Sofia and Carl</h4>
@@ -771,7 +783,8 @@
                             <!-- End Article Header -->
 
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/740x380/img1.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/wedding/assets/img-temp/740x380/img1.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -803,7 +816,8 @@
                             <!-- End Article Header -->
 
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/740x380/img2.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/wedding/assets/img-temp/740x380/img2.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -835,7 +849,8 @@
                             <!-- End Article Header -->
 
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/740x380/img3.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/wedding/assets/img-temp/740x380/img3.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -900,7 +915,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img1.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img1.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -926,7 +941,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img2.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img2.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -952,7 +967,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img3.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img3.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -978,7 +993,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img4.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img4.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -1004,7 +1019,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img5.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img5.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -1030,7 +1045,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img6.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img6.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -1056,7 +1071,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img7.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img7.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -1082,7 +1097,7 @@
                     <div class="js-slide g-px-7">
                         <!-- Article -->
                         <article class="g-transform-translate-y-5--hover g-transition-0_2 g-transition--ease-in">
-                            <img class="img-fluid w-100" src="assets/img-temp/540x400/img8.jpg"
+                            <img class="img-fluid w-100" src="onepages/wedding/assets/img-temp/540x400/img8.jpg"
                                 alt="Image description">
 
                             <div class="g-bg-white g-py-30 g-px-25">
@@ -1201,13 +1216,13 @@
                        ["", "labels", [{"visibility":"on"}]],
                        ["water", "", [{"color":"#f7f4f4"}]]
                      ]'
-                                data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                                data-pin="true" data-pin-icon="onepages/wedding/assets/img/pin.png"></div>
                         </div>
                         <!-- End Google (Map) [custom] -->
                     </div>
 
                     <div class="col-md-6 col-lg-8 g-bg-img-hero px-0"
-                        style="background-image: url(assets/img-temp/975x650/img1.jpg);">
+                        style="background-image: url(onepages/wedding/assets/img-temp/975x650/img1.jpg);">
                         <div class="row h-100 mx-0">
                             <div class="col-lg-6 d-flex g-bg-primary-opacity-0_8 g-px-40 g-py-20">
                                 <div class="align-self-center w-100">
@@ -1262,7 +1277,7 @@
                         <div class="row no-gutters">
                             <div class="col-6 g-pos-rel">
                                 <a class="d-block g-color-white" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img1.jpg"
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img1.jpg"
                                         alt="Image description">
 
                                     <div
@@ -1281,7 +1296,7 @@
 
                             <div class="col-6">
                                 <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img2.jpg"
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img2.jpg"
                                         alt="Image description">
                                 </a>
                             </div>
@@ -1292,32 +1307,14 @@
                         <div class="row no-gutters">
                             <div class="col-6">
                                 <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img3.jpg"
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img3.jpg"
                                         alt="Image description">
                                 </a>
                             </div>
 
                             <div class="col-6">
                                 <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img4.jpg"
-                                        alt="Image description">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-6 col-lg-3 px-0">
-                        <div class="row no-gutters">
-                            <div class="col-6">
-                                <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img5.jpg"
-                                        alt="Image description">
-                                </a>
-                            </div>
-
-                            <div class="col-6">
-                                <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img6.jpg"
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img4.jpg"
                                         alt="Image description">
                                 </a>
                             </div>
@@ -1328,14 +1325,32 @@
                         <div class="row no-gutters">
                             <div class="col-6">
                                 <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img7.jpg"
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img5.jpg"
                                         alt="Image description">
                                 </a>
                             </div>
 
                             <div class="col-6">
                                 <a class="d-block" href="#!">
-                                    <img class="img-fluid" src="assets/img-temp/350x350/img8.jpg"
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img6.jpg"
+                                        alt="Image description">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3 px-0">
+                        <div class="row no-gutters">
+                            <div class="col-6">
+                                <a class="d-block" href="#!">
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img7.jpg"
+                                        alt="Image description">
+                                </a>
+                            </div>
+
+                            <div class="col-6">
+                                <a class="d-block" href="#!">
+                                    <img class="img-fluid" src="onepages/wedding/assets/img-temp/350x350/img8.jpg"
                                         alt="Image description">
                                 </a>
                             </div>
@@ -1358,7 +1373,7 @@
 
                         <div class="col-md-4 text-center g-mb-30 g-mb-0--md">
                             <a class="d-inline-block" href="/">
-                                <img class="img-fluid" src="assets/img/logo.png" alt="Logo">
+                                <img class="img-fluid" src="onepages/wedding/assets/img/logo.png" alt="Logo">
                             </a>
                         </div>
 

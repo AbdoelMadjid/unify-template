@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Courses | Unify - Responsive Website Template</title>
 
@@ -31,7 +32,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-courses.css">
+    <link rel="stylesheet" href="onepages/courses/assets/css/styles.op-courses.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -49,7 +50,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-160 g-width-225--md"
-                                src="assets/img/logo-dark.png" alt="Logo">
+                                src="onepages/courses/assets/img/logo-dark.png" alt="Logo">
                         </a>
                         <!-- End Logo -->
 
@@ -156,7 +157,7 @@
                         <!-- Article -->
                         <article class="g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/695x1135/img1.jpg"
+                                <img class="img-fluid w-100" src="onepages/courses/assets/img-temp/695x1135/img1.jpg"
                                     alt="Image description">
                             </figure>
 
@@ -186,7 +187,7 @@
                         <!-- Article -->
                         <article class="g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/695x1135/img2.jpg"
+                                <img class="img-fluid w-100" src="onepages/courses/assets/img-temp/695x1135/img2.jpg"
                                     alt="Image description">
                             </figure>
 
@@ -216,7 +217,7 @@
                         <!-- Article -->
                         <article class="g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/695x1135/img3.jpg"
+                                <img class="img-fluid w-100" src="onepages/courses/assets/img-temp/695x1135/img3.jpg"
                                     alt="Image description">
                             </figure>
 
@@ -246,7 +247,7 @@
                         <!-- Article -->
                         <article class="g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/695x1135/img4.jpg"
+                                <img class="img-fluid w-100" src="onepages/courses/assets/img-temp/695x1135/img4.jpg"
                                     alt="Image description">
                             </figure>
 
@@ -276,7 +277,7 @@
                         <!-- Article -->
                         <article class="g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after">
-                                <img class="img-fluid w-100" src="assets/img-temp/695x1135/img5.jpg"
+                                <img class="img-fluid w-100" src="onepages/courses/assets/img-temp/695x1135/img5.jpg"
                                     alt="Image description">
                             </figure>
 
@@ -328,7 +329,7 @@
                             <a class="js-fancybox-media col-md-7 g-pos-rel" href="javascript:;"
                                 data-src="//vimeo.com/20924263" data-animate-in="fadeIn" data-animate-out="fadeOut"
                                 data-speed="1000">
-                                <img class="img-fluid" src="assets/img-temp/837x483/img1.jpg"
+                                <img class="img-fluid" src="onepages/courses/assets/img-temp/837x483/img1.jpg"
                                     alt="Image description">
                                 <i class="fa fa-play fa-3x g-absolute-centered g-color-primary"></i>
                             </a>
@@ -340,7 +341,8 @@
                     </div>
 
                     <div class="col-md-6">
-                        <img class="img-fluid" src="assets/img-temp/1158x764/img1.jpg" alt="Image description">
+                        <img class="img-fluid" src="onepages/courses/assets/img-temp/1158x764/img1.jpg"
+                            alt="Image description">
                     </div>
                 </div>
             </div>
@@ -348,7 +350,8 @@
         <!-- End Section Content -->
 
         <!-- Section Content -->
-        <section id="ourCourses" class="g-py-100" style="background-image: url(assets/img/pattern1.png);">
+        <section id="ourCourses" class="g-py-100"
+            style="background-image: url(onepages/courses/assets/img/pattern1.png);">
             <div class="container g-max-width-750 g-mb-80">
                 <div class="text-uppercase text-center u-heading-v2-5--top g-brd-primary">
                     <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-12 g-color-gray-dark-v5 g-mb-10">Our
@@ -384,7 +387,8 @@
                         <article class="info-v5-3 g-parent g-pos-rel">
                             <!-- Article Image -->
                             <div class="g-bg-cover g-bg-black-opacity-0_4--after">
-                                <img class="w-100" src="assets/img-temp/963x1227/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/courses/assets/img-temp/963x1227/img1.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -439,7 +443,8 @@
                         <article class="info-v5-3 g-parent g-pos-rel">
                             <!-- Article Image -->
                             <div class="g-bg-cover g-bg-black-opacity-0_4--after">
-                                <img class="w-100" src="assets/img-temp/963x1227/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/courses/assets/img-temp/963x1227/img2.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -494,7 +499,8 @@
                         <article class="info-v5-3 g-parent g-pos-rel">
                             <!-- Article Image -->
                             <div class="g-bg-cover g-bg-black-opacity-0_4--after">
-                                <img class="w-100" src="assets/img-temp/642x818/img1.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/courses/assets/img-temp/642x818/img1.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -549,7 +555,8 @@
                         <article class="info-v5-3 g-parent g-pos-rel">
                             <!-- Article Image -->
                             <div class="g-bg-cover g-bg-black-opacity-0_4--after">
-                                <img class="w-100" src="assets/img-temp/642x818/img2.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/courses/assets/img-temp/642x818/img2.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -604,7 +611,8 @@
                         <article class="info-v5-3 g-parent g-pos-rel">
                             <!-- Article Image -->
                             <div class="g-bg-cover g-bg-black-opacity-0_4--after">
-                                <img class="w-100" src="assets/img-temp/642x818/img3.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/courses/assets/img-temp/642x818/img3.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -659,7 +667,8 @@
                         <article class="info-v5-3 g-parent g-pos-rel">
                             <!-- Article Image -->
                             <div class="g-bg-cover g-bg-black-opacity-0_4--after">
-                                <img class="w-100" src="assets/img-temp/642x818/img4.jpg" alt="Image description">
+                                <img class="w-100" src="onepages/courses/assets/img-temp/642x818/img4.jpg"
+                                    alt="Image description">
                             </div>
                             <!-- End Article Image -->
 
@@ -843,7 +852,8 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-4 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1413x837/img1.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/courses/assets/img-temp/1413x837/img1.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-10 g-pa-30--md g-transition-0_3 g-transition--ease-in">
@@ -864,7 +874,8 @@
 
                     <div class="col-md-6 col-lg-4 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1413x837/img2.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/courses/assets/img-temp/1413x837/img2.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-10 g-pa-30--md g-transition-0_3 g-transition--ease-in">
@@ -885,7 +896,8 @@
 
                     <div class="col-md-6 col-lg-4 g-mb-30">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1413x837/img3.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/courses/assets/img-temp/1413x837/img3.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-10 g-pa-30--md g-transition-0_3 g-transition--ease-in">
@@ -906,7 +918,8 @@
 
                     <div class="col-md-6 col-lg-4 g-mb-30 g-mb-0--lg">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1413x837/img4.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/courses/assets/img-temp/1413x837/img4.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-10 g-pa-30--md g-transition-0_3 g-transition--ease-in">
@@ -927,7 +940,8 @@
 
                     <div class="col-md-6 col-lg-4 g-mb-30 g-mb-0--md">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1413x837/img5.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/courses/assets/img-temp/1413x837/img5.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -948,7 +962,8 @@
 
                     <div class="col-md-6 col-lg-4">
                         <div class="g-parent g-pos-rel g-overflow-hidden">
-                            <img class="img-fluid" src="assets/img-temp/1413x837/img6.jpg" alt="Image description">
+                            <img class="img-fluid" src="onepages/courses/assets/img-temp/1413x837/img6.jpg"
+                                alt="Image description">
 
                             <div
                                 class="g-pos-abs g-top-0 g-left-0 g-flex-middle w-100 h-100 opacity-0 g-opacity-1--parent-hover g-pa-30 g-transition-0_3 g-transition--ease-in">
@@ -972,7 +987,8 @@
         <!-- End Section Content -->
 
         <!-- Section Content -->
-        <section id="teachers" class="g-py-100" style="background-image: url(assets/img/pattern2.png);">
+        <section id="teachers" class="g-py-100"
+            style="background-image: url(onepages/courses/assets/img/pattern2.png);">
             <div class="container text-center g-max-width-750 g-mb-60">
                 <div class="text-uppercase u-heading-v2-5--top g-brd-white">
                     <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-12 g-color-white-opacity-0_8 g-mb-10">
@@ -1010,7 +1026,7 @@
                                 <!-- Figure -->
                                 <figure class="g-pos-rel g-mb-30">
                                     <!-- Figure Image -->
-                                    <img class="w-100" src="assets/img-temp/558x758/img1.jpg"
+                                    <img class="w-100" src="onepages/courses/assets/img-temp/558x758/img1.jpg"
                                         alt="Image Description">
                                     <!-- End Figure Image -->
 
@@ -1070,7 +1086,7 @@
                                 <!-- Figure -->
                                 <figure class="g-pos-rel g-mb-30">
                                     <!-- Figure Image -->
-                                    <img class="w-100" src="assets/img-temp/558x758/img2.jpg"
+                                    <img class="w-100" src="onepages/courses/assets/img-temp/558x758/img2.jpg"
                                         alt="Image Description">
                                     <!-- End Figure Image -->
 
@@ -1131,7 +1147,7 @@
                                 <!-- Figure -->
                                 <figure class="g-pos-rel g-mb-30">
                                     <!-- Figure Image -->
-                                    <img class="w-100" src="assets/img-temp/558x758/img3.jpg"
+                                    <img class="w-100" src="onepages/courses/assets/img-temp/558x758/img3.jpg"
                                         alt="Image Description">
                                     <!-- End Figure Image -->
 
@@ -1192,7 +1208,7 @@
                                 <!-- Figure -->
                                 <figure class="g-pos-rel g-mb-30">
                                     <!-- Figure Image -->
-                                    <img class="w-100" src="assets/img-temp/558x758/img4.jpg"
+                                    <img class="w-100" src="onepages/courses/assets/img-temp/558x758/img4.jpg"
                                         alt="Image Description">
                                     <!-- End Figure Image -->
 
@@ -1253,7 +1269,7 @@
                                 <!-- Figure -->
                                 <figure class="g-pos-rel g-mb-30">
                                     <!-- Figure Image -->
-                                    <img class="w-100" src="assets/img-temp/558x758/img5.jpg"
+                                    <img class="w-100" src="onepages/courses/assets/img-temp/558x758/img5.jpg"
                                         alt="Image Description">
                                     <!-- End Figure Image -->
 
@@ -1316,7 +1332,8 @@
         <!-- End Section Content -->
 
         <!-- Section Content -->
-        <section id="offers" class="g-py-100" style="background-image: url(assets/img/pattern1.png);">
+        <section id="offers" class="g-py-100"
+            style="background-image: url(onepages/courses/assets/img/pattern1.png);">
             <div class="container g-max-width-750 g-mb-60">
                 <div class="text-uppercase text-center u-heading-v2-5--top g-brd-primary">
                     <h2 class="u-heading-v2__title g-font-weight-700 g-font-size-12 g-color-gray-dark-v5 g-mb-10">Our
@@ -1540,84 +1557,84 @@
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img1.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img1.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img2.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img2.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img3.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img3.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img4.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img4.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img5.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img5.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img6.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img6.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img7.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img7.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img8.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img8.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img9.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img9.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img10.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img10.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img11.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img11.png" alt="Image Description">
                             </div>
                         </div>
 
                         <div class="col-sm-3 col-lg-2 px-0">
                             <div class="g-brd-left g-brd-bottom g-theme-brd-gray-light-v4 g-py-40">
                                 <img class="img-fluid g-width-100 g-opacity-0_8--hover g-transition-0_2"
-                                    src="assets/img-temp/250x200/img12.png" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/250x200/img12.png" alt="Image Description">
                             </div>
                         </div>
                     </div>
@@ -1648,7 +1665,7 @@
                         <article class="g-parent g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after g-overflow-hidden">
                                 <img class="img-fluid w-100 g-grayscale-100x g-grayscale-0--parent-hover g-transition-0_2 g-transition--ease-in"
-                                    src="assets/img-temp/1332x806/img1.jpg" alt="Image description">
+                                    src="onepages/courses/assets/img-temp/1332x806/img1.jpg" alt="Image description">
                             </figure>
 
                             <div
@@ -1676,7 +1693,7 @@
                         <article class="g-parent g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after g-overflow-hidden">
                                 <img class="img-fluid w-100 g-grayscale-100x g-grayscale-0--parent-hover g-transition-0_2 g-transition--ease-in"
-                                    src="assets/img-temp/1332x806/img2.jpg" alt="Image description">
+                                    src="onepages/courses/assets/img-temp/1332x806/img2.jpg" alt="Image description">
                             </figure>
 
                             <div
@@ -1704,7 +1721,7 @@
                         <article class="g-parent g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after g-overflow-hidden">
                                 <img class="img-fluid w-100 g-grayscale-100x g-grayscale-0--parent-hover g-transition-0_2 g-transition--ease-in"
-                                    src="assets/img-temp/1332x806/img3.jpg" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/1332x806/img3.jpg" alt="Image Description">
                             </figure>
 
                             <div
@@ -1730,7 +1747,7 @@
                         <article class="g-parent g-pos-rel">
                             <figure class="u-bg-overlay g-bg-black-opacity-0_5--after g-overflow-hidden">
                                 <img class="img-fluid w-100 g-grayscale-100x g-grayscale-0--parent-hover g-transition-0_2 g-transition--ease-in"
-                                    src="assets/img-temp/1332x806/img4.jpg" alt="Image Description">
+                                    src="onepages/courses/assets/img-temp/1332x806/img4.jpg" alt="Image Description">
                             </figure>
 
                             <div
@@ -1854,7 +1871,7 @@
                    ["", "labels", [{"visibility":"on"}]],
                    ["water", "", [{"color":"#c7eced"}]]
                  ]'
-                    data-pin="true" data-pin-icon="assets/img/pin.png"></div>
+                    data-pin="true" data-pin-icon="onepages/courses/assets/img/pin.png"></div>
             </div>
             <!-- End Google (Map) [custom] -->
 
@@ -1863,7 +1880,8 @@
                     <div class="row">
                         <div class="col-md-6 col-lg-3">
                             <a class="d-inline-block g-mb-20" href="/">
-                                <img class="img-fluid" src="assets/img/logo-light.png" alt="Logo">
+                                <img class="img-fluid" src="onepages/courses/assets/img/logo-light.png"
+                                    alt="Logo">
                             </a>
                             <p class="g-font-size-default g-color-white-opacity-0_9 g-mb-20">Lorem ipsum dolor sit
                                 amet, consectetur adipiscing elit. Proin vitae est lorem. Aenean imperdiet nisi a dolor
@@ -1896,8 +1914,8 @@
 
                             <article class="media g-mb-15">
                                 <a class="d-flex g-mr-10" href="#!">
-                                    <img class="img-fluid g-width-75 g-height-75" src="assets/img-temp/75x75/img1.jpg"
-                                        alt="Image Description">
+                                    <img class="img-fluid g-width-75 g-height-75"
+                                        src="onepages/courses/assets/img-temp/75x75/img1.jpg" alt="Image Description">
                                 </a>
 
                                 <div class="media-body d-flex align-self-center">
@@ -1914,8 +1932,8 @@
 
                             <article class="media mb-0">
                                 <a class="d-flex g-mr-10" href="#!">
-                                    <img class="img-fluid g-width-75 g-height-75" src="assets/img-temp/75x75/img2.jpg"
-                                        alt="Image description">
+                                    <img class="img-fluid g-width-75 g-height-75"
+                                        src="onepages/courses/assets/img-temp/75x75/img2.jpg" alt="Image description">
                                 </a>
 
                                 <div class="media-body d-flex align-self-center">
@@ -1977,37 +1995,43 @@
                                 <div class="col-6 col-md-4 g-overflow-hidden g-px-5 g-mb-10">
                                     <a class="d-block u-block-hover" href="#!">
                                         <img class="w-100 u-block-hover__main--grayscale"
-                                            src="assets/img-temp/100x100/img1.jpg" alt="Image description">
+                                            src="onepages/courses/assets/img-temp/100x100/img1.jpg"
+                                            alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 g-overflow-hidden g-px-5 g-mb-10">
                                     <a class="d-block u-block-hover" href="#!">
                                         <img class="w-100 u-block-hover__main--grayscale"
-                                            src="assets/img-temp/100x100/img2.jpg" alt="Image description">
+                                            src="onepages/courses/assets/img-temp/100x100/img2.jpg"
+                                            alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 g-overflow-hidden g-px-5 g-mb-10">
                                     <a class="d-block u-block-hover" href="#!">
                                         <img class="w-100 u-block-hover__main--grayscale"
-                                            src="assets/img-temp/100x100/img3.jpg" alt="Image description">
+                                            src="onepages/courses/assets/img-temp/100x100/img3.jpg"
+                                            alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 g-overflow-hidden g-px-5 g-mb-10">
                                     <a class="d-block u-block-hover" href="#!">
                                         <img class="w-100 u-block-hover__main--grayscale"
-                                            src="assets/img-temp/100x100/img4.jpg" alt="Image description">
+                                            src="onepages/courses/assets/img-temp/100x100/img4.jpg"
+                                            alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 g-overflow-hidden g-px-5 g-mb-10">
                                     <a class="d-block u-block-hover" href="#!">
                                         <img class="w-100 u-block-hover__main--grayscale"
-                                            src="assets/img-temp/100x100/img5.jpg" alt="Image description">
+                                            src="onepages/courses/assets/img-temp/100x100/img5.jpg"
+                                            alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-6 col-md-4 g-overflow-hidden g-px-5 g-mb-10">
                                     <a class="d-block u-block-hover" href="#!">
                                         <img class="w-100 u-block-hover__main--grayscale"
-                                            src="assets/img-temp/100x100/img6.jpg" alt="Image description">
+                                            src="onepages/courses/assets/img-temp/100x100/img6.jpg"
+                                            alt="Image description">
                                     </a>
                                 </div>
                             </div>

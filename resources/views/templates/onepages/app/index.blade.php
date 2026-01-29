@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>App | Unify - Responsive Website Template</title>
 
@@ -33,7 +34,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-app.css">
+    <link rel="stylesheet" href="onepages/app/assets/css/styles.op-app.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -50,7 +51,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-130"
-                                src="assets/img/logo.png" alt="Image description">
+                                src="onepages/app/assets/img/logo.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -144,8 +145,8 @@
                     </div>
 
                     <div class="col-md-6 col-lg-6 g-overflow-hidden">
-                        <img class="img-fluid" src="assets/img-temp/mockups/mockup1.png" alt="Image description"
-                            data-animation="slideInUp">
+                        <img class="img-fluid" src="onepages/app/assets/img-temp/mockups/mockup1.png"
+                            alt="Image description" data-animation="slideInUp">
                     </div>
                 </div>
             </div>
@@ -172,7 +173,7 @@
                         <article class="u-block-hover">
                             <figure class="g-overflow-hidden">
                                 <img class="img-fluid u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/800x466/img1.jpg" alt="Image description">
+                                    src="onepages/app/assets/img-temp/800x466/img1.jpg" alt="Image description">
                             </figure>
 
                             <div class="g-color-white g-py-40 g-px-30">
@@ -191,7 +192,7 @@
                         <article class="u-block-hover">
                             <figure class="g-overflow-hidden">
                                 <img class="img-fluid u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/800x466/img2.jpg" alt="Image description">
+                                    src="onepages/app/assets/img-temp/800x466/img2.jpg" alt="Image description">
                             </figure>
 
                             <div class="g-color-white g-py-40 g-px-30">
@@ -210,7 +211,7 @@
                         <article class="u-block-hover">
                             <figure class="g-overflow-hidden">
                                 <img class="img-fluid u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/800x466/img3.jpg" alt="Image description">
+                                    src="onepages/app/assets/img-temp/800x466/img3.jpg" alt="Image description">
                             </figure>
 
                             <div class="g-color-white g-py-40 g-px-30">
@@ -229,7 +230,7 @@
                         <article class="u-block-hover">
                             <figure class="g-overflow-hidden">
                                 <img class="img-fluid u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/800x466/img4.jpg" alt="Image description">
+                                    src="onepages/app/assets/img-temp/800x466/img4.jpg" alt="Image description">
                             </figure>
 
                             <div class="g-color-white g-py-40 g-px-30">
@@ -352,7 +353,7 @@
             data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
             <!-- Parallax Image -->
             <div class="divimage dzsparallaxer--target w-100 u-bg-overlay g-bg-black-opacity-0_5--after"
-                style="height: 140%; background-image: url(assets/img-temp/1400x700/img1.jpg)"></div>
+                style="height: 140%; background-image: url(onepages/app/assets/img-temp/1400x700/img1.jpg)"></div>
             <!-- End Parallax Image -->
 
             <div class="text-center d-flex g-height-100vh">
@@ -415,9 +416,9 @@
                }]'>
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img1.jpg" data-title="Custom Title 1"
+                            href="onepages/app/assets/img-temp/270x481/img1.jpg" data-title="Custom Title 1"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img1.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img1.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -432,9 +433,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img2.jpg" data-title="Custom Title 2"
+                            href="onepages/app/assets/img-temp/270x481/img2.jpg" data-title="Custom Title 2"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img2.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img2.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -449,9 +450,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img3.jpg" data-title="Custom Title 3"
+                            href="onepages/app/assets/img-temp/270x481/img3.jpg" data-title="Custom Title 3"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img3.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img3.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -466,9 +467,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img4.jpg" data-title="Custom Title 4"
+                            href="onepages/app/assets/img-temp/270x481/img4.jpg" data-title="Custom Title 4"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img4.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img4.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -483,9 +484,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img5.jpg" data-title="Custom Title 5"
+                            href="onepages/app/assets/img-temp/270x481/img5.jpg" data-title="Custom Title 5"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img5.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img5.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -500,9 +501,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img6.jpg" data-title="Custom Title 6"
+                            href="onepages/app/assets/img-temp/270x481/img6.jpg" data-title="Custom Title 6"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img6.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img6.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -517,9 +518,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img7.jpg" data-title="Custom Title 7"
+                            href="onepages/app/assets/img-temp/270x481/img7.jpg" data-title="Custom Title 7"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img7.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img7.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -534,9 +535,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img8.jpg" data-title="Custom Title 8"
+                            href="onepages/app/assets/img-temp/270x481/img8.jpg" data-title="Custom Title 8"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img8.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img8.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -551,9 +552,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img9.jpg" data-title="Custom Title 9"
+                            href="onepages/app/assets/img-temp/270x481/img9.jpg" data-title="Custom Title 9"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img9.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img9.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -568,9 +569,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img10.jpg" data-title="Custom Title 10"
+                            href="onepages/app/assets/img-temp/270x481/img10.jpg" data-title="Custom Title 10"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img10.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img10.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -585,9 +586,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img11.jpg" data-title="Custom Title 11"
+                            href="onepages/app/assets/img-temp/270x481/img11.jpg" data-title="Custom Title 11"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img11.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img11.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -602,9 +603,9 @@
 
                     <div class="js-slide text-center g-px-15">
                         <a class="cbp-lightbox d-inline-block g-pos-rel g-parent"
-                            href="assets/img-temp/270x481/img12.jpg" data-title="Custom Title 12"
+                            href="onepages/app/assets/img-temp/270x481/img12.jpg" data-title="Custom Title 12"
                             data-cbp-lightbox="whatsNewCarousel">
-                            <img src="assets/img-temp/270x481/img12.jpg" alt="Image description">
+                            <img src="onepages/app/assets/img-temp/270x481/img12.jpg" alt="Image description">
 
                             <div
                                 class="cbp-caption-activeWrap g-pos-abs g-top-0 g-left-0 w-100 h-100 opacity-0 g-opacity-1--parent-hover g-bg-primary-opacity-0_6 g-transition-0_2 g-transition--ease-in">
@@ -627,8 +628,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-5 text-center g-overflow-hidden g-mb-50 g-mb-0--md">
-                        <img class="img-fluid" src="assets/img-temp/mockups/mockup2.png" alt="Image description"
-                            data-animation="slideInLeft">
+                        <img class="img-fluid" src="onepages/app/assets/img-temp/mockups/mockup2.png"
+                            alt="Image description" data-animation="slideInLeft">
                     </div>
 
                     <div class="col-md-7 d-flex text-center text-md-left">
@@ -817,8 +818,8 @@
                     </div>
 
                     <div class="col-lg-5 text-center g-overflow-hidden">
-                        <img class="img-fluid" src="assets/img-temp/mockups/mockup3.png" alt="Image description"
-                            data-animation="slideInUp">
+                        <img class="img-fluid" src="onepages/app/assets/img-temp/mockups/mockup3.png"
+                            alt="Image description" data-animation="slideInUp">
                     </div>
                 </div>
             </div>
@@ -847,9 +848,9 @@
                     <div class="js-slide">
                         <div class="container text-center g-max-width-750">
                             <div class="g-mb-20">
-                                <img class="d-inline-block" src="assets/img-temp/mockups/mockup5.png"
+                                <img class="d-inline-block" src="onepages/app/assets/img-temp/mockups/mockup5.png"
                                     alt="Image description">
-                                <img class="d-inline-block" src="assets/img-temp/mockups/mockup6.png"
+                                <img class="d-inline-block" src="onepages/app/assets/img-temp/mockups/mockup6.png"
                                     alt="Image description">
                             </div>
 
@@ -864,9 +865,9 @@
                     <div class="js-slide">
                         <div class="container text-center g-max-width-750">
                             <div class="g-mb-20">
-                                <img class="d-inline-block" src="assets/img-temp/mockups/mockup5.png"
+                                <img class="d-inline-block" src="onepages/app/assets/img-temp/mockups/mockup5.png"
                                     alt="Image description">
-                                <img class="d-inline-block" src="assets/img-temp/mockups/mockup6.png"
+                                <img class="d-inline-block" src="onepages/app/assets/img-temp/mockups/mockup6.png"
                                     alt="Image description">
                             </div>
 
@@ -883,9 +884,9 @@
                     <div class="js-slide">
                         <div class="container text-center g-max-width-750">
                             <div class="g-mb-20">
-                                <img class="d-inline-block" src="assets/img-temp/mockups/mockup5.png"
+                                <img class="d-inline-block" src="onepages/app/assets/img-temp/mockups/mockup5.png"
                                     alt="Image description">
-                                <img class="d-inline-block" src="assets/img-temp/mockups/mockup6.png"
+                                <img class="d-inline-block" src="onepages/app/assets/img-temp/mockups/mockup6.png"
                                     alt="Image description">
                             </div>
 
@@ -948,10 +949,10 @@
                  {"width": 320, "cols": 1}
                ]'>
                     <div class="cbp-item home">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img1.jpg"
-                            data-title="Custom Title 1">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img1.jpg" data-title="Custom Title 1">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img1.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img1.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -965,10 +966,10 @@
                     </div>
 
                     <div class="cbp-item home">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img2.jpg"
-                            data-title="Custom Title 2">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img2.jpg" data-title="Custom Title 2">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img2.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img2.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -982,10 +983,10 @@
                     </div>
 
                     <div class="cbp-item login">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img3.jpg"
-                            data-title="Custom Title 3">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img3.jpg" data-title="Custom Title 3">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img3.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img3.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -999,10 +1000,10 @@
                     </div>
 
                     <div class="cbp-item login">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img4.jpg"
-                            data-title="Custom Title 4">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img4.jpg" data-title="Custom Title 4">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img4.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img4.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1016,10 +1017,10 @@
                     </div>
 
                     <div class="cbp-item sign-up">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img5.jpg"
-                            data-title="Custom Title 1">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img5.jpg" data-title="Custom Title 1">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img5.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img5.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1033,10 +1034,10 @@
                     </div>
 
                     <div class="cbp-item sign-up">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img6.jpg"
-                            data-title="Custom Title 2">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img6.jpg" data-title="Custom Title 2">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img6.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img6.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1050,10 +1051,10 @@
                     </div>
 
                     <div class="cbp-item calender">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img7.jpg"
-                            data-title="Custom Title 3">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img7.jpg" data-title="Custom Title 3">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img7.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img7.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1067,10 +1068,10 @@
                     </div>
 
                     <div class="cbp-item calender">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img8.jpg"
-                            data-title="Custom Title 4">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img8.jpg" data-title="Custom Title 4">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img8.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img8.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1084,10 +1085,10 @@
                     </div>
 
                     <div class="cbp-item list">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img9.jpg"
-                            data-title="Custom Title 1">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img9.jpg" data-title="Custom Title 1">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img9.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img9.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1101,10 +1102,10 @@
                     </div>
 
                     <div class="cbp-item list">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img10.jpg"
-                            data-title="Custom Title 2">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img10.jpg" data-title="Custom Title 2">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img10.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img10.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1118,10 +1119,10 @@
                     </div>
 
                     <div class="cbp-item calender">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img11.jpg"
-                            data-title="Custom Title 3">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img11.jpg" data-title="Custom Title 3">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img11.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img11.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1135,10 +1136,10 @@
                     </div>
 
                     <div class="cbp-item sign-up">
-                        <a class="cbp-caption cbp-lightbox d-block" href="assets/img-temp/270x481/img12.jpg"
-                            data-title="Custom Title 4">
+                        <a class="cbp-caption cbp-lightbox d-block"
+                            href="onepages/app/assets/img-temp/270x481/img12.jpg" data-title="Custom Title 4">
                             <div class="cbp-caption-defaultWrap">
-                                <img src="assets/img-temp/270x481/img12.jpg" alt="Image description">
+                                <img src="onepages/app/assets/img-temp/270x481/img12.jpg" alt="Image description">
                             </div>
 
                             <div class="cbp-caption-activeWrap g-bg-primary-opacity-0_6">
@@ -1182,7 +1183,7 @@
             </div>
 
             <div class="container text-center g-overflow-hidden">
-                <img class="img-fluid" src="assets/img-temp/mockups/mockup4.png" alt="Image description"
+                <img class="img-fluid" src="onepages/app/assets/img-temp/mockups/mockup4.png" alt="Image description"
                     data-animation="slideInUp">
             </div>
         </section>

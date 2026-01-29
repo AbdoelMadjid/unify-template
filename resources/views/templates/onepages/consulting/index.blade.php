@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Consulting | Unify - Responsive Website Template</title>
 
@@ -34,7 +35,7 @@
     <link rel="stylesheet" href="assets/vendor/fancybox/jquery.fancybox.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-consulting.css">
+    <link rel="stylesheet" href="onepages/consulting/assets/css/styles.op-consulting.css">
 
     <!-- Revolution Slider -->
     <link rel="stylesheet"
@@ -61,9 +62,9 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-90"
-                                src="assets/img/logo.png" alt="Image description">
-                            <img class="u-header__logo-img g-width-90" src="assets/img/logo-dark.png"
-                                alt="Image description">
+                                src="onepages/consulting/assets/img/logo.png" alt="Image description">
+                            <img class="u-header__logo-img g-width-90"
+                                src="onepages/consulting/assets/img/logo-dark.png" alt="Image description">
                         </a>
                         <!-- End Logo -->
 
@@ -132,7 +133,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                             data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/img-temp/1920x1080/img1.jpg" alt=""
+                            <img src="onepages/consulting/assets/img-temp/1920x1080/img1.jpg" alt=""
                                 data-bgposition="center center" data-bgfit="cover" class="rev-slidebg">
                             <!-- LAYERS -->
 
@@ -239,7 +240,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                             data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/img-temp/1920x1080/img2.jpg" alt=""
+                            <img src="onepages/consulting/assets/img-temp/1920x1080/img2.jpg" alt=""
                                 data-bgposition="center center" data-bgfit="cover" class="rev-slidebg">
                             <!-- LAYERS -->
 
@@ -345,7 +346,7 @@
                             data-param3="" data-param4="" data-param5="" data-param6="" data-param7=""
                             data-param8="" data-param9="" data-param10="" data-description="">
                             <!-- MAIN IMAGE -->
-                            <img src="assets/img-temp/1920x1080/img3.jpg" alt=""
+                            <img src="onepages/consulting/assets/img-temp/1920x1080/img3.jpg" alt=""
                                 data-bgposition="center center" data-bgfit="cover" class="rev-slidebg">
                             <!-- LAYERS -->
 
@@ -545,7 +546,8 @@
                 <!-- End Icon Blocks -->
 
                 <!-- Mockup Image -->
-                <img class="img-fluid w-100" src="assets/img-temp/1445x750/img1.png" alt="Image Description">
+                <img class="img-fluid w-100" src="onepages/consulting/assets/img-temp/1445x750/img1.png"
+                    alt="Image Description">
                 <!-- End Mockup Image -->
 
                 <div class="g-pt-100 g-pb-70">
@@ -620,8 +622,8 @@
                         </div>
 
                         <div class="col-lg-6 g-pos-abs--lg g-top-0--lg g-right-0--lg g-mb-30">
-                            <img class="w-100 g-width-auto--lg" src="assets/img-temp/900x535/img1.png"
-                                alt="Image Description">
+                            <img class="w-100 g-width-auto--lg"
+                                src="onepages/consulting/assets/img-temp/900x535/img1.png" alt="Image Description">
                         </div>
                     </div>
                     <!-- End Vision & Mission -->
@@ -634,7 +636,8 @@
         <div class="dzsparallaxer auto-init height-is-based-on-content use-loading"
             data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
             <div class="divimage dzsparallaxer--target w-100 g-bg-size-cover g-bg-img-hero g-bg-cover g-bg-black-opacity-0_6--after"
-                style="height: 130%; background-image: url(assets/img-temp/1920x1080/img5.jpg);"></div>
+                style="height: 130%; background-image: url(onepages/consulting/assets/img-temp/1920x1080/img5.jpg);">
+            </div>
 
             <div class="container text-center g-pos-rel g-z-index-1 g-py-100">
                 <blockquote
@@ -668,7 +671,7 @@
                     <!-- Team -->
                     <div class="text-center">
                         <img class="u-shadow-v29 g-width-110 g-height-110 rounded-circle mb-5"
-                            src="assets/img-temp/200x200/img1.jpg" alt="Image Description">
+                            src="onepages/consulting/assets/img-temp/200x200/img1.jpg" alt="Image Description">
                         <h4 class="h5 g-font-weight-600 mb-1">Alex Taylor</h4>
                         <span class="d-block g-color-primary">Founder</span>
                         <hr class="g-brd-gray-light-v4 g-my-15">
@@ -682,7 +685,7 @@
                     <!-- Team -->
                     <div class="text-center">
                         <img class="u-shadow-v29 g-width-110 g-height-110 rounded-circle mb-5"
-                            src="assets/img-temp/200x200/img3.jpg" alt="Image Description">
+                            src="onepages/consulting/assets/img-temp/200x200/img3.jpg" alt="Image Description">
                         <h4 class="h5 g-font-weight-600 mb-1">Kate Metu</h4>
                         <span class="d-block g-color-primary">Manager</span>
                         <hr class="g-brd-gray-light-v4 g-my-15">
@@ -696,7 +699,7 @@
                     <!-- Team -->
                     <div class="text-center">
                         <img class="u-shadow-v29 g-width-110 g-height-110 rounded-circle mb-5"
-                            src="assets/img-temp/200x200/img4.jpg" alt="Image Description">
+                            src="onepages/consulting/assets/img-temp/200x200/img4.jpg" alt="Image Description">
                         <h4 class="h5 g-font-weight-600 mb-1">Daniel Wearne</h4>
                         <span class="d-block g-color-primary">Developer</span>
                         <hr class="g-brd-gray-light-v4 g-my-15">
@@ -710,7 +713,7 @@
                     <!-- Team -->
                     <div class="text-center">
                         <img class="u-shadow-v29 g-width-110 g-height-110 rounded-circle mb-5"
-                            src="assets/img-temp/200x200/img2.jpg" alt="Image Description">
+                            src="onepages/consulting/assets/img-temp/200x200/img2.jpg" alt="Image Description">
                         <h4 class="h5 g-font-weight-600 mb-1">Tina Krueger</h4>
                         <span class="d-block g-color-primary">Designer</span>
                         <hr class="g-brd-gray-light-v4 g-my-15">
@@ -937,7 +940,8 @@
         <div class="dzsparallaxer auto-init height-is-based-on-content use-loading"
             data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
             <div class="divimage dzsparallaxer--target w-100 g-bg-size-cover g-bg-img-hero g-bg-cover g-bg-black-opacity-0_7--after"
-                style="height: 130%; background-image: url(assets/img-temp/1920x500/img2.jpg);"></div>
+                style="height: 130%; background-image: url(onepages/consulting/assets/img-temp/1920x500/img2.jpg);">
+            </div>
 
             <div class="container g-pt-100 g-pb-70">
                 <div class="row">
@@ -1022,7 +1026,7 @@
                 <div class="cbp-item identity design">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img1.jpg" alt="Image description">
+                            src="onepages/consulting/assets/img-temp/500x335/img1.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -1052,7 +1056,7 @@
                 <div class="cbp-item design">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img2.jpg" alt="Image description">
+                            src="onepages/consulting/assets/img-temp/500x335/img2.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -1082,7 +1086,7 @@
                 <div class="cbp-item identity">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img3.jpg" alt="Image description">
+                            src="onepages/consulting/assets/img-temp/500x335/img3.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -1112,7 +1116,7 @@
                 <div class="cbp-item design">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img4.jpg" alt="Image description">
+                            src="onepages/consulting/assets/img-temp/500x335/img4.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -1142,7 +1146,7 @@
                 <div class="cbp-item identity">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img5.jpg" alt="Image description">
+                            src="onepages/consulting/assets/img-temp/500x335/img5.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -1172,7 +1176,7 @@
                 <div class="cbp-item identity">
                     <div class="u-block-hover g-parent">
                         <img class="img-fluid g-transform-scale-1_1--parent-hover g-transition-0_5 g-transition--ease-in-out"
-                            src="assets/img-temp/500x335/img6.jpg" alt="Image description">
+                            src="onepages/consulting/assets/img-temp/500x335/img6.jpg" alt="Image description">
                         <div
                             class="d-flex w-100 h-100 g-bg-primary-opacity-0_6 opacity-0 g-opacity-1--parent-hover g-pos-abs g-top-0 g-left-0 g-transition-0_3 g-transition--ease-in u-block-hover__additional--fade u-block-hover__additional--fade-in g-pa-20">
                             <ul class="align-items-end flex-column list-inline mt-auto ml-auto mb-0">
@@ -1246,7 +1250,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5"
-                                data-bg-img-src="assets/img-temp/400x500/img1.jpg"></div>
+                                data-bg-img-src="onepages/consulting/assets/img-temp/400x500/img1.jpg"></div>
                         </article>
                         <!-- End Blog Grid Modern Blocks -->
                     </div>
@@ -1282,7 +1286,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5"
-                                data-bg-img-src="assets/img-temp/400x500/img2.jpg"></div>
+                                data-bg-img-src="onepages/consulting/assets/img-temp/400x500/img2.jpg"></div>
                         </article>
                         <!-- End Blog Grid Modern Blocks -->
                     </div>
@@ -1320,7 +1324,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5"
-                                data-bg-img-src="assets/img-temp/400x500/img3.jpg"></div>
+                                data-bg-img-src="onepages/consulting/assets/img-temp/400x500/img3.jpg"></div>
                         </article>
                         <!-- End Blog Grid Modern Blocks -->
                     </div>
@@ -1352,7 +1356,7 @@
                                 </div>
                             </div>
                             <div class="col-sm-6 g-bg-size-cover g-bg-pos-center g-min-height-300 g-rounded-right-5"
-                                data-bg-img-src="assets/img-temp/400x500/img4.jpg"></div>
+                                data-bg-img-src="onepages/consulting/assets/img-temp/400x500/img4.jpg"></div>
                         </article>
                         <!-- End Blog Grid Modern Blocks -->
                     </div>
@@ -1368,7 +1372,7 @@
 
         <!-- Clients -->
         <div class="container u-shadow-v29 g-bg-size-cover g-bg-img-hero g-bg-cover g-bg-black-opacity-0_5--after g-rounded-100 g-rounded-100--after g-mt-100 g-mb-10 g-py-60"
-            style="background-image: url(assets/img-temp/1920x500/img1.jpg);">
+            style="background-image: url(onepages/consulting/assets/img-temp/1920x500/img1.jpg);">
             <div class="js-carousel g-pos-rel g-z-index-1" data-infinite="true" data-autoplay="true"
                 data-lazy-load="ondemand" data-slides-show="6"
                 data-responsive='[{
@@ -1399,37 +1403,37 @@
              }]'>
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img1.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img1.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img2.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img2.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img3.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img3.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img4.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img4.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img5.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img5.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img7.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img7.png" alt="Image description">
                 </div>
 
                 <div class="js-slide u-block-hover">
                     <img class="mx-auto g-width-80 u-block-hover__main--white g-opacity-0_8 g-opacity-1--hover g-cursor-pointer"
-                        data-lazy="assets/img-temp/200x100/img8.png" alt="Image description">
+                        data-lazy="onepages/consulting/assets/img-temp/200x100/img8.png" alt="Image description">
                 </div>
             </div>
         </div>
@@ -1443,22 +1447,22 @@
                 data-nav-for="#carouselCus1">
                 <div class="js-slide d-flex text-center g-opacity-1 g-cursor-pointer g-px-13 g-py-50">
                     <img class="u-shadow-v22 u-carousel-indicators-v32-img g-width-40 g-height-40 g-brd-around g-brd-2 g-brd-transparent rounded-circle"
-                        src="assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                        src="onepages/consulting/assets/img-temp/100x100/img3.jpg" alt="Image Description">
                 </div>
 
                 <div class="js-slide d-flex text-center g-opacity-1 g-cursor-pointer g-px-13 g-py-50">
                     <img class="u-shadow-v22 u-carousel-indicators-v32-img g-width-40 g-height-40 g-brd-around g-brd-2 g-brd-transparent rounded-circle"
-                        src="assets/img-temp/100x100/img2.jpg" alt="Image Description">
+                        src="onepages/consulting/assets/img-temp/100x100/img2.jpg" alt="Image Description">
                 </div>
 
                 <div class="js-slide d-flex text-center g-opacity-1 g-cursor-pointer g-px-13 g-py-50">
                     <img class="u-shadow-v22 u-carousel-indicators-v32-img g-width-40 g-height-40 g-brd-around g-brd-2 g-brd-transparent rounded-circle"
-                        src="assets/img-temp/100x100/img1.jpg" alt="Image Description">
+                        src="onepages/consulting/assets/img-temp/100x100/img1.jpg" alt="Image Description">
                 </div>
 
                 <div class="js-slide d-flex text-center g-opacity-1 g-cursor-pointer g-px-13 g-py-50">
                     <img class="u-shadow-v22 u-carousel-indicators-v32-img g-width-40 g-height-40 g-brd-around g-brd-2 g-brd-transparent rounded-circle"
-                        src="assets/img-temp/100x100/img4.jpg" alt="Image Description">
+                        src="onepages/consulting/assets/img-temp/100x100/img4.jpg" alt="Image Description">
                 </div>
             </div>
 
@@ -1509,7 +1513,7 @@
         <footer id="contact-section" class="g-pos-rel">
             <!-- Content -->
             <div class="g-bg-size-cover g-bg-img-hero u-bg-overlay g-bg-black-opacity-0_7--after g-pt-120 g-pb-70"
-                style="background-image: url(assets/img-temp/1920x1080/img4.jpg);">
+                style="background-image: url(onepages/consulting/assets/img-temp/1920x1080/img4.jpg);">
                 <div class="container u-bg-overlay__inner">
                     <div class="row align-items-center">
                         <div class="col-md-4 g-mb-50">
@@ -1761,7 +1765,7 @@
                             hide_onmobile: true,
                             hide_under: 768,
                             hide_onleave: false,
-                            tmp: '<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div><div class="tp-arr-titleholder">{{ title }}</div></div>',
+                            tmp: '<div class="tp-arr-allwrapper"><div class="tp-arr-imgholder"></div><div class="tp-arr-titleholder">@{{ title }}</div></div>',
                             left: {
                                 h_align: "left",
                                 v_align: "center",

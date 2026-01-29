@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Music | Unify - Responsive Website Template</title>
 
@@ -32,7 +33,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-music.css">
+    <link rel="stylesheet" href="onepages/music/assets/css/styles.op-music.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -50,7 +51,7 @@
                         <!-- Logo -->
                         <a href="#!" class="js-go-to navbar-brand u-header__logo" data-type="static">
                             <img class="u-header__logo-img u-header__logo-img--main g-width-150"
-                                src="assets/img/logo.png" alt="Image Description">
+                                src="onepages/music/assets/img/logo.png" alt="Image Description">
                         </a>
                         <!-- End Logo -->
 
@@ -119,7 +120,7 @@
                 data-arrow-left-classes="fa fa-chevron-left g-mr-63--md"
                 data-arrow-right-classes="fa fa-chevron-right g-ml-43 g-ml-0--md">
                 <div class="js-slide d-flex align-items-center u-bg-overlay g-height-100vh g-min-height-600 g-bg-img-hero g-bg-black-opacity-0_7--after"
-                    style="background-image: url(assets/img-temp/1400x891/img1.jpg);">
+                    style="background-image: url(onepages/music/assets/img-temp/1400x891/img1.jpg);">
                     <div class="u-bg-overlay__inner">
                         <div class="u-heading-v4-1 g-max-width-645 g-brd-7 g-brd-primary py-0 g-pl-30">
                             <h3
@@ -141,7 +142,7 @@
                         <div class="container">
                             <div class="u-audio-v2">
                                 <audio class="js-audio" controls>
-                                    <source src="assets/audio/track2.mp3" type="audio/mp3">
+                                    <source src="onepages/music/assets/audio/track2.mp3" type="audio/mp3">
                                 </audio>
                             </div>
                         </div>
@@ -149,7 +150,7 @@
                 </div>
 
                 <div class="js-slide d-flex align-items-center u-bg-overlay g-height-100vh g-min-height-600 g-bg-img-hero g-bg-black-opacity-0_5--after"
-                    style="background-image: url(assets/img-temp/1400x891/img2.jpg);">
+                    style="background-image: url(onepages/music/assets/img-temp/1400x891/img2.jpg);">
                     <div class="u-bg-overlay__inner">
                         <div class="u-heading-v4-1 g-max-width-645 g-brd-7 g-brd-primary py-0 g-pl-30">
                             <h3
@@ -169,7 +170,7 @@
                         <div class="container">
                             <div class="u-audio-v2">
                                 <audio class="js-audio" controls>
-                                    <source src="assets/audio/track1.mp3" type="audio/mp3">
+                                    <source src="onepages/music/assets/audio/track1.mp3" type="audio/mp3">
                                 </audio>
                             </div>
                         </div>
@@ -220,7 +221,8 @@
                         <article class="u-block-hover u-block-hover--uncroped text-center">
                             <!-- Article Image -->
                             <a class="d-block u-block-hover__additional--jump g-mb-12" href="#!">
-                                <img class="w-100" src="assets/img-temp/370x233/img1.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/music/assets/img-temp/370x233/img1.jpg"
+                                    alt="Image Description">
                             </a>
                             <!-- End Article Image -->
 
@@ -242,7 +244,8 @@
                         <article class="u-block-hover u-block-hover--uncroped text-center">
                             <!-- Article Image -->
                             <a class="d-block u-block-hover__additional--jump g-mb-12" href="#!">
-                                <img class="w-100" src="assets/img-temp/370x233/img2.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/music/assets/img-temp/370x233/img2.jpg"
+                                    alt="Image Description">
                             </a>
                             <!-- End Article Image -->
 
@@ -264,7 +267,8 @@
                         <article class="u-block-hover u-block-hover--uncroped text-center">
                             <!-- Article Image -->
                             <a class="d-block u-block-hover__additional--jump g-mb-12" href="#!">
-                                <img class="w-100" src="assets/img-temp/370x233/img3.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/music/assets/img-temp/370x233/img3.jpg"
+                                    alt="Image Description">
                             </a>
                             <!-- End Article Image -->
 
@@ -286,7 +290,8 @@
                         <article class="u-block-hover u-block-hover--uncroped text-center">
                             <!-- Article Image -->
                             <a class="d-block u-block-hover__additional--jump g-mb-12" href="#!">
-                                <img class="w-100" src="assets/img-temp/370x233/img1.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/music/assets/img-temp/370x233/img1.jpg"
+                                    alt="Image Description">
                             </a>
                             <!-- End Article Image -->
 
@@ -308,7 +313,8 @@
                         <article class="u-block-hover u-block-hover--uncroped text-center">
                             <!-- Article Image -->
                             <a class="d-block u-block-hover__additional--jump g-mb-12" href="#!">
-                                <img class="w-100" src="assets/img-temp/370x233/img2.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/music/assets/img-temp/370x233/img2.jpg"
+                                    alt="Image Description">
                             </a>
                             <!-- End Article Image -->
 
@@ -330,7 +336,8 @@
                         <article class="u-block-hover u-block-hover--uncroped text-center">
                             <!-- Article Image -->
                             <a class="d-block u-block-hover__additional--jump g-mb-12" href="#!">
-                                <img class="w-100" src="assets/img-temp/370x233/img3.jpg" alt="Image Description">
+                                <img class="w-100" src="onepages/music/assets/img-temp/370x233/img3.jpg"
+                                    alt="Image Description">
                             </a>
                             <!-- End Article Image -->
 
@@ -354,7 +361,7 @@
         <!-- Section Content -->
         <section id="events"
             class="u-bg-overlay g-bg-img-hero g-bg-attachment-fixed g-bg-black-opacity-0_6--after g-py-100"
-            style="background-image: url(assets/img-temp/1400x588/img1.jpg);">
+            style="background-image: url(onepages/music/assets/img-temp/1400x588/img1.jpg);">
             <div class="container u-bg-overlay__inner">
                 <div class="container text-center g-width-780 g-mb-65">
                     <div class="u-heading-v2-2--bottom g-brd-primary">
@@ -465,8 +472,8 @@
 
                     <!-- Article Image -->
                     <a href="#!" class="d-md-table-cell g-valign-middle g-width-130">
-                        <img class="d-block info-v5-2__image g-ml-minus-1" src="assets/img-temp/600x600/img13.jpg"
-                            alt="Image description">
+                        <img class="d-block info-v5-2__image g-ml-minus-1"
+                            src="onepages/music/assets/img-temp/600x600/img13.jpg" alt="Image description">
                     </a>
                     <!-- End Article Image -->
 
@@ -514,8 +521,8 @@
 
                     <!-- Article Image -->
                     <a href="#!" class="d-md-table-cell g-valign-middle g-width-130">
-                        <img class="d-block info-v5-2__image g-ml-minus-1" src="assets/img-temp/600x600/img14.jpg"
-                            alt="Image description">
+                        <img class="d-block info-v5-2__image g-ml-minus-1"
+                            src="onepages/music/assets/img-temp/600x600/img14.jpg" alt="Image description">
                     </a>
                     <!-- End Article Image -->
 
@@ -563,8 +570,8 @@
 
                     <!-- Article Image -->
                     <a href="#!" class="d-md-table-cell g-valign-middle g-width-130">
-                        <img class="d-block info-v5-2__image g-ml-minus-1" src="assets/img-temp/600x600/img15.jpg"
-                            alt="Image description">
+                        <img class="d-block info-v5-2__image g-ml-minus-1"
+                            src="onepages/music/assets/img-temp/600x600/img15.jpg" alt="Image description">
                     </a>
                     <!-- End Article Image -->
 
@@ -612,8 +619,8 @@
 
                     <!-- Article Image -->
                     <a href="#!" class="d-md-table-cell g-valign-middle g-width-130">
-                        <img class="d-block info-v5-2__image g-ml-minus-1" src="assets/img-temp/600x600/img16.jpg"
-                            alt="Image description">
+                        <img class="d-block info-v5-2__image g-ml-minus-1"
+                            src="onepages/music/assets/img-temp/600x600/img16.jpg" alt="Image description">
                     </a>
                     <!-- End Article Image -->
 
@@ -653,7 +660,7 @@
         <!-- Section Content -->
         <section id="videos"
             class="u-bg-overlay g-bg-img-hero g-bg-attachment-fixed g-bg-black-opacity-0_6--after g-pt-100"
-            style="background-image: url(assets/img-temp/1900x645/img1.jpg);">
+            style="background-image: url(onepages/music/assets/img-temp/1900x645/img1.jpg);">
             <div class="js-carousel container u-bg-overlay__inner g-pb-140"
                 data-pagi-classes="u-carousel-indicators-v1--white g-absolute-centered--x g-bottom-40 text-center">
                 <div class="js-slide g-py-20">
@@ -767,7 +774,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img17.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img17.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -775,7 +783,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img18.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img18.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -783,7 +792,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img19.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img19.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -791,7 +801,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img20.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img20.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -799,7 +810,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img21.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img21.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -807,7 +819,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img22.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img22.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -815,7 +828,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img23.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img23.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -823,7 +837,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img24.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img24.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -831,7 +846,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img25.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img25.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -839,7 +855,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img26.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img26.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -847,7 +864,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img27.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img27.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -855,7 +873,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img28.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img28.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -863,7 +882,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img17.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img17.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -871,7 +891,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img18.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img18.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
                         </div>
@@ -885,7 +906,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img17.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img17.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -893,7 +915,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img18.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img18.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -901,7 +924,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img19.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img19.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -909,7 +933,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img20.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img20.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -917,7 +942,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img21.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img21.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -925,7 +951,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img22.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img22.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -933,7 +960,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img23.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img23.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -941,7 +969,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img24.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img24.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -949,7 +978,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img25.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img25.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -957,7 +987,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img26.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img26.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -965,7 +996,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img27.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img27.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -973,7 +1005,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img28.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img28.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -981,7 +1014,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img17.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img17.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
 
@@ -989,7 +1023,8 @@
                                 <div
                                     class="g-parent g-pos-rel g-brd-around g-theme-brd-gray-light-v4 g-overflow-hidden">
                                     <img class="img-fluid g-grayscale-100x g-grayscale-0--parent-hover g-transform-scale-0_85--parent-hover g-transition-0_2 g-transition--ease-in"
-                                        src="assets/img-temp/600x600/img18.jpg" alt="Image description">
+                                        src="onepages/music/assets/img-temp/600x600/img18.jpg"
+                                        alt="Image description">
                                 </div>
                             </div>
                         </div>
@@ -1002,7 +1037,7 @@
         <!-- Section Content -->
         <section id="twitterFeeds"
             class="u-bg-overlay g-bg-img-hero g-bg-attachment-fixed g-bg-black-opacity-0_6--after g-pt-100"
-            style="background-image: url(assets/img-temp/1900x645/img2.jpg);">
+            style="background-image: url(onepages/music/assets/img-temp/1900x645/img2.jpg);">
             <div class="js-carousel container u-bg-overlay__inner g-pb-120"
                 data-pagi-classes="u-carousel-indicators-v1 g-absolute-centered--x g-bottom-60 text-center">
                 <div class="js-slide">
@@ -1011,7 +1046,7 @@
                             <a class="media g-color-white g-color-primary--hover" href="#!">
                                 <div class="d-flex g-mr-20">
                                     <img class="g-brd-around g-brd-3 g-brd-white-opacity-0_3 g-rounded-50x"
-                                        src="assets/img-temp/50x50/img1.jpg" alt="Image descrition">
+                                        src="onepages/music/assets/img-temp/50x50/img1.jpg" alt="Image descrition">
                                 </div>
 
                                 <div class="media-body align-self-center">
@@ -1036,7 +1071,7 @@
                             <a class="media g-color-white g-color-primary--hover" href="#!">
                                 <div class="d-flex g-mr-20">
                                     <img class="g-brd-around g-brd-3 g-brd-white-opacity-0_3 g-rounded-50x"
-                                        src="assets/img-temp/50x50/img1.jpg" alt="Image descrition">
+                                        src="onepages/music/assets/img-temp/50x50/img1.jpg" alt="Image descrition">
                                 </div>
 
                                 <div class="media-body align-self-center">
@@ -1084,8 +1119,8 @@
                                     <!-- End Track Num -->
 
                                     <!-- Track Avatar -->
-                                    <img class="d-inline-block g-mr-25" src="assets/img-temp/38x38/img1.jpg"
-                                        alt="Image Description">
+                                    <img class="d-inline-block g-mr-25"
+                                        src="onepages/music/assets/img-temp/38x38/img1.jpg" alt="Image Description">
                                     <!-- End Track Avatar -->
                                     <!-- Track Title -->
                                     <h6 class="d-inline-block g-font-size-13 g-font-weight-700 g-color-black mb-0">
@@ -1124,7 +1159,7 @@
                             <div class="u-accordion__body p-0">
                                 <div class="u-audio-v2 g-bg-black-opacity-0_5">
                                     <audio class="js-audio" controls>
-                                        <source src="assets/audio/track1.mp3" type="audio/mp3">
+                                        <source src="onepages/music/assets/audio/track1.mp3" type="audio/mp3">
                                     </audio>
                                 </div>
                             </div>
@@ -1145,8 +1180,8 @@
                                     <!-- End Track Num -->
 
                                     <!-- Track Avatar -->
-                                    <img class="d-inline-block g-mr-25" src="assets/img-temp/38x38/img1.jpg"
-                                        alt="Image Description">
+                                    <img class="d-inline-block g-mr-25"
+                                        src="onepages/music/assets/img-temp/38x38/img1.jpg" alt="Image Description">
                                     <!-- End Track Avatar -->
                                     <!-- Track Title -->
                                     <h6 class="d-inline-block g-font-size-13 g-font-weight-700 g-color-black mb-0">
@@ -1185,7 +1220,7 @@
                             <div class="u-accordion__body p-0">
                                 <div class="u-audio-v2 g-bg-black-opacity-0_5">
                                     <audio class="js-audio" controls>
-                                        <source src="assets/audio/track2.mp3" type="audio/mp3">
+                                        <source src="onepages/music/assets/audio/track2.mp3" type="audio/mp3">
                                     </audio>
                                 </div>
                             </div>
@@ -1206,8 +1241,8 @@
                                     <!-- End Track Num -->
 
                                     <!-- Track Avatar -->
-                                    <img class="d-inline-block g-mr-25" src="assets/img-temp/38x38/img1.jpg"
-                                        alt="Image Description">
+                                    <img class="d-inline-block g-mr-25"
+                                        src="onepages/music/assets/img-temp/38x38/img1.jpg" alt="Image Description">
                                     <!-- End Track Avatar -->
                                     <!-- Track Title -->
                                     <h6 class="d-inline-block g-font-size-13 g-font-weight-700 g-color-black mb-0">A
@@ -1246,7 +1281,7 @@
                             <div class="u-accordion__body p-0">
                                 <div class="u-audio-v2 g-bg-black-opacity-0_5">
                                     <audio class="js-audio" controls>
-                                        <source src="assets/audio/track3.mp3" type="audio/mp3">
+                                        <source src="onepages/music/assets/audio/track3.mp3" type="audio/mp3">
                                     </audio>
                                 </div>
                             </div>
@@ -1259,7 +1294,7 @@
 
         <!-- Section Content -->
         <section id="blog" class="u-bg-overlay g-bg-img-hero g-bg-black-opacity-0_6--after g-py-100"
-            style="background-image: url(assets/img-temp/1900x1155/img1.jpg);">
+            style="background-image: url(onepages/music/assets/img-temp/1900x1155/img1.jpg);">
             <div class="container text-center u-bg-overlay__inner g-width-780 g-mb-65">
                 <div class="u-heading-v2-2--bottom g-brd-primary g-mb-30">
                     <h2
@@ -1280,7 +1315,8 @@
                             <!-- Article Image -->
                             <div class="col-sm-5 col-lg-12 g-px-0--sm">
                                 <div class="g-height-200 g-height-230--lg g-bg-size-cover"
-                                    style="background-image: url(assets/img-temp/870x428/img1.jpg);"></div>
+                                    style="background-image: url(onepages/music/assets/img-temp/870x428/img1.jpg);">
+                                </div>
                             </div>
                             <!-- End Article Image -->
 
@@ -1313,7 +1349,8 @@
                             <!-- Article Image -->
                             <div class="col-sm-5 g-px-0--sm">
                                 <div class="g-height-200 g-bg-size-cover"
-                                    style="background-image: url(assets/img-temp/870x428/img2.jpg);"></div>
+                                    style="background-image: url(onepages/music/assets/img-temp/870x428/img2.jpg);">
+                                </div>
                             </div>
                             <!-- End Article Image -->
 
@@ -1344,7 +1381,8 @@
                             <!-- Article Image -->
                             <div class="col-sm-5 g-px-0--sm">
                                 <div class="g-height-200 g-bg-size-cover"
-                                    style="background-image: url(assets/img-temp/870x428/img3.jpg);"></div>
+                                    style="background-image: url(onepages/music/assets/img-temp/870x428/img3.jpg);">
+                                </div>
                             </div>
                             <!-- End Article Image -->
 
@@ -1537,73 +1575,73 @@
                             <div class="row g-mx-minus-5 g-mx-minus-10--lg">
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img1.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img1.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img2.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img2.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img3.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img3.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img4.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img4.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img5.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img5.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img6.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img6.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img7.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img7.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img8.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img8.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img9.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img9.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img10.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img10.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img11.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img11.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>
                                 <div class="col-4 col-md-2 g-overflow-hidden g-px-5 g-px-10--lg g-mb-10 g-mb-20--lg">
                                     <a class="d-block u-block-hover--scale-down" href="#!">
-                                        <img class="w-100" src="assets/img-temp/600x600/img12.jpg"
+                                        <img class="w-100" src="onepages/music/assets/img-temp/600x600/img12.jpg"
                                             alt="Image description">
                                     </a>
                                 </div>

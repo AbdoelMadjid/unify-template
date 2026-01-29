@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Shipping | Unify - Responsive Website Template</title>
 
@@ -31,7 +32,7 @@
     <link rel="stylesheet" href="assets/vendor/cubeportfolio-full/cubeportfolio/css/cubeportfolio.min.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-shipping.css">
+    <link rel="stylesheet" href="onepages/shipping/assets/css/styles.op-shipping.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -50,7 +51,8 @@
                         <div class="col-6 col-sm-3 col-lg-2">
                             <!-- Logo -->
                             <a href="#!" class="js-go-to navbar-brand" data-type="static">
-                                <img class="img-fluid g-width-150" src="assets/img/logo.png" alt="Logo">
+                                <img class="img-fluid g-width-150" src="onepages/shipping/assets/img/logo.png"
+                                    alt="Logo">
                             </a>
                             <!-- End Logo -->
                         </div>
@@ -176,7 +178,7 @@
         <!-- Section Content -->
         <section id="home"
             class="u-bg-overlay g-height-100vh g-bg-img-hero g-bg-black-opacity-0_3--after g-py-20"
-            style="background-image: url(assets/img-temp/1732x1155/img1.jpg);">
+            style="background-image: url(onepages/shipping/assets/img-temp/1732x1155/img1.jpg);">
             <div class="u-bg-overlay__inner g-absolute-centered--y w-100">
                 <div class="container g-z-index-1 g-py-100">
                     <div class="row">
@@ -319,7 +321,7 @@
                             <figure
                                 class="u-bg-overlay g-bg-black-opacity-0_4--after g-overflow-hidden g-ml-minus-1--md g-mr-minus-1--md">
                                 <img class="img-fluid w-100 u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/600x400/img1.jpg" alt="Image description">
+                                    src="onepages/shipping/assets/img-temp/600x400/img1.jpg" alt="Image description">
                             </figure>
 
                             <div class="text-center g-pa-40">
@@ -343,7 +345,7 @@
                             <figure
                                 class="u-bg-overlay g-bg-black-opacity-0_4--after g-overflow-hidden g-ml-minus-1--md g-mr-minus-1--md">
                                 <img class="img-fluid w-100 u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/600x400/img2.jpg" alt="Image description">
+                                    src="onepages/shipping/assets/img-temp/600x400/img2.jpg" alt="Image description">
                             </figure>
 
                             <div class="text-center g-pa-40">
@@ -366,7 +368,7 @@
                             <figure
                                 class="u-bg-overlay g-bg-black-opacity-0_4--after g-overflow-hidden g-ml-minus-1--md g-mr-minus-1--md">
                                 <img class="img-fluid w-100 u-block-hover__main--zoom-v1"
-                                    src="assets/img-temp/600x400/img3.jpg" alt="Image description">
+                                    src="onepages/shipping/assets/img-temp/600x400/img3.jpg" alt="Image description">
                             </figure>
 
                             <div class="text-center g-pa-40">
@@ -405,7 +407,7 @@
                             <article
                                 class="h-100 text-center info-v3-3 g-parent g-bg-gray-light-v5 g-bg-cover g-bg-primary-opacity-0_6--after g-color-gray-dark-v3 g-color-white--hover g-py-30">
                                 <!-- Article Image -->
-                                <img class="info-v3-3__img" src="assets/img-temp/objects/img1.png"
+                                <img class="info-v3-3__img" src="onepages/shipping/assets/img-temp/objects/img1.png"
                                     alt="Image description">
                                 <!-- End Article Image -->
 
@@ -439,7 +441,7 @@
                             <article
                                 class="h-100 text-center info-v3-3 g-parent g-bg-gray-light-v5 g-bg-cover g-bg-primary-opacity-0_6--after g-color-gray-dark-v3 g-color-white--hover g-py-30">
                                 <!-- Article Image -->
-                                <img class="info-v3-3__img" src="assets/img-temp/objects/img2.png"
+                                <img class="info-v3-3__img" src="onepages/shipping/assets/img-temp/objects/img2.png"
                                     alt="Image description">
                                 <!-- End Article Image -->
 
@@ -473,7 +475,7 @@
                             <article
                                 class="h-100 text-center info-v3-3 g-parent g-bg-gray-light-v5 g-bg-cover g-bg-primary-opacity-0_6--after g-color-gray-dark-v3 g-color-white--hover g-py-30">
                                 <!-- Article Image -->
-                                <img class="info-v3-3__img" src="assets/img-temp/objects/img3.png"
+                                <img class="info-v3-3__img" src="onepages/shipping/assets/img-temp/objects/img3.png"
                                     alt="Image description">
                                 <!-- End Article Image -->
 
@@ -507,7 +509,7 @@
                             <article
                                 class="h-100 text-center info-v3-3 g-parent g-bg-gray-light-v5 g-bg-cover g-bg-primary-opacity-0_6--after g-color-gray-dark-v3 g-color-white--hover g-py-30">
                                 <!-- Article Image -->
-                                <img class="info-v3-3__img" src="assets/img-temp/objects/img4.png"
+                                <img class="info-v3-3__img" src="onepages/shipping/assets/img-temp/objects/img4.png"
                                     alt="Image description">
                                 <!-- End Article Image -->
 
@@ -544,7 +546,7 @@
 
         <!-- Section Content -->
         <section id="services" class="u-bg-overlay g-bg-img-hero g-bg-black-opacity-0_6--after g-py-85"
-            style="background-image: url(assets/img-temp/1732x1155/img2.jpg);">
+            style="background-image: url(onepages/shipping/assets/img-temp/1732x1155/img2.jpg);">
             <div class="container u-bg-overlay__inner g-width-760">
                 <div class="text-center mx-auto u-heading-v2-2--bottom g-brd-primary g-mb-70">
                     <h2
@@ -750,7 +752,7 @@
                 <div class="row no-gutters">
                     <div class="col-md-4">
                         <div class="g-bg-img-hero g-min-height-360 h-100"
-                            style="background-image: url(assets/img-temp/600x985/img1.jpg);"></div>
+                            style="background-image: url(onepages/shipping/assets/img-temp/600x985/img1.jpg);"></div>
                     </div>
 
                     <div class="col-md-8">
@@ -896,7 +898,8 @@
                         <article
                             class="text-center u-block-hover u-block-hover__additional--jump g-color-gray-dark-v3 g-bg-white">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x400/img3.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/shipping/assets/img-temp/600x400/img3.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -928,7 +931,8 @@
                         <article
                             class="text-center u-block-hover u-block-hover__additional--jump g-color-gray-dark-v3 g-bg-white">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x400/img4.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/shipping/assets/img-temp/600x400/img4.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -959,7 +963,8 @@
                         <article
                             class="text-center u-block-hover u-block-hover__additional--jump g-color-gray-dark-v3 g-bg-white">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x400/img5.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/shipping/assets/img-temp/600x400/img5.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -990,7 +995,8 @@
                         <article
                             class="text-center u-block-hover u-block-hover__additional--jump g-color-gray-dark-v3 g-bg-white">
                             <!-- Article Image -->
-                            <img class="w-100" src="assets/img-temp/600x400/img6.jpg" alt="Image description">
+                            <img class="w-100" src="onepages/shipping/assets/img-temp/600x400/img6.jpg"
+                                alt="Image description">
                             <!-- End Article Image -->
 
                             <!-- Article Content -->
@@ -1036,55 +1042,55 @@
                {"width": 320, "cols": 1}
              ]'>
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1732x1155/img3.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/shipping/assets/img-temp/1732x1155/img3.jpg"
                         data-title="Design Object">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/600x400/img7.jpg" alt="Image description">
+                            <img src="onepages/shipping/assets/img-temp/600x400/img7.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1732x1155/img4.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/shipping/assets/img-temp/1732x1155/img4.jpg"
                         data-title="Design Object">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/600x400/img8.jpg" alt="Image description">
+                            <img src="onepages/shipping/assets/img-temp/600x400/img8.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1732x1155/img5.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/shipping/assets/img-temp/1732x1155/img5.jpg"
                         data-title="Design Object">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/600x400/img9.jpg" alt="Image description">
+                            <img src="onepages/shipping/assets/img-temp/600x400/img9.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1732x1155/img6.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/shipping/assets/img-temp/1732x1155/img6.jpg"
                         data-title="Design Object">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/600x400/img10.jpg" alt="Image description">
+                            <img src="onepages/shipping/assets/img-temp/600x400/img10.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1732x1155/img7.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/shipping/assets/img-temp/1732x1155/img7.jpg"
                         data-title="Design Object">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/600x400/img11.jpg" alt="Image description">
+                            <img src="onepages/shipping/assets/img-temp/600x400/img11.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
 
                 <div class="cbp-item">
-                    <a class="cbp-caption cbp-lightbox" href="assets/img-temp/1732x1155/img8.jpg"
+                    <a class="cbp-caption cbp-lightbox" href="onepages/shipping/assets/img-temp/1732x1155/img8.jpg"
                         data-title="Design Object">
                         <div class="cbp-caption-defaultWrap">
-                            <img src="assets/img-temp/600x400/img12.jpg" alt="Image description">
+                            <img src="onepages/shipping/assets/img-temp/600x400/img12.jpg" alt="Image description">
                         </div>
                     </a>
                 </div>
@@ -1238,7 +1244,8 @@
                     </div>
 
                     <div class="col-lg-4 text-center g-order-1--lg">
-                        <img class="img-fluid" src="assets/img-temp/348x660/img1.png" alt="Image description">
+                        <img class="img-fluid" src="onepages/shipping/assets/img-temp/348x660/img1.png"
+                            alt="Image description">
                     </div>
                 </div>
             </div>
@@ -1248,7 +1255,7 @@
         <!-- Section Content -->
         <section id="testimonials">
             <div class="u-bg-overlay g-bg-img-hero g-bg-black-opacity-0_5--after g-py-90"
-                style="background-image: url(assets/img-temp/1920x1280/img1.jpg);">
+                style="background-image: url(onepages/shipping/assets/img-temp/1920x1280/img1.jpg);">
                 <div class="container u-bg-overlay__inner g-width-760">
                     <div class="text-center mx-auto u-heading-v2-2--bottom g-brd-primary g-mb-70">
                         <h2
@@ -1270,7 +1277,8 @@
                             <div class="media d-block d-md-flex">
                                 <div class="g-mb-30 g-mb-0--md g-pr-30--sm">
                                     <img class="img-fluid rounded-circle img-bordered g-brd-white mx-auto"
-                                        src="assets/img-temp/120x120/img1.jpg" alt="Image description">
+                                        src="onepages/shipping/assets/img-temp/120x120/img1.jpg"
+                                        alt="Image description">
                                 </div>
 
                                 <div class="media-body align-self-center text-sm-left text-center g-color-white">
@@ -1289,7 +1297,8 @@
                             <div class="media d-block d-md-flex">
                                 <div class="g-mb-30 g-mb-0--md g-pr-30--sm">
                                     <img class="img-fluid rounded-circle img-bordered g-brd-white mx-auto"
-                                        src="assets/img-temp/120x120/img2.jpg" alt="Image Description">
+                                        src="onepages/shipping/assets/img-temp/120x120/img2.jpg"
+                                        alt="Image Description">
                                 </div>
 
                                 <div class="media-body align-self-center text-center text-sm-left g-color-white">
@@ -1308,7 +1317,8 @@
                             <div class="media d-block d-md-flex">
                                 <div class="g-mb-30 g-mb-0--md g-pr-30--sm">
                                     <img class="img-fluid rounded-circle img-bordered g-brd-white mx-auto"
-                                        src="assets/img-temp/120x120/img3.jpg" alt="Image Description">
+                                        src="onepages/shipping/assets/img-temp/120x120/img3.jpg"
+                                        alt="Image Description">
                                 </div>
 
                                 <div class="media-body align-self-center text-center text-sm-left g-color-white">
@@ -1343,39 +1353,48 @@
                }
              }]'>
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img1.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img1.png"
+                        alt="Image description">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img2.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img2.png"
+                        alt="Image description">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img3.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img3.png"
+                        alt="Image description">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img4.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img4.png"
+                        alt="Image description">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img8.png" alt="ImagedDescription">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img8.png"
+                        alt="ImagedDescription">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img9.png" alt="ImagedDescription">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img9.png"
+                        alt="ImagedDescription">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img5.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img5.png"
+                        alt="Image description">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img6.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img6.png"
+                        alt="Image description">
                 </div>
 
                 <div class="js-slide g-brd-left g-brd-gray-light-v4 g-py-50">
-                    <img class="mx-auto g-width-120" src="assets/img-temp/250x200/img7.png" alt="Image description">
+                    <img class="mx-auto g-width-120" src="onepages/shipping/assets/img-temp/250x200/img7.png"
+                        alt="Image description">
                 </div>
             </div>
         </section>
@@ -1396,7 +1415,7 @@
                ["", "labels", [{"visibility":"on"}]],
                ["water", "", [{"color":"#cccccc"}]]
              ]'
-                data-pin="true" data-pin-icon="assets/img/pin.png">
+                data-pin="true" data-pin-icon="onepages/shipping/assets/img/pin.png">
             </div>
             <!-- End Google Map -->
 

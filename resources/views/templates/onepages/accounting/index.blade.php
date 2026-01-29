@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <base href="{{ url('/') }}/">
     <!-- Title -->
     <title>Accounting | Unify - Responsive Website Template</title>
 
@@ -29,7 +30,7 @@
     <link rel="stylesheet" href="assets/vendor/slick-carousel/slick/slick.css">
 
     <!-- CSS Template -->
-    <link rel="stylesheet" href="assets/css/styles.op-accounting.css">
+    <link rel="stylesheet" href="onepages/accounting/assets/css/styles.op-accounting.css">
 
     <!-- CSS Customization -->
     <link rel="stylesheet" href="assets/css/custom.css">
@@ -49,7 +50,7 @@
                         <a href="#!" class="js-go-to navbar-brand u-header__logo g-width-130 g-mr-60"
                             data-type="static">
                             <img class="img-fluid u-header__logo-img u-header__logo-img--main"
-                                src="assets/img/logo-light.png" alt="Image Description">
+                                src="onepages/accounting/assets/img/logo-light.png" alt="Image Description">
                         </a>
                         <!-- End Logo -->
 
@@ -112,7 +113,7 @@
             <div class="js-slide" data-title="About us">
                 <!-- Promo Block -->
                 <div class="g-flex-centered g-height-100vh g-min-height-500--md g-bg-cover g-bg-pos-center g-bg-img-hero g-bg-black-opacity-0_5--after"
-                    style="background-image: url(assets/img-temp/1900x1265/img1.jpg);">
+                    style="background-image: url(onepages/accounting/assets/img-temp/1900x1265/img1.jpg);">
                     <div class="container text-center g-z-index-1">
                         <h2
                             class="text-uppercase g-font-weight-700 g-font-size-22 g-font-size-36--md g-color-white g-mb-20">
@@ -135,7 +136,7 @@
             <div class="js-slide" data-title="Experience">
                 <!-- Promo Block -->
                 <div class="g-flex-centered g-height-100vh g-min-height-500--md g-bg-cover g-bg-pos-center g-bg-img-hero g-bg-black-opacity-0_5--after"
-                    style="background-image: url(assets/img-temp/1900x1265/img2.jpg);">
+                    style="background-image: url(onepages/accounting/assets/img-temp/1900x1265/img2.jpg);">
                     <div class="container text-center g-z-index-1">
                         <h2
                             class="text-uppercase g-font-weight-700 g-font-size-22 g-font-size-36--md g-color-white g-mb-20">
@@ -158,7 +159,7 @@
             <div class="js-slide" data-title="Services">
                 <!-- Promo Block -->
                 <div class="g-flex-centered g-height-100vh g-min-height-500--md g-bg-cover g-bg-pos-center g-bg-img-hero g-bg-black-opacity-0_5--after"
-                    style="background-image: url(assets/img-temp/1900x1265/img3.jpg);">
+                    style="background-image: url(onepages/accounting/assets/img-temp/1900x1265/img3.jpg);">
                     <div class="container text-center g-z-index-1">
                         <h2
                             class="text-uppercase g-font-weight-700 g-font-size-22 g-font-size-36--md g-color-white g-mb-20">
@@ -181,7 +182,7 @@
             <div class="js-slide" data-title="Who we work">
                 <!-- Promo Block -->
                 <div class="g-flex-centered g-height-100vh g-min-height-500--md g-bg-cover g-bg-pos-center g-bg-img-hero g-bg-black-opacity-0_5--after"
-                    style="background-image: url(assets/img-temp/1900x1265/img4.jpg);">
+                    style="background-image: url(onepages/accounting/assets/img-temp/1900x1265/img4.jpg);">
                     <div class="container text-center g-z-index-1">
                         <h2
                             class="text-uppercase g-font-weight-700 g-font-size-22 g-font-size-36--md g-color-white g-mb-20">
@@ -208,7 +209,8 @@
             <div class="container-fluid">
                 <div class="row text-center text-md-left">
                     <div class="col-sm-6 col-lg-4 g-theme-bg-gray-dark-v1 px-0">
-                        <img class="img-fluid w-100" src="assets/img-temp/800x869/img1.jpg" alt="Image description">
+                        <img class="img-fluid w-100" src="onepages/accounting/assets/img-temp/800x869/img1.jpg"
+                            alt="Image description">
 
                         <div class="g-py-50 g-px-15 g-pa-50--md">
                             <h3 class="text-uppercase g-font-weight-800 g-font-size-default g-color-white g-mb-15">
@@ -326,7 +328,8 @@
                         </div>
 
                         <div class="col-sm-5 col-md-6 g-min-height-360 g-bg-img-hero g-px-0"
-                            style="background-image: url(assets/img-temp/1200x960/img1.jpg);"></div>
+                            style="background-image: url(onepages/accounting/assets/img-temp/1200x960/img1.jpg);">
+                        </div>
                     </div>
                 </div>
 
@@ -351,7 +354,8 @@
                         </div>
 
                         <div class="col-sm-5 col-md-6 g-min-height-360 g-bg-img-hero g-px-0"
-                            style="background-image: url(assets/img-temp/1200x960/img2.jpg);"></div>
+                            style="background-image: url(onepages/accounting/assets/img-temp/1200x960/img2.jpg);">
+                        </div>
                     </div>
                 </div>
 
@@ -376,7 +380,8 @@
                         </div>
 
                         <div class="col-sm-5 col-md-6 g-min-height-360 g-bg-img-hero g-px-0"
-                            style="background-image: url(assets/img-temp/1200x960/img3.jpg);"></div>
+                            style="background-image: url(onepages/accounting/assets/img-temp/1200x960/img3.jpg);">
+                        </div>
                     </div>
                 </div>
 
@@ -401,7 +406,8 @@
                         </div>
 
                         <div class="col-sm-5 col-md-6 g-min-height-360 g-bg-img-hero g-px-0"
-                            style="background-image: url(assets/img-temp/1200x960/img4.jpg);"></div>
+                            style="background-image: url(onepages/accounting/assets/img-temp/1200x960/img4.jpg);">
+                        </div>
                     </div>
                 </div>
 
@@ -426,7 +432,8 @@
                         </div>
 
                         <div class="col-sm-5 col-md-6 g-min-height-360 g-bg-img-hero g-px-0"
-                            style="background-image: url(assets/img-temp/1200x960/img5.jpg);"></div>
+                            style="background-image: url(onepages/accounting/assets/img-temp/1200x960/img5.jpg);">
+                        </div>
                     </div>
                 </div>
 
@@ -451,7 +458,8 @@
                         </div>
 
                         <div class="col-sm-5 col-md-6 g-min-height-360 g-bg-img-hero g-px-0"
-                            style="background-image: url(assets/img-temp/1200x960/img6.jpg);"></div>
+                            style="background-image: url(onepages/accounting/assets/img-temp/1200x960/img6.jpg);">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -477,7 +485,7 @@
                 <div class="row">
                     <div class="col-md-4 g-mb-30 g-mb-0--md">
                         <article class="g-bg-gray-light-v5">
-                            <img class="img-fluid w-100" src="assets/img-temp/800x496/img1.jpg"
+                            <img class="img-fluid w-100" src="onepages/accounting/assets/img-temp/800x496/img1.jpg"
                                 alt="Image description">
 
                             <div class="g-pa-30">
@@ -494,7 +502,7 @@
 
                     <div class="col-md-4 g-mb-30 g-mb-0--md">
                         <article class="g-bg-gray-light-v5">
-                            <img class="img-fluid w-100" src="assets/img-temp/800x496/img2.jpg"
+                            <img class="img-fluid w-100" src="onepages/accounting/assets/img-temp/800x496/img2.jpg"
                                 alt="Image description">
 
                             <div class="g-pa-30">
@@ -511,7 +519,7 @@
 
                     <div class="col-md-4">
                         <article class="g-bg-gray-light-v5">
-                            <img class="img-fluid w-100" src="assets/img-temp/800x496/img3.jpg"
+                            <img class="img-fluid w-100" src="onepages/accounting/assets/img-temp/800x496/img3.jpg"
                                 alt="Image description">
 
                             <div class="g-pa-30">
@@ -604,7 +612,7 @@
         <!-- Hero Info -->
         <section
             class="u-bg-overlay g-flex-centered g-min-height-100vh g-bg-img-hero g-bg-black-opacity-0_5--after g-py-80"
-            style="background-image: url(assets/img-temp/1400x700/img1.jpg);">
+            style="background-image: url(onepages/accounting/assets/img-temp/1400x700/img1.jpg);">
             <div class="container text-center u-bg-overlay__inner">
                 <h2 class="text-uppercase g-line-height-1 g-font-weight-700 g-font-size-30 g-color-white g-mb-20">Most
                     quality solution for you</h2>
@@ -653,27 +661,33 @@
                  }
                }]'>
                     <div class="js-thumb g-px-15--sm">
-                        <img class="rounded-circle" src="assets/img-temp/100x100/img1.jpg" alt="Image Description">
+                        <img class="rounded-circle" src="onepages/accounting/assets/img-temp/100x100/img1.jpg"
+                            alt="Image Description">
                     </div>
 
                     <div class="js-thumb g-px-15--sm">
-                        <img class="rounded-circle" src="assets/img-temp/100x100/img2.jpg" alt="Image Description">
+                        <img class="rounded-circle" src="onepages/accounting/assets/img-temp/100x100/img2.jpg"
+                            alt="Image Description">
                     </div>
 
                     <div class="js-thumb g-px-15--sm">
-                        <img class="rounded-circle" src="assets/img-temp/100x100/img3.jpg" alt="Image Description">
+                        <img class="rounded-circle" src="onepages/accounting/assets/img-temp/100x100/img3.jpg"
+                            alt="Image Description">
                     </div>
 
                     <div class="js-thumb g-px-15--sm">
-                        <img class="rounded-circle" src="assets/img-temp/100x100/img4.jpg" alt="Image Description">
+                        <img class="rounded-circle" src="onepages/accounting/assets/img-temp/100x100/img4.jpg"
+                            alt="Image Description">
                     </div>
 
                     <div class="js-thumb g-px-15--sm">
-                        <img class="rounded-circle" src="assets/img-temp/100x100/img5.jpg" alt="Image Description">
+                        <img class="rounded-circle" src="onepages/accounting/assets/img-temp/100x100/img5.jpg"
+                            alt="Image Description">
                     </div>
 
                     <div class="js-thumb g-px-15--sm">
-                        <img class="rounded-circle" src="assets/img-temp/100x100/img6.jpg" alt="Image Description">
+                        <img class="rounded-circle" src="onepages/accounting/assets/img-temp/100x100/img6.jpg"
+                            alt="Image Description">
                     </div>
                 </div>
 
@@ -757,32 +771,38 @@
                 <div class="row g-brd-top g-brd-left g-theme-brd-gray-light-v1 mx-0">
                     <div
                         class="col-sm-6 col-md-4 col-lg-2 g-flex-centered g-brd-bottom g-brd-right g-theme-brd-gray-light-v1 g-py-50">
-                        <img class="g-width-120" src="assets/img-temp/Xx74/img1.png" alt="Image Description">
+                        <img class="g-width-120" src="onepages/accounting/assets/img-temp/Xx74/img1.png"
+                            alt="Image Description">
                     </div>
 
                     <div
                         class="col-sm-6 col-md-4 col-lg-2 g-flex-centered g-brd-bottom g-brd-right g-theme-brd-gray-light-v1 g-py-50">
-                        <img class="g-width-120" src="assets/img-temp/Xx74/img2.png" alt="Image Description">
+                        <img class="g-width-120" src="onepages/accounting/assets/img-temp/Xx74/img2.png"
+                            alt="Image Description">
                     </div>
 
                     <div
                         class="col-sm-6 col-md-4 col-lg-2 g-flex-centered g-brd-bottom g-brd-right g-theme-brd-gray-light-v1 g-py-50">
-                        <img class="g-width-120" src="assets/img-temp/Xx74/img3.png" alt="Image Description">
+                        <img class="g-width-120" src="onepages/accounting/assets/img-temp/Xx74/img3.png"
+                            alt="Image Description">
                     </div>
 
                     <div
                         class="col-sm-6 col-md-4 col-lg-2 g-flex-centered g-brd-bottom g-brd-right g-theme-brd-gray-light-v1 g-py-50">
-                        <img class="g-width-120" src="assets/img-temp/Xx74/img4.png" alt="Image Description">
+                        <img class="g-width-120" src="onepages/accounting/assets/img-temp/Xx74/img4.png"
+                            alt="Image Description">
                     </div>
 
                     <div
                         class="col-sm-6 col-md-4 col-lg-2 g-flex-centered g-brd-bottom g-brd-right g-theme-brd-gray-light-v1 g-py-50">
-                        <img class="g-width-120" src="assets/img-temp/Xx74/img5.png" alt="Image Description">
+                        <img class="g-width-120" src="onepages/accounting/assets/img-temp/Xx74/img5.png"
+                            alt="Image Description">
                     </div>
 
                     <div
                         class="col-sm-6 col-md-4 col-lg-2 g-flex-centered g-brd-bottom g-brd-right g-theme-brd-gray-light-v1 g-py-50">
-                        <img class="g-width-120" src="assets/img-temp/Xx74/img6.png" alt="Image Description">
+                        <img class="g-width-120" src="onepages/accounting/assets/img-temp/Xx74/img6.png"
+                            alt="Image Description">
                     </div>
                 </div>
             </div>
