@@ -47,7 +47,7 @@ return [
                     'label' => 'Left/Right Category',
                     'route' => null,
                     'submenu' => [
-                        ['label' => 'Left Sidebar', 'route' => 'unify.templates.ecommerce.category.pagecategorynosidebar1'],
+                        ['label' => 'Left Sidebar', 'route' => 'unify.templates.ecommerce.category.pagecategoryleftsidebar1'],
                         ['label' => 'Right Sidebar', 'route' => 'unify.templates.ecommerce.category.pagecategoryrightsidebar1'],
                         ['label' => 'No Sidebar 1', 'route' => 'unify.templates.ecommerce.category.pagecategorynosidebar1'],
                         ['label' => 'No Sidebar 2', 'route' => 'unify.templates.ecommerce.category.pagecategorynosidebar2'],

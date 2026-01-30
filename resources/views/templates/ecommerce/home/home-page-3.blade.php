@@ -139,7 +139,8 @@
                                             <div class="row no-gutters g-pb-5">
                                                 <div class="col-4 pr-3">
                                                     <a class="u-basket__product-img" href="#!">
-                                                        <img class="img-fluid" src="assets/img-temp/150x150/img1.jpg"
+                                                        <img class="img-fluid"
+                                                            src="ecommerce/assets/img-temp/150x150/img1.jpg"
                                                             alt="Image Description">
                                                     </a>
                                                 </div>
@@ -161,7 +162,8 @@
                                             <div class="row no-gutters g-pb-5">
                                                 <div class="col-4 pr-3">
                                                     <a class="u-basket__product-img" href="#!">
-                                                        <img class="img-fluid" src="assets/img-temp/150x150/img2.jpg"
+                                                        <img class="img-fluid"
+                                                            src="ecommerce/assets/img-temp/150x150/img2.jpg"
                                                             alt="Image Description">
                                                     </a>
                                                 </div>
@@ -183,7 +185,8 @@
                                             <div class="row no-gutters g-pb-5">
                                                 <div class="col-4 pr-3">
                                                     <a class="u-basket__product-img" href="#!">
-                                                        <img class="img-fluid" src="assets/img-temp/150x150/img3.jpg"
+                                                        <img class="img-fluid"
+                                                            src="ecommerce/assets/img-temp/150x150/img3.jpg"
                                                             alt="Image Description">
                                                     </a>
                                                 </div>
@@ -205,7 +208,8 @@
                                             <div class="row no-gutters g-pb-5">
                                                 <div class="col-4 pr-3">
                                                     <a class="u-basket__product-img" href="#!">
-                                                        <img class="img-fluid" src="assets/img-temp/150x150/img4.jpg"
+                                                        <img class="img-fluid"
+                                                            src="ecommerce/assets/img-temp/150x150/img4.jpg"
                                                             alt="Image Description">
                                                     </a>
                                                 </div>
@@ -756,7 +760,7 @@
                 <div class="col-sm-6 col-md-4 g-px-10 g-mb-30">
                     <article class="u-block-hover">
                         <img class="w-100 u-block-hover__main--zoom-v1 g-mb-minus-8"
-                            src="assets/img-temp/650x850/img1.jpg" alt="Image Description">
+                            src="ecommerce/assets/img-temp/650x850/img1.jpg" alt="Image Description">
                         <div class="g-pos-abs g-bottom-30 g-left-30">
                             <span class="d-block g-color-black">Collections</span>
                             <h2 class="h1 mb-0">Women</h2>
@@ -768,7 +772,7 @@
                 <div class="col-sm-6 col-md-4 g-px-10 g-mb-30">
                     <article class="u-block-hover">
                         <img class="w-100 u-block-hover__main--zoom-v1 g-mb-minus-8"
-                            src="assets/img-temp/650x850/img2.jpg" alt="Image Description">
+                            src="ecommerce/assets/img-temp/650x850/img2.jpg" alt="Image Description">
                         <div class="g-pos-abs g-bottom-30 g-left-30">
                             <span class="d-block g-color-black">Collections</span>
                             <h2 class="h1 mb-0">Children</h2>
@@ -780,7 +784,7 @@
                 <div class="col-sm-6 col-md-4 g-px-10 g-mb-30">
                     <article class="u-block-hover">
                         <img class="w-100 u-block-hover__main--zoom-v1 g-mb-minus-8"
-                            src="assets/img-temp/650x850/img3.jpg" alt="Image Description">
+                            src="ecommerce/assets/img-temp/650x850/img3.jpg" alt="Image Description">
                         <div class="g-pos-abs g-bottom-30 g-left-30">
                             <span class="d-block g-color-black">Collections</span>
                             <h2 class="h1 mb-0">Men</h2>
@@ -810,7 +814,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img1.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img1.jpg"
+                                alt="Image Description">
 
                             <figcaption
                                 class="w-100 g-bg-primary g-bg-black--hover text-center g-pos-abs g-bottom-0 g-transition-0_2 g-py-5">
@@ -859,7 +864,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img2.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img2.jpg"
+                                alt="Image Description">
 
                             <span
                                 class="u-ribbon-v1 g-width-40 g-height-40 g-color-white g-bg-primary g-font-size-13 text-center text-uppercase g-rounded-50x g-top-10 g-right-minus-10 g-px-2 g-py-10">-40%</span>
@@ -905,7 +911,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img3.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img3.jpg"
+                                alt="Image Description">
 
                             <figcaption
                                 class="w-100 g-bg-lightred text-center g-pos-abs g-bottom-0 g-transition-0_2 g-py-5">
@@ -954,7 +961,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img4.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img4.jpg"
+                                alt="Image Description">
                         </figure>
 
                         <div class="media">
@@ -997,7 +1005,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img5.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img5.jpg"
+                                alt="Image Description">
 
                             <figcaption
                                 class="w-100 g-bg-lightred text-center g-pos-abs g-bottom-0 g-transition-0_2 g-py-5">
@@ -1046,7 +1055,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img6.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img6.jpg"
+                                alt="Image Description">
                         </figure>
 
                         <div class="media">
@@ -1090,7 +1100,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img7.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img7.jpg"
+                                alt="Image Description">
 
                             <span
                                 class="u-ribbon-v1 g-width-40 g-height-40 g-color-white g-bg-primary g-font-size-13 text-center text-uppercase g-rounded-50x g-top-10 g-right-minus-10 g-px-2 g-py-10">-40%</span>
@@ -1142,7 +1153,8 @@
                     <div class="g-px-10">
                         <!-- Product -->
                         <figure class="g-pos-rel g-mb-20">
-                            <img class="img-fluid" src="assets/img-temp/480x700/img8.jpg" alt="Image Description">
+                            <img class="img-fluid" src="ecommerce/assets/img-temp/480x700/img8.jpg"
+                                alt="Image Description">
                         </figure>
 
                         <div class="media">
@@ -1191,7 +1203,7 @@
                 <div class="row justify-content-between align-items-center">
                     <div class="col-md-8 col-lg-6 order-md-2 g-mb-30">
                         <div class="g-pos-rel">
-                            <img class="img-fluid w-100" src="assets/img-temp/725x725/img1.png"
+                            <img class="img-fluid w-100" src="ecommerce/assets/img-temp/725x725/img1.png"
                                 alt="Image Description">
                             <span
                                 class="u-icon-v1 g-width-85 g-height-85 g-brd-3 g-brd-white g-color-white g-bg-primary g-font-weight-300 g-font-size-22 rounded-circle g-pos-abs g-top-100 g-left-0 g-brd-around">
@@ -1264,7 +1276,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img1.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img1.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1311,7 +1323,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img2.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img2.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1358,7 +1370,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img3.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img3.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1405,7 +1417,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img4.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img4.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1452,7 +1464,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img5.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img5.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1499,7 +1511,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img6.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img6.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1546,7 +1558,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img7.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img7.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1593,7 +1605,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img8.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img8.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1640,7 +1652,7 @@
                     <article class="media g-brd-around g-brd-gray-light-v4 g-bg-white rounded g-pa-10 g-mb-20">
                         <!-- Article Image -->
                         <div class="g-max-width-100 g-mr-15">
-                            <img class="d-flex w-100" src="assets/img-temp/150x150/img9.jpg"
+                            <img class="d-flex w-100" src="ecommerce/assets/img-temp/150x150/img9.jpg"
                                 alt="Image Description">
                         </div>
                         <!-- End Article Image -->
@@ -1694,7 +1706,7 @@
         <div class="container-fluid px-0">
             <div class="row align-items-center no-gutters">
                 <div class="col-md-7 col-lg-8 u-block-hover g-bg-size-cover g-min-height-500 g-flex-centered"
-                    data-bg-img-src="assets/img-temp/1200x800/img1.jpg">
+                    data-bg-img-src="ecommerce/assets/img-temp/1200x800/img1.jpg">
                     <div class="g-flex-centered-item text-right g-pa-50">
                         <h2
                             class="g-color-white g-font-weight-700 g-font-size-50 text-uppercase g-line-height-1 mb-4">
@@ -1709,7 +1721,7 @@
                 <div class="col-md-5 col-lg-4 u-block-hover g-bg-size-cover g-min-height-500 g-flex-centered"
                     data-bg-img-src="assets/img/bg/secondary.png">
                     <div class="text-center">
-                        <img class="img-fluid mb-3" src="assets/img-temp/500x320/img1.png"
+                        <img class="img-fluid mb-3" src="ecommerce/assets/img-temp/500x320/img1.png"
                             alt="Image Description">
                         <h3 class="h5 u-link-v5 g-color-primary--hover g-font-weight-400 mb-3">Sneaker Shoes for Man
                         </h3>
@@ -1735,7 +1747,7 @@
                     <article class="u-block-hover">
                         <div class="g-bg-cover g-bg-white-gradient-opacity-v1--after">
                             <img class="d-flex align-items-end u-block-hover__main--mover-down"
-                                src="assets/img-temp/650x650/img1.jpg" alt="Image Description">
+                                src="ecommerce/assets/img-temp/650x650/img1.jpg" alt="Image Description">
                         </div>
                         <div class="u-block-hover__additional--partially-slide-up text-center g-z-index-1 mt-auto">
                             <div class="u-block-hover__visible g-pa-25">
@@ -1765,7 +1777,7 @@
                     <article class="u-block-hover">
                         <div class="g-bg-cover g-bg-white-gradient-opacity-v1--after">
                             <img class="d-flex align-items-end u-block-hover__main--mover-down"
-                                src="assets/img-temp/650x650/img2.jpg" alt="Image Description">
+                                src="ecommerce/assets/img-temp/650x650/img2.jpg" alt="Image Description">
                         </div>
                         <div class="u-block-hover__additional--partially-slide-up text-center g-z-index-1 mt-auto">
                             <div class="u-block-hover__visible g-pa-25">
@@ -1795,7 +1807,7 @@
                     <article class="u-block-hover">
                         <div class="g-bg-cover g-bg-white-gradient-opacity-v1--after">
                             <img class="d-flex align-items-end u-block-hover__main--mover-down"
-                                src="assets/img-temp/650x650/img3.jpg" alt="Image Description">
+                                src="ecommerce/assets/img-temp/650x650/img3.jpg" alt="Image Description">
                         </div>
                         <div class="u-block-hover__additional--partially-slide-up text-center g-z-index-1 mt-auto">
                             <div class="u-block-hover__visible g-pa-25">
