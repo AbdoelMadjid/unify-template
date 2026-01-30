@@ -7,6 +7,8 @@ return [
             'route' => null,
             'icon' => null,
             'submenu' => [
+                ['label' => 'E-Commerce', 'route' => 'unify.templates.ecommerce.home.homepage1', 'target' => '_blank', 'notes' => '(44 page)'],
+                ['label' => 'Blogs & Magazines', 'route' => 'unify.templates.blogmagazine.classic.page1', 'target' => '_blank', 'notes' => '(6 page)'],
                 [
                     'label' => 'One Pages',
                     'route' => null,
@@ -36,7 +38,6 @@ return [
                         ['label' => 'Wedding', 'route' => 'unify.templates.onepages.wedding.index', 'target' => '_blank'],
                     ],
                 ],
-                ['label' => 'E-Commerce', 'route' => 'unify.templates.ecommerce.home.homepage1', 'target' => '_blank', 'notes' => '(22 page)'],
                 [
                     'label' => 'Multi Pages',
                     'route' => null,
@@ -45,19 +46,6 @@ return [
                         ['label' => 'University', 'route' => 'unify.templates.multipage.education.homepage1', 'target' => '_blank', 'badge' => 'new'],
                         ['label' => 'Real Estate', 'route' => 'unify.templates.multipage.realestate.homepage1', 'target' => '_blank', 'badge' => 'new'],
                         ['label' => 'Marketing', 'route' => 'unify.templates.multipage.marketing.homepage1', 'target' => '_blank', 'badge' => 'new'],
-                    ],
-                ],
-                [
-                    'label' => 'Blogs & Magazines',
-                    'route' => null,
-                    'target' => '_blank',
-                    'submenu' => [
-                        ['label' => 'Home 1', 'route' => 'unify.templates.blogmagazine.classic.page1', 'target' => '_blank'],
-                        ['label' => 'Home 2', 'route' => 'unify.templates.blogmagazine.classic.page2', 'target' => '_blank'],
-                        ['label' => 'Home 3', 'route' => 'unify.templates.blogmagazine.classic.page3', 'target' => '_blank'],
-                        ['label' => 'Home 4', 'route' => 'unify.templates.blogmagazine.classic.page4', 'target' => '_blank'],
-                        ['label' => 'Home 5', 'route' => 'unify.templates.blogmagazine.classic.page5', 'target' => '_blank'],
-                        ['label' => 'Single', 'route' => 'unify.templates.blogmagazine.classic.single1', 'target' => '_blank'],
                     ],
                 ],
             ],
