@@ -19,6 +19,9 @@
         <!-- Blog -->
         @include('layouts.main.menu_blog')
         <!-- End Blog -->
+        <!-- Blog -->
+        @include('layouts.main.menu_features')
+        <!-- End Blog -->
 
         <!-- Features -->
         {{--  <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn"

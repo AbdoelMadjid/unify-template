@@ -24,7 +24,7 @@ class ReplaceUnifyHeaderBlock extends Command
 
         $replacement = <<<BLADE
 <!-- Header -->
-@include('layouts.ecommerce.ecommerce-header')
+@include('layouts.main.header')
 <!-- End Header -->
 BLADE;
 
