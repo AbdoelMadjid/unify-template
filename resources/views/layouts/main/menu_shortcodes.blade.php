@@ -19,9 +19,10 @@
         {{ $menuShortcodes['label'] }}
     </a>
 
-    {{-- LEVEL 1 --}}
+    {{-- LEVEL 1 (Recursive) --}}
     @include('layouts.main.menu-recursive', [
         'items' => $menuShortcodes['submenu'],
         'level' => 1,
     ])
+
 </li>
