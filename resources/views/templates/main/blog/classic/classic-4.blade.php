@@ -39,8 +39,8 @@
 
 
         <!-- Header -->
-@include('layouts.main.header')
-<!-- End Header -->
+        @include('layouts.main.header')
+        <!-- End Header -->
 
         <!-- Breadcrumbs -->
         <section class="g-bg-gray-light-v5 g-py-80">
@@ -72,8 +72,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                     <!-- Blog Classic Blocks -->
                     <article class="u-shadow-v11">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img1.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img1.jpg" alt="Image Description">
                         <div class="g-bg-white g-pa-20">
                             <span
                                 class="d-block g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 text-uppercase mb-2">1
@@ -112,8 +111,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                     <!-- Blog Classic Blocks -->
                     <article class="u-shadow-v11">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img7.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img7.jpg" alt="Image Description">
                         <div class="g-bg-white g-pa-20">
                             <span
                                 class="d-block g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 text-uppercase mb-2">31
@@ -152,8 +150,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                     <!-- Blog Classic Blocks -->
                     <article class="u-shadow-v11">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img3.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img3.jpg" alt="Image Description">
                         <div class="g-bg-white g-pa-20">
                             <span
                                 class="d-block g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 text-uppercase mb-2">31
@@ -240,8 +237,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                     <!-- Blog Classic Blocks -->
                     <article class="u-shadow-v11">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img9.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img9.jpg" alt="Image Description">
                         <div class="g-bg-white g-pa-20">
                             <span
                                 class="d-block g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 text-uppercase mb-2">29
@@ -280,8 +276,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                     <!-- Blog Classic Blocks -->
                     <article class="u-shadow-v11">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img6.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img6.jpg" alt="Image Description">
                         <div class="g-bg-white g-pa-20">
                             <span
                                 class="d-block g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 text-uppercase mb-2">29
@@ -320,8 +315,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-3 g-mb-30">
                     <!-- Blog Classic Blocks -->
                     <article class="u-shadow-v11">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img8.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img8.jpg" alt="Image Description">
                         <div class="g-bg-white g-pa-20">
                             <span
                                 class="d-block g-color-gray-dark-v4 g-font-weight-600 g-font-size-12 text-uppercase mb-2">29
@@ -420,8 +414,7 @@
                             href="#!">1</a>
                     </li>
                     <li class="list-inline-item">
-                        <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                            href="#!">2</a>
+                        <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14" href="#!">2</a>
                     </li>
                     <li class="list-inline-item float-right g-hidden-xs-down">
                         <a class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
@@ -499,8 +492,8 @@
                             <ul class="list-unstyled g-mt-minus-10 mb-0">
                                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                                     <h4 class="h6 g-pr-20 mb-0">
-                                        <a class="g-color-white-opacity-0_8 g-color-white--hover"
-                                            href="#!">About Us</a>
+                                        <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">About
+                                            Us</a>
                                         <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
                                     </h4>
                                 </li>

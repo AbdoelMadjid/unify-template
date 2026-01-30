@@ -42,8 +42,8 @@
 
 
         <!-- Header -->
-@include('layouts.main.header')
-<!-- End Header -->
+        @include('layouts.main.header')
+        <!-- End Header -->
 
         <!-- Breadcrumbs -->
         <section class="g-bg-gray-light-v5 g-py-50">

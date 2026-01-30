@@ -40,8 +40,8 @@
 
 
         <!-- Header -->
-@include('layouts.main.header')
-<!-- End Header -->
+        @include('layouts.main.header')
+        <!-- End Header -->
 
         <!-- Breadcrumbs -->
         <section class="g-bg-gray-light-v5 g-py-50">
@@ -99,8 +99,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-6 g-mb-30">
                     <!-- Article -->
                     <article class="u-shadow-v11 g-bg-white g-pos-rel">
-                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img6.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/500x450/img6.jpg" alt="Image Description">
                         <div class="g-pa-30">
                             <h3 class="h4 g-color-black g-font-weight-600 text-capitalize mb-3">
                                 <a class="g-color-black g-color-primary--hover g-text-underline--none--hover"
@@ -115,8 +114,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-6 g-mb-30">
                     <!-- Article -->
                     <article class="u-shadow-v11 g-bg-white g-pos-rel">
-                        <img class="img-fluid w-100" src="assets/img-temp/600x300/img2.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/600x300/img2.jpg" alt="Image Description">
                         <div class="g-pa-30">
                             <div class="mb-4">
                                 <h3 class="h4 g-color-black g-font-weight-600 text-capitalize mb-3">
@@ -139,8 +137,7 @@
                 <div class="masonry-grid-item col-sm-6 col-lg-6 g-mb-30">
                     <!-- Article -->
                     <article class="u-shadow-v11 g-bg-white g-pos-rel">
-                        <img class="img-fluid w-100" src="assets/img-temp/700x350/img1.jpg"
-                            alt="Image Description">
+                        <img class="img-fluid w-100" src="assets/img-temp/700x350/img1.jpg" alt="Image Description">
                         <div class="g-pa-30">
                             <div class="mb-4">
                                 <h3 class="h4 g-color-black g-font-weight-600 text-capitalize mb-3">
@@ -231,8 +228,7 @@
                             href="#!">1</a>
                     </li>
                     <li class="list-inline-item g-hidden-sm-down">
-                        <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14"
-                            href="#!">2</a>
+                        <a class="u-pagination-v1__item u-pagination-v1-4 g-rounded-50 g-pa-7-14" href="#!">2</a>
                     </li>
                     <li class="list-inline-item float-right">
                         <a class="u-pagination-v1__item u-pagination-v1-4 g-brd-gray-light-v3 g-brd-primary--hover g-rounded-50 g-pa-7-16"
@@ -310,8 +306,8 @@
                             <ul class="list-unstyled g-mt-minus-10 mb-0">
                                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                                     <h4 class="h6 g-pr-20 mb-0">
-                                        <a class="g-color-white-opacity-0_8 g-color-white--hover"
-                                            href="#!">About Us</a>
+                                        <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">About
+                                            Us</a>
                                         <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
                                     </h4>
                                 </li>

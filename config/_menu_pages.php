@@ -7,6 +7,7 @@ return [
             'route' => null,
             'icon' => null,
             'submenu' => [
+                ['label' => 'Headers', 'route' => 'unify.templates.main.pages.headers.index'],
                 [
                     'label' => 'About',
                     'route' => null,

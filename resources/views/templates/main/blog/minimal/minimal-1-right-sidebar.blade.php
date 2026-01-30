@@ -39,8 +39,8 @@
 
 
         <!-- Header -->
-@include('layouts.main.header')
-<!-- End Header -->
+        @include('layouts.main.header')
+        <!-- End Header -->
 
         <!-- Breadcrumbs -->
         <section class="g-bg-gray-light-v5 g-py-80">
@@ -76,8 +76,8 @@
                                     class="d-block g-color-gray-dark-v4 g-font-weight-700 g-font-size-12 text-uppercase mb-2">1
                                     June 2017</span>
                                 <h2 class="h4 g-color-black g-font-weight-600 mb-3">
-                                    <a class="u-link-v5 g-color-black g-color-primary--hover"
-                                        href="#!">Exclusive interview with InVision's CEO</a>
+                                    <a class="u-link-v5 g-color-black g-color-primary--hover" href="#!">Exclusive
+                                        interview with InVision's CEO</a>
                                 </h2>
                                 <p class="g-color-gray-dark-v4 g-line-height-1_8">Clark Valberg is the founder and CEO
                                     of InVision. If you are a designer, you have probably gotten an email from Clark or
@@ -121,8 +121,8 @@
                                     class="d-block g-color-gray-dark-v4 g-font-weight-700 g-font-size-12 text-uppercase mb-2">31
                                     May 2017</span>
                                 <h2 class="h4 g-color-black g-font-weight-600 mb-3">
-                                    <a class="u-link-v5 g-color-black g-color-primary--hover"
-                                        href="#!">Announcing a free plan for small teams</a>
+                                    <a class="u-link-v5 g-color-black g-color-primary--hover" href="#!">Announcing
+                                        a free plan for small teams</a>
                                 </h2>
                                 <p class="g-color-gray-dark-v4 g-line-height-1_8">At Wake, our mission has always been
                                     focused on bringing openness and transparency to the design process. We’ve always
@@ -256,8 +256,8 @@
                                     class="d-block g-color-gray-dark-v4 g-font-weight-700 g-font-size-12 text-uppercase mb-2">1
                                     June 2017</span>
                                 <h2 class="h4 g-color-black g-font-weight-600 mb-3">
-                                    <a class="u-link-v5 g-color-black g-color-primary--hover"
-                                        href="#!">Creating a New Language for Nutrition: McDonald’s Universal
+                                    <a class="u-link-v5 g-color-black g-color-primary--hover" href="#!">Creating
+                                        a New Language for Nutrition: McDonald’s Universal
                                         Icons for 109 Countries</a>
                                 </h2>
                                 <p class="g-color-gray-dark-v4 g-line-height-1_8">How ENLASO helped McDonald’s to
@@ -621,8 +621,8 @@
                             <ul class="list-unstyled g-mt-minus-10 mb-0">
                                 <li class="g-pos-rel g-brd-bottom g-brd-white-opacity-0_1 g-py-10">
                                     <h4 class="h6 g-pr-20 mb-0">
-                                        <a class="g-color-white-opacity-0_8 g-color-white--hover"
-                                            href="#!">About Us</a>
+                                        <a class="g-color-white-opacity-0_8 g-color-white--hover" href="#!">About
+                                            Us</a>
                                         <i class="fa fa-angle-right g-absolute-centered--y g-right-0"></i>
                                     </h4>
                                 </li>
