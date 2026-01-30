@@ -36,7 +36,7 @@ return [
                         ['label' => 'Wedding', 'route' => 'unify.templates.onepages.wedding.index', 'target' => '_blank'],
                     ],
                 ],
-                ['label' => 'E-Commerce', 'route' => 'unify.templates.ecommerce.homepage1', 'target' => '_blank', 'notes' => '(22 page)'],
+                ['label' => 'E-Commerce', 'route' => 'unify.templates.ecommerce.home.homepage1', 'target' => '_blank', 'notes' => '(22 page)'],
                 [
                     'label' => 'Multi Pages',
                     'route' => null,

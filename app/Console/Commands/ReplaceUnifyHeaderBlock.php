@@ -24,13 +24,16 @@ class ReplaceUnifyHeaderBlock extends Command
 
         $replacement = <<<BLADE
 <!-- Header -->
-@include('layouts.main.header')
+@include('layouts.ecommerce.menu-nav')
 <!-- End Header -->
 BLADE;
 
         $patterns = [
             // Header → End Header
-            '/(?s)<!--\s*Header\s*-->.*?<!--\s*End Header\s*-->/',
+            //'/(?s)<!--\s*Header\s*-->.*?<!--\s*End Header\s*-->/',
+
+            // Header → End Header
+            '/(?s)<!--\s*Navigation\s*-->.*?<!--\s*End Navigation\s*-->/',
 
             // Sidebar Navigation
             //'/(?s)<!--\s*Shortcode Sidebar Navigation\s*-->.*?<!--\s*End Shortcode Sidebar Navigation\s*-->/',
